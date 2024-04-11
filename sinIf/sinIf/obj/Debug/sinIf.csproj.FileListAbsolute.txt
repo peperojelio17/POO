@@ -1,0 +1,14 @@
+C:\Users\Alumno\Desktop\5°11\Amenta Gaston\Objetos\sinIf\sinIf\bin\Debug\sinIf.exe.config
+C:\Users\Alumno\Desktop\5°11\Amenta Gaston\Objetos\sinIf\sinIf\bin\Debug\sinIf.exe
+C:\Users\Alumno\Desktop\5°11\Amenta Gaston\Objetos\sinIf\sinIf\bin\Debug\sinIf.pdb
+C:\Users\Alumno\Desktop\5°11\Amenta Gaston\Objetos\sinIf\sinIf\obj\Debug\sinIf.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\5°11\Amenta Gaston\Objetos\sinIf\sinIf\obj\Debug\sinIf.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\5°11\Amenta Gaston\Objetos\sinIf\sinIf\obj\Debug\sinIf.exe
+C:\Users\Alumno\Desktop\5°11\Amenta Gaston\Objetos\sinIf\sinIf\obj\Debug\sinIf.pdb
+C:\Users\Alumno\Desktop\muriel\sinIf\sinIf\bin\Debug\sinIf.exe.config
+C:\Users\Alumno\Desktop\muriel\sinIf\sinIf\bin\Debug\sinIf.exe
+C:\Users\Alumno\Desktop\muriel\sinIf\sinIf\bin\Debug\sinIf.pdb
+C:\Users\Alumno\Desktop\muriel\sinIf\sinIf\obj\Debug\sinIf.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\muriel\sinIf\sinIf\obj\Debug\sinIf.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\muriel\sinIf\sinIf\obj\Debug\sinIf.exe
+C:\Users\Alumno\Desktop\muriel\sinIf\sinIf\obj\Debug\sinIf.pdb

@@ -1,0 +1,7 @@
+C:\Users\Alumno\Desktop\muriel\ejer05\ejer11\bin\Debug\ejer11.exe.config
+C:\Users\Alumno\Desktop\muriel\ejer05\ejer11\bin\Debug\ejer11.exe
+C:\Users\Alumno\Desktop\muriel\ejer05\ejer11\bin\Debug\ejer11.pdb
+C:\Users\Alumno\Desktop\muriel\ejer05\ejer11\obj\Debug\ejer11.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\muriel\ejer05\ejer11\obj\Debug\ejer11.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\muriel\ejer05\ejer11\obj\Debug\ejer11.exe
+C:\Users\Alumno\Desktop\muriel\ejer05\ejer11\obj\Debug\ejer11.pdb
