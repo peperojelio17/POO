@@ -5,26 +5,29 @@ import java.time.format.DateTimeFormatter;
 public class Main {
     static Persona p1, p2, p3;
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
+        Period periodo;
         DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         p1 = new Persona();
         p1.nombre = "Pablo";
         p1.fechaNac =  LocalDate.parse("15/08/1990", fmt);
+        periodo = Period.between(p1.fechaNac, p1.ahora);
 
-        System.out.println(p1.nombre+ " tiene " + p1.periodo.getYears() + " años");
-
-
-        //p2 = new Persona("Ernesto", );
-
-        //System.out.println(p2.nombre+ " tiene " + p2.periodo.getYears() + " años");
+        System.out.println(p1.nombre+ " tiene " + periodo.getYears() + " años");
 
 
-        //p3 = new Persona("Juan");
+        p2 = new Persona("Ernesto", LocalDate.parse("10/08/2007", fmt));
 
-        //System.out.printf("Tu edad es:" + periodo.getYears());
+        periodo = Period.between(p2.fechaNac, p1.ahora);
 
 
-        //System.out.println(p3.nombre+ " tiene " + p3.periodo + " años");
+        System.out.println(p2.nombre+ " tiene " + periodo.getYears() + " años");
+
+
+        p3 = new Persona("Juan");
+        p3.fechaNac = LocalDate.parse("19/10/2013", fmt);
+
+        periodo = Period.between(p3.fechaNac, p1.ahora);
+
+        System.out.println(p3.nombre+ " tiene " + periodo.getYears() + " años");
     }
 }
