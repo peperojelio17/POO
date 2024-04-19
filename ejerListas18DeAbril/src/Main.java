@@ -8,6 +8,7 @@ public class Main {
     static int nper = 3;
     static Persona p2;
     static List<Persona> personas =  new ArrayList<>();
+    static List<Persona> menores =  new ArrayList<>();
 
 //    public static int mayor(){
 //        int num;
@@ -25,7 +26,7 @@ public class Main {
 //    }
 
     static Persona mayor() {
-        Persona m = personas.get(0); ;
+        Persona m = personas.get(0);
 
         for (int i = 0; i<nper; i ++){
             if(personas.get(i).edad() > m.edad()) {
@@ -33,6 +34,19 @@ public class Main {
             }
         }
         return m;
+    }
+
+    static List <Persona> menor(){
+        Persona men; ;
+
+        for (int i = 0; i<nper; i ++){
+            men = personas.get(i);
+            if(men != mayor()){
+                menores.add(men);
+
+            }
+        }
+        return menores;
     }
 
 
@@ -70,22 +84,13 @@ public class Main {
             p2 = personas.get(i);
             System.out.println(p2.nombre+ " tiene " + p2.edad() + " años");
         }
-
-
+//        Persona meno = menor().get(0);
+        System.out.println( menor().size());
         System.out.println("La persona de mayor edad es " + mayor().nombre);
-
-        for (int i = 0; i<nper; i ++){
-            p2 = personas.get(i);
-            if(p2 != mayor()){
-                System.out.println( p2.nombre + " no  es la persona con mayor edad");
-            }
+        for(int i = 0; i< nper -1; i ++){
+            System.out.println( menor().get(i).nombre + " no  es la persona con mayor edad");
         }
-//        for (int i = 0; i<nper; i ++){
-//            if(i != numero){
-//                p2 = personas.get(i);
-//                System.out.println( p2.nombre + " no  es la persona con mayor edad");
-//            }
-//        }
+        
         int promedio = promedio();
         System.out.println( "El promedio de las edades es " + promedio);
 
