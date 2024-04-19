@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -10,20 +8,6 @@ public class Main {
     static List<Persona> personas =  new ArrayList<>();
     static List<Persona> menores =  new ArrayList<>();
 
-//    public static int mayor(){
-//        int num;
-//        int valor = 0;
-//        int mayor = 0;
-//        for (int i = 0; i<nper; i ++){
-//            p2 = personas.get(i);
-//            num = p2.edad();
-//            if (num>mayor){
-//                mayor = num;
-//                valor = i;
-//            }
-//        }
-//        return valor;
-//    }
 
     static Persona mayor() {
         Persona m = personas.get(0);
@@ -35,20 +19,19 @@ public class Main {
         }
         return m;
     }
-
     static List <Persona> menor(){
-        Persona men; ;
+        menores = personas;
 
-        for (int i = 0; i<nper; i ++){
-            men = personas.get(i);
-            if(men != mayor()){
-                menores.add(men);
-
+        for (int i = 0; i < nper; i++) {
+            for (int j = 1; j < (nper - i); j++) {
+                if (menores.get(j - 1).edad() > menores.get(j).edad()) {
+                    Collections.swap(menores, j-1, j);
+                }
             }
+
         }
         return menores;
     }
-
 
     public static int promedio(){
         int num;
@@ -84,11 +67,10 @@ public class Main {
             p2 = personas.get(i);
             System.out.println(p2.nombre+ " tiene " + p2.edad() + " años");
         }
-//        Persona meno = menor().get(0);
-        System.out.println( menor().size());
+
         System.out.println("La persona de mayor edad es " + mayor().nombre);
-        for(int i = 0; i< nper -1; i ++){
-            System.out.println( menor().get(i).nombre + " no  es la persona con mayor edad");
+        for(int i = 0; i< 2; i ++){
+            System.out.println( menor().get(i).nombre + " no es la persona con mayor edad");
         }
 
         int promedio = promedio();
