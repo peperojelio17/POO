@@ -46,6 +46,7 @@ namespace clase25DeAbrilCSharpN
                 transurso = h2 - h1;
                 Console.CursorVisible = false;
                 foreach(Copo co in copos) 
+
                 {
                     if (transurso.Milliseconds > 500) {
                         Console.SetCursorPosition(co.col, co.fila);
