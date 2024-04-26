@@ -1,0 +1,7 @@
+C:\Users\Muriel\Desktop\github\POO\forVSforeach\forVSforeach\bin\Debug\forVSforeach.exe.config
+C:\Users\Muriel\Desktop\github\POO\forVSforeach\forVSforeach\bin\Debug\forVSforeach.exe
+C:\Users\Muriel\Desktop\github\POO\forVSforeach\forVSforeach\bin\Debug\forVSforeach.pdb
+C:\Users\Muriel\Desktop\github\POO\forVSforeach\forVSforeach\obj\Debug\forVSforeach.csproj.AssemblyReference.cache
+C:\Users\Muriel\Desktop\github\POO\forVSforeach\forVSforeach\obj\Debug\forVSforeach.csproj.CoreCompileInputs.cache
+C:\Users\Muriel\Desktop\github\POO\forVSforeach\forVSforeach\obj\Debug\forVSforeach.exe
+C:\Users\Muriel\Desktop\github\POO\forVSforeach\forVSforeach\obj\Debug\forVSforeach.pdb
