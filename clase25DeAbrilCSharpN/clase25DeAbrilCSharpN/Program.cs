@@ -26,8 +26,8 @@ namespace clase25DeAbrilCSharpN
         static TimeSpan transurso;
         static DateTime h1 = DateTime.Now;
         static DateTime h2 = DateTime.Now;
-        static int fila = 0;
-        static int columna = 0;
+        static int cantFila = 0;
+        static int cantCol = 8;
         static List<Copo> copos = new List<Copo>();
         static List<Copo> borrarCopos = new List<Copo>();
 
@@ -48,48 +48,43 @@ namespace clase25DeAbrilCSharpN
             }
             return total;
         }
-        static List<Copo> lleno()
+        static void lleno()
         {
             int llenar = 0;
 
             foreach (Copo copo in copos) { 
-                for (int i = 0; i < 8; i++)
+                for (int i = 0; i < cantCol; i++)
                 {
                     if (copo.col == i && copo.fila == limite)
                     {
-                        llenar += 1;
+                        llenar++;
                     }
                 }
             }
-            if (llenar == 0)
-            {
-                borrarCopos.Clear();
-            }
-            if (llenar== 7) {
+            if (llenar== cantCol) {
                 for(int i = copos.Count-1;i >= 0;i--)
                 {
                     if (copos[i].fila == limite) {
                         Console.SetCursorPosition(copos[i].col, copos[i].fila);
                         Console.Write(" ");
                         copos.Remove(copos[i]);
-                        borrarCopos.Add(copos[i]);
+                        
                     }
                 }
-                llenar = 0;
+             
             }
-            return borrarCopos;
         }
         static void Main(string[] args)
         {
             Copo a1;
 
             Random r = new Random();
-            columna = r.Next(1, 8);
+            
             
 
             for (int i = 0; i < 3; i++)
             {
-                a1 = new Copo(r.Next(1, 8), 1);
+                a1 = new Copo(r.Next(1, cantCol), 1);
                 copos.Add(a1);
             }
 
@@ -99,9 +94,9 @@ namespace clase25DeAbrilCSharpN
                 transurso = h2 - h1;
                 Console.CursorVisible = false;
 
-                if (transurso.Milliseconds > 500)
+                if (transurso.Milliseconds > 300)
                 {
-                    a1 = new Copo(r.Next(1, 8), 1);
+                    a1 = new Copo(r.Next(1, cantCol), 1);
                     copos.Add(a1);
                     
                     foreach (Copo copo in copos)
