@@ -5,3 +5,10 @@ C:\Users\Alumno\Desktop\muriel\POO\clase25DeAbrilCSharpN\clase25DeAbrilCSharpN\o
 C:\Users\Alumno\Desktop\muriel\POO\clase25DeAbrilCSharpN\clase25DeAbrilCSharpN\obj\Debug\clase25DeAbrilCSharpN.csproj.CoreCompileInputs.cache
 C:\Users\Alumno\Desktop\muriel\POO\clase25DeAbrilCSharpN\clase25DeAbrilCSharpN\obj\Debug\clase25DeAbrilCSharpN.exe
 C:\Users\Alumno\Desktop\muriel\POO\clase25DeAbrilCSharpN\clase25DeAbrilCSharpN\obj\Debug\clase25DeAbrilCSharpN.pdb
+C:\Users\Muriel\Desktop\github\POO\clase25DeAbrilCSharpN\clase25DeAbrilCSharpN\bin\Debug\clase25DeAbrilCSharpN.exe.config
+C:\Users\Muriel\Desktop\github\POO\clase25DeAbrilCSharpN\clase25DeAbrilCSharpN\bin\Debug\clase25DeAbrilCSharpN.exe
+C:\Users\Muriel\Desktop\github\POO\clase25DeAbrilCSharpN\clase25DeAbrilCSharpN\bin\Debug\clase25DeAbrilCSharpN.pdb
+C:\Users\Muriel\Desktop\github\POO\clase25DeAbrilCSharpN\clase25DeAbrilCSharpN\obj\Debug\clase25DeAbrilCSharpN.csproj.AssemblyReference.cache
+C:\Users\Muriel\Desktop\github\POO\clase25DeAbrilCSharpN\clase25DeAbrilCSharpN\obj\Debug\clase25DeAbrilCSharpN.csproj.CoreCompileInputs.cache
+C:\Users\Muriel\Desktop\github\POO\clase25DeAbrilCSharpN\clase25DeAbrilCSharpN\obj\Debug\clase25DeAbrilCSharpN.exe
+C:\Users\Muriel\Desktop\github\POO\clase25DeAbrilCSharpN\clase25DeAbrilCSharpN\obj\Debug\clase25DeAbrilCSharpN.pdb

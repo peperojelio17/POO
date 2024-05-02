@@ -61,13 +61,21 @@ namespace clase25DeAbrilCSharpN
                     }
                 }
             }
-
-            if (llenar== 8) {
-                for(int i = copos.Count;i > 0;i--)
+            if (llenar == 0)
+            {
+                borrarCopos.Clear();
+            }
+            if (llenar== 7) {
+                for(int i = copos.Count-1;i >= 0;i--)
                 {
-                    if (copos[i].fila == limite)
+                    if (copos[i].fila == limite) {
+                        Console.SetCursorPosition(copos[i].col, copos[i].fila);
+                        Console.Write(" ");
+                        copos.Remove(copos[i]);
                         borrarCopos.Add(copos[i]);
+                    }
                 }
+                llenar = 0;
             }
             return borrarCopos;
         }
@@ -95,6 +103,7 @@ namespace clase25DeAbrilCSharpN
                 {
                     a1 = new Copo(r.Next(1, 8), 1);
                     copos.Add(a1);
+                    
                     foreach (Copo copo in copos)
                     {
 
@@ -104,14 +113,21 @@ namespace clase25DeAbrilCSharpN
                             copo.fila++;
                             Console.SetCursorPosition(copo.col, copo.fila);
                             Console.Write("*");
-                            foreach(Copo copito in lleno())
-                            {
-                                copos.Remove(copito);
-                            }
+                            
                         } 
-                        h1 = h2;                       
+                        h1 = h2;
                         
                     }
+                    lleno();
+                    //foreach (Copo copito in lleno())
+                    //{
+                    //    Console.SetCursorPosition(copito.col, copito.fila);
+                    //    Console.Write(" ");
+                    //    //Console.Write(copito);
+                    //    //copos.Remove(copito);
+                    //}
+
+
 
                 }
                 //for (int i = 0; i < 10; i++) {
@@ -121,6 +137,7 @@ namespace clase25DeAbrilCSharpN
                 //    Console.Write(" ");
                 //}
             }
+            Console.ReadKey();
         }
     }
 }

@@ -1,0 +1,7 @@
+C:\Users\Muriel\Desktop\github\POO\pruebas-verificacion\pruebas-verificacion\bin\Debug\pruebas-verificacion.exe.config
+C:\Users\Muriel\Desktop\github\POO\pruebas-verificacion\pruebas-verificacion\bin\Debug\pruebas-verificacion.exe
+C:\Users\Muriel\Desktop\github\POO\pruebas-verificacion\pruebas-verificacion\bin\Debug\pruebas-verificacion.pdb
+C:\Users\Muriel\Desktop\github\POO\pruebas-verificacion\pruebas-verificacion\obj\Debug\pruebas-verificacion.csproj.AssemblyReference.cache
+C:\Users\Muriel\Desktop\github\POO\pruebas-verificacion\pruebas-verificacion\obj\Debug\pruebas-verificacion.csproj.CoreCompileInputs.cache
+C:\Users\Muriel\Desktop\github\POO\pruebas-verificacion\pruebas-verificacion\obj\Debug\pruebas-verificacion.exe
+C:\Users\Muriel\Desktop\github\POO\pruebas-verificacion\pruebas-verificacion\obj\Debug\pruebas-verificacion.pdb
