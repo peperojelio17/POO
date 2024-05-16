@@ -26,8 +26,8 @@ namespace clase25DeAbrilCSharpN
         static TimeSpan transurso;
         static DateTime h1 = DateTime.Now;
         static DateTime h2 = DateTime.Now;
-        static int cantFila = 0;
-        static int cantCol = 8;
+        static int fila = 0;
+        static int columna = 0;
         static List<Copo> copos = new List<Copo>();
         static List<Copo> borrarCopos = new List<Copo>();
 
@@ -53,7 +53,7 @@ namespace clase25DeAbrilCSharpN
             int llenar = 0;
 
             foreach (Copo copo in copos) { 
-                for (int i = 0; i < cantCol; i++)
+                for (int i = 0; i < 8; i++)
                 {
                     if (copo.col == i && copo.fila == limite)
                     {
@@ -61,7 +61,7 @@ namespace clase25DeAbrilCSharpN
                     }
                 }
             }
-            if (llenar== cantCol) {
+            if (llenar == 7) {
                 for(int i = copos.Count-1;i >= 0;i--)
                 {
                     if (copos[i].fila == limite) {
@@ -79,12 +79,13 @@ namespace clase25DeAbrilCSharpN
             Copo a1;
 
             Random r = new Random();
+            columna = r.Next(1, 8);
             
             
 
             for (int i = 0; i < 3; i++)
             {
-                a1 = new Copo(r.Next(1, cantCol), 1);
+                a1 = new Copo(r.Next(1, 8), 1);
                 copos.Add(a1);
             }
 
@@ -96,7 +97,7 @@ namespace clase25DeAbrilCSharpN
 
                 if (transurso.Milliseconds > 300)
                 {
-                    a1 = new Copo(r.Next(1, cantCol), 1);
+                    a1 = new Copo(r.Next(1, 8), 1);
                     copos.Add(a1);
                     
                     foreach (Copo copo in copos)

@@ -1,0 +1,7 @@
+C:\Users\Alumno\Desktop\muriel\POO\clase16DeMayo\clase16DeMayo\bin\Debug\clase16DeMayo.exe.config
+C:\Users\Alumno\Desktop\muriel\POO\clase16DeMayo\clase16DeMayo\bin\Debug\clase16DeMayo.exe
+C:\Users\Alumno\Desktop\muriel\POO\clase16DeMayo\clase16DeMayo\bin\Debug\clase16DeMayo.pdb
+C:\Users\Alumno\Desktop\muriel\POO\clase16DeMayo\clase16DeMayo\obj\Debug\clase16DeMayo.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\muriel\POO\clase16DeMayo\clase16DeMayo\obj\Debug\clase16DeMayo.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\muriel\POO\clase16DeMayo\clase16DeMayo\obj\Debug\clase16DeMayo.exe
+C:\Users\Alumno\Desktop\muriel\POO\clase16DeMayo\clase16DeMayo\obj\Debug\clase16DeMayo.pdb
