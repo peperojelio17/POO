@@ -5,3 +5,10 @@ C:\Users\Alumno\Desktop\muriel\POO\menuPrincipal16_5\menuPrincipal16_5\bin\Debug
 C:\Users\Alumno\Desktop\muriel\POO\menuPrincipal16_5\menuPrincipal16_5\bin\Debug\menuPrincipal16_5.pdb
 C:\Users\Alumno\Desktop\muriel\POO\menuPrincipal16_5\menuPrincipal16_5\obj\Debug\menuPrincipal16_5.exe
 C:\Users\Alumno\Desktop\muriel\POO\menuPrincipal16_5\menuPrincipal16_5\obj\Debug\menuPrincipal16_5.pdb
+C:\Users\Muriel\Desktop\github\POO\menuPrincipal16_5\menuPrincipal16_5\bin\Debug\menuPrincipal16_5.exe.config
+C:\Users\Muriel\Desktop\github\POO\menuPrincipal16_5\menuPrincipal16_5\bin\Debug\menuPrincipal16_5.exe
+C:\Users\Muriel\Desktop\github\POO\menuPrincipal16_5\menuPrincipal16_5\bin\Debug\menuPrincipal16_5.pdb
+C:\Users\Muriel\Desktop\github\POO\menuPrincipal16_5\menuPrincipal16_5\obj\Debug\menuPrincipal16_5.csproj.AssemblyReference.cache
+C:\Users\Muriel\Desktop\github\POO\menuPrincipal16_5\menuPrincipal16_5\obj\Debug\menuPrincipal16_5.csproj.CoreCompileInputs.cache
+C:\Users\Muriel\Desktop\github\POO\menuPrincipal16_5\menuPrincipal16_5\obj\Debug\menuPrincipal16_5.exe
+C:\Users\Muriel\Desktop\github\POO\menuPrincipal16_5\menuPrincipal16_5\obj\Debug\menuPrincipal16_5.pdb
