@@ -1,0 +1,7 @@
+C:\Users\Alumno\Desktop\muriel\POO\menu17_5\menu17_5\bin\Debug\menu17_5.exe.config
+C:\Users\Alumno\Desktop\muriel\POO\menu17_5\menu17_5\bin\Debug\menu17_5.exe
+C:\Users\Alumno\Desktop\muriel\POO\menu17_5\menu17_5\bin\Debug\menu17_5.pdb
+C:\Users\Alumno\Desktop\muriel\POO\menu17_5\menu17_5\obj\Debug\menu17_5.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\muriel\POO\menu17_5\menu17_5\obj\Debug\menu17_5.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\muriel\POO\menu17_5\menu17_5\obj\Debug\menu17_5.exe
+C:\Users\Alumno\Desktop\muriel\POO\menu17_5\menu17_5\obj\Debug\menu17_5.pdb
