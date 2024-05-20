@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Alumno\\Desktop\\muriel\\POO\\clase16DeMayo\\",
+  "WorkspaceRootPath": "C:\\Users\\Muriel\\Desktop\\github\\POO\\clase16DeMayo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AF134B9-4982-4C6B-A4AB-7AF70DCE0CE4}|clase16DeMayo\\clase16DeMayo.csproj|c:\\users\\alumno\\desktop\\muriel\\poo\\clase16demayo\\clase16demayo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4AF134B9-4982-4C6B-A4AB-7AF70DCE0CE4}|clase16DeMayo\\clase16DeMayo.csproj|c:\\users\\muriel\\desktop\\github\\poo\\clase16demayo\\clase16demayo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AF134B9-4982-4C6B-A4AB-7AF70DCE0CE4}|clase16DeMayo\\clase16DeMayo.csproj|solutionrelative:clase16demayo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\muriel\\POO\\clase16DeMayo\\clase16DeMayo\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Muriel\\Desktop\\github\\POO\\clase16DeMayo\\clase16DeMayo\\Program.cs",
               "RelativeDocumentMoniker": "clase16DeMayo\\Program.cs",
-              "ToolTip": "C:\\Users\\Alumno\\Desktop\\muriel\\POO\\clase16DeMayo\\clase16DeMayo\\Program.cs",
+              "ToolTip": "C:\\Users\\Muriel\\Desktop\\github\\POO\\clase16DeMayo\\clase16DeMayo\\Program.cs",
               "RelativeToolTip": "clase16DeMayo\\Program.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAIwFEAAAAVAAAA",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAAAEkAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T16:58:56.159Z",
               "EditorCaption": ""
