@@ -15,12 +15,13 @@ namespace tetris
 
         public Pieza(string tipo)
         {
+            Bloque a, b, c, d;
             if (tipo == "linea")
             {
-                Bloque a = new Bloque(1, 1);
-                Bloque b = new Bloque(1, 2);
-                Bloque c = new Bloque(1, 3);
-                Bloque d = new Bloque(1, 4);
+                a = new Bloque(1, 1);
+                b = new Bloque(1, 2);
+                c = new Bloque(1, 3);
+                d = new Bloque(1, 4);
 
                 bloques.Add(a);
                 bloques.Add(b);
@@ -29,10 +30,33 @@ namespace tetris
             }
             if (tipo == "cubo")
             {
-                Bloque a = new Bloque(1, 1);
-                Bloque b = new Bloque(1, 2);
-                Bloque c = new Bloque(2, 1);
-                Bloque d = new Bloque(2, 2);
+                a = new Bloque(1, 1);
+                b = new Bloque(1, 2);
+                c = new Bloque(2, 1);
+                d = new Bloque(2, 2);
+                bloques.Add(a);
+                bloques.Add(b);
+                bloques.Add(c);
+                bloques.Add(d);
+            }
+            if (tipo == "ele")
+            {
+                a = new Bloque(1, 1);
+                b = new Bloque(1, 2);
+                c = new Bloque(1, 3);
+                d = new Bloque(2, 3);
+
+                bloques.Add(a);
+                bloques.Add(b);
+                bloques.Add(c);
+                bloques.Add(d);
+            }
+            if (tipo == "te")
+            {
+                a = new Bloque(1, 1);
+                b = new Bloque(1, 2);
+                c = new Bloque(1, 3);
+                d = new Bloque(2, 2);
                 bloques.Add(a);
                 bloques.Add(b);
                 bloques.Add(c);
@@ -68,7 +92,7 @@ namespace tetris
         static DateTime h2 = DateTime.Now;
         static List<Pieza> piezas = new List<Pieza>();
 
-        static int limite = 10;
+        static int limite = 15;
 
         static bool bajar(Pieza pieza)
         {
@@ -77,21 +101,21 @@ namespace tetris
             {
                 return false;
             }
-            //foreach (Pieza c in piezas)
-            //{
-            //    if (pieza.fila + 1 == c.fila && pieza.col == c.col)
-            //    {
-            //        total = false;
+            foreach (Pieza c in piezas)
+            {
+                if (pieza.bloques[3].x + 1 == c.bloques[1].x)
+                {
+                    total = false;
 
-            //    }
-            //}
+                }
+            }
             return total;
         }
 
         static void Main(string[] args)
         {
             Pieza a1;
-
+            int num = 0;
             a1 = new Pieza("linea");
             piezas.Add(a1);
             while (true)
@@ -102,25 +126,37 @@ namespace tetris
                 {
                     foreach (Pieza pieza in piezas)
                     {
+                        if(pieza == piezas[piezas.Count - 1]) { 
                         if (bajar(pieza))
                         {
                             foreach(Bloque bloque in pieza.bloques) {
-                                Console.SetCursorPosition(bloque.y, bloque.x);
+                                Console.SetCursorPosition(bloque.y + 3, bloque.x);
                                 Console.Write(" ");
                             }
                             foreach (Bloque bloque in pieza.bloques)
                                 bloque.x++;
                             foreach (Bloque bloque in pieza.bloques)
                             {
-                                Console.SetCursorPosition(bloque.y, bloque.x);
+                                Console.SetCursorPosition(bloque.y + 3, bloque.x);
                                 Console.Write("#");
                             }
                         }
                         h1 = h2;
+                        if (bajar(pieza) == false)
+                        {
+                            num ++;
+                        }
+                        }
 
                     }
-
+                    if (num == 1)
+                    {
+                        a1 = new Pieza("te");
+                        piezas.Add(a1);
+                        num = 0;
+                    }
                 }
+                
             }
         }
     }
