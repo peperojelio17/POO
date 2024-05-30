@@ -1,0 +1,7 @@
+C:\Users\Muriel\Desktop\github\POO\tetris\tetris\bin\Debug\tetris.exe.config
+C:\Users\Muriel\Desktop\github\POO\tetris\tetris\bin\Debug\tetris.exe
+C:\Users\Muriel\Desktop\github\POO\tetris\tetris\bin\Debug\tetris.pdb
+C:\Users\Muriel\Desktop\github\POO\tetris\tetris\obj\Debug\tetris.csproj.AssemblyReference.cache
+C:\Users\Muriel\Desktop\github\POO\tetris\tetris\obj\Debug\tetris.csproj.CoreCompileInputs.cache
+C:\Users\Muriel\Desktop\github\POO\tetris\tetris\obj\Debug\tetris.exe
+C:\Users\Muriel\Desktop\github\POO\tetris\tetris\obj\Debug\tetris.pdb

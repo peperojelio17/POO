@@ -9,7 +9,8 @@ namespace menu17_5
     }
     internal class Program
     {
-
+        static DateTime h1 = DateTime.Now;
+        static DateTime h2 = DateTime.Now;
         static void Main(string[] args)
         {
             MenuPrincipal menu;
@@ -17,24 +18,32 @@ namespace menu17_5
             List<Productos> productos = new List<Productos>();
             List<Productos> productos1 = new List<Productos>();
 
+
             string[] menu1 = { "Nuevo Cliente", "Modificar Cliente", "Listar Clientes", "Salir" };
             string[] menu2 = { "Nuevo Producto", "Modificar Producto", "Eliminar Producto", "Listar Producto", "Salir" };
             string[] menu3 = { "Nuevo Producto verduras", "Modificar Producto verduras", "Eliminar Producto verduras", "Listar Producto verduras", "Salir" };
+            string[] menu4 = { "mostrar copos","Salir" };
 
 
             var menus = new Dictionary<string, string[]>
             {
-                { "Archivo", menu1 }, { "Editar", menu2 }, {"verduras",  menu3 }
+                { "Archivo", menu1 }, { "Editar", menu2 }, {"verduras",  menu3 }, {"copos",  menu4 }
             };
 
             Console.Clear();
             menu = new MenuPrincipal(menus);
             menu.dibujar();
             bool selectAct = false;
+            bool copos = true;
+            Copos co;
+            co = new Copos();
+            h2 = DateTime.Now;
             ConsoleKeyInfo tecla;
             //Readkey devuelve un dato de tipo ConsoleKey
             do
             {
+                
+
                 int[] num = { };
                 tecla = Console.ReadKey();
                 if(selectAct == false)
@@ -49,11 +58,13 @@ namespace menu17_5
                 }
                 if (tecla.Key == ConsoleKey.Enter)
                 {
+                    
                     selectAct = !selectAct;
                     Clientes c;
                     Productos p;
                     c = new Clientes(0, "pepe", 123);
                     p = new Productos(0, "ropa", 123);
+                    
                     num = menu.select();
                     if (selectAct)
                     {
@@ -71,8 +82,17 @@ namespace menu17_5
                             case 2:
                                 p.select(num, productos1);
                                 break;
+                            
                         }
-
+                        if (num[0] == 3)
+                        {
+                            copos = true;
+                        }
+                        h2 = DateTime.Now;
+                        if (copos == true)
+                        {
+                            co.mostrar(6, h2, h1);
+                        }
                     }
                     else
                     {
@@ -80,10 +100,12 @@ namespace menu17_5
                         menu.dibujar();
                         //selectAct = true;
                     }
+                    
 
                 }
             } while (true);
 
+            
             Console.ReadKey();
 
         }
