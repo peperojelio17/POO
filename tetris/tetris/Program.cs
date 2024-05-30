@@ -8,14 +8,23 @@ using tetris;
 
 namespace tetris
 {
+
+    public class Linea : Pieza
+    {
+        public Linea (string tipo) : base (tipo) 
+        {
+            
+        }
+    }
     public class Pieza
     {
         string tipo = "";
         public List<Bloque> bloques = new List<Bloque>();
 
+        Bloque a, b, c, d;
         public Pieza(string tipo)
         {
-            Bloque a, b, c, d;
+            
             if (tipo == "linea")
             {
                 a = new Bloque(1, 1);
@@ -63,6 +72,8 @@ namespace tetris
                 bloques.Add(d);
             }
         }
+
+
 
         public void derecha()
         {
@@ -115,21 +126,27 @@ namespace tetris
         static void Main(string[] args)
         {
             Pieza a1;
+            Random r = new Random();
             int num = 0;
             a1 = new Pieza("linea");
             piezas.Add(a1);
+            ConsoleKeyInfo tecla;
             while (true)
             {
+                
                 h2 = DateTime.Now;
                 transurso = h2 - h1;
                 if (transurso.Milliseconds > 500)
                 {
+                    //tecla = Console.ReadKey();
                     foreach (Pieza pieza in piezas)
                     {
                         if(pieza == piezas[piezas.Count - 1]) { 
                         if (bajar(pieza))
                         {
-                            foreach(Bloque bloque in pieza.bloques) {
+                                //if (tecla.Key == ConsoleKey.RightArrow)
+                                //    pieza.derecha();
+                                foreach (Bloque bloque in pieza.bloques) {
                                 Console.SetCursorPosition(bloque.y + 3, bloque.x);
                                 Console.Write(" ");
                             }
@@ -144,14 +161,32 @@ namespace tetris
                         h1 = h2;
                         if (bajar(pieza) == false)
                         {
-                            num ++;
+                            num = r.Next(1, 5);
                         }
                         }
 
                     }
                     if (num == 1)
                     {
+                        a1 = new Pieza("cubo");
+                        piezas.Add(a1);
+                        num = 0;
+                    }
+                    if (num == 2)
+                    {
                         a1 = new Pieza("te");
+                        piezas.Add(a1);
+                        num = 0;
+                    }
+                    if (num == 3)
+                    {
+                        a1 = new Pieza("linea");
+                        piezas.Add(a1);
+                        num = 0;
+                    }
+                    if (num == 3)
+                    {
+                        a1 = new Pieza("ele");
                         piezas.Add(a1);
                         num = 0;
                     }

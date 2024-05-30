@@ -44,7 +44,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clientes.cs" />
-    <Compile Include="Copos.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="MenuPrincipal.cs" />
     <Compile Include="Productos.cs" />
