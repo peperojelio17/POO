@@ -10,23 +10,22 @@ namespace HerenciaTetris30_5
         static DateTime h2 = DateTime.Now;
         public static List<Pieza> piezas = new List<Pieza>();
 
-
-
-
         static void Main(string[] args)
         {
             Console.CursorVisible = false;
+            Tablero t = new Tablero();
+            t.dibujar();
             Pieza piezaActual;
-            Te a1;
+            Ese a1;
             bool nuevaPieza = false;
-            a1 = new Te();
+            a1 = new Ese();
             piezas.Add(a1);
             while (true)
             {
                 piezaActual = piezas[piezas.Count - 1];
                 h2 = DateTime.Now;
                 transurso = h2 - h1;
-                if (transurso.Milliseconds > 200)
+                if (transurso.Milliseconds > 100)
                 {
                     if (Console.KeyAvailable)
                     {
@@ -34,7 +33,7 @@ namespace HerenciaTetris30_5
                             if (tecla == ConsoleKey.RightArrow)
                                 piezaActual.derecha();
                             if (tecla == ConsoleKey.LeftArrow)
-                                piezaActual.izquierda();
+                                piezaActual.izquierda(piezas);
                             if (tecla == ConsoleKey.UpArrow)
                             {
                             piezaActual.Rotar();
@@ -49,7 +48,7 @@ namespace HerenciaTetris30_5
                             {
                                 foreach (Bloque bloque in pieza.bloques)
                                 {
-                                    Console.SetCursorPosition(bloque.y + 30, bloque.x);
+                                    Console.SetCursorPosition(bloque.y, bloque.x);
                                     Console.Write(" ");
                                 }
                                 foreach (Bloque bloque in pieza.bloques)
@@ -57,7 +56,7 @@ namespace HerenciaTetris30_5
                                 foreach (Bloque bloque in pieza.bloques)
                                 {
                                     
-                                    Console.SetCursorPosition(bloque.y + 30, bloque.x);
+                                    Console.SetCursorPosition(bloque.y, bloque.x);
                                     Console.Write("#");
                                 }
                             }

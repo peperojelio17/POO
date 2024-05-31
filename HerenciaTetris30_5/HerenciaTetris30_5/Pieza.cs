@@ -51,19 +51,23 @@ namespace HerenciaTetris30_5
         {
             foreach (var bloque in bloques)
             {
-                Console.SetCursorPosition(bloque.y + 30, bloque.x);
+                if (bloque.y < 72) { 
+                    Console.SetCursorPosition(bloque.y, bloque.x);
                 Console.Write(" ");
                 bloque.y++;
+                }
             }
 
         }
-        public void izquierda()
+        public void izquierda(List<Pieza> piezas)
         {
+           
             foreach (var bloque in bloques)
             {
-                Console.SetCursorPosition(bloque.y + 30, bloque.x);
+                if (bloque.y> 46) { 
+                Console.SetCursorPosition(bloque.y, bloque.x);
                 Console.Write(" ");
-                bloque.y--;
+                bloque.y--;}
             }
         }
         public void color()

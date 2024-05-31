@@ -24,7 +24,7 @@ namespace HerenciaTetris30_5
         public override void Rotar()
         {
             if (rotar== false) { 
-            Console.SetCursorPosition(a.y + 30, a.x);
+            Console.SetCursorPosition(a.y, a.x);
             Console.Write("    ");
             a.y = b.y;  c.y = b.y;  d.y = b.y;
             a.x = b.x-1;  c.x = b.x + 1;  d.x = b.x + 2;
@@ -33,7 +33,7 @@ namespace HerenciaTetris30_5
             else
             {
                 for (int i = 0; i < bloques.Count; i++) { 
-                Console.SetCursorPosition(a.y + 30, a.x + i);
+                Console.SetCursorPosition(a.y, a.x + i);
                 Console.Write(" ");
                 }
                 a.x = b.x; c.x = b.x; d.x = b.x;
@@ -77,30 +77,46 @@ namespace HerenciaTetris30_5
         }
         public override void Rotar()
         {
+            // Rotación específica para la pieza L
+            int centroX = bloques[1].x;
+            int centroY = bloques[1].y;
 
-            if (rotar == false)
+            foreach(var bloque in bloques)
             {
-                Console.SetCursorPosition(a.y + 30, a.x);
-                Console.Write("   ");
-                Console.SetCursorPosition(c.y + 30, c.x +1);
+                Console.SetCursorPosition(bloque.y, bloque.x );
                 Console.Write(" ");
-                a.y = b.y; c.y = b.y; d.y = b.y-1;
-                a.x = b.x - 1; c.x = b.x + 1; d.x = b.x + 1;
-                rotar = true;
             }
-            else
+            for (int i = 0; i < bloques.Count; i++)
             {
-                for (int i = 0; i < bloques.Count - 1; i++)
-                {
-                    Console.SetCursorPosition(a.y + 30, a.x + i);
-                    Console.Write(" ");
-                }
-                Console.SetCursorPosition(a.y + 29, c.x);
-                Console.Write(" ");
-                a.x = b.x; c.x = b.x; d.x = b.x +1;
-                a.y = b.y - 1; c.y = b.y + 1; d.y = b.y + 1;
-                rotar = false;
+                
+                int x = bloques[i].x - centroX;
+                int y = bloques[i].y - centroY;
+                bloques[i].x = centroX - y;
+                bloques[i].y = centroY + x;
             }
+            //if (rotar == false)
+            //{
+            //    Console.SetCursorPosition(a.y + 30, a.x);
+            //    Console.Write("   ");
+            //    Console.SetCursorPosition(c.y + 30, c.x +1);
+            //    Console.Write(" ");
+            //    a.y = b.y; c.y = b.y; d.y = b.y-1;
+            //    a.x = b.x - 1; c.x = b.x + 1; d.x = b.x + 1;
+            //    rotar = true;
+            //}
+            //else
+            //{
+            //    for (int i = 0; i < bloques.Count - 1; i++)
+            //    {
+            //        Console.SetCursorPosition(a.y + 30, a.x + i);
+            //        Console.Write(" ");
+            //    }
+            //    Console.SetCursorPosition(a.y + 29, c.x);
+            //    Console.Write(" ");
+            //    a.x = b.x; c.x = b.x; d.x = b.x +1;
+            //    a.y = b.y - 1; c.y = b.y + 1; d.y = b.y + 1;
+            //    rotar = false;
+            //}
         }
     }
     public class Te : Pieza
@@ -119,30 +135,44 @@ namespace HerenciaTetris30_5
         }
         public override void Rotar()
         {
+            foreach (var bloque in bloques)
+            {
+                Console.SetCursorPosition(bloque.y, bloque.x);
+                Console.Write(" ");
+            }
+            int centroX = bloques[1].x;
+            int centroY = bloques[1].y;
 
-            if (rotar == false)
+            for (int i = 0; i < bloques.Count; i++)
             {
-                Console.SetCursorPosition(a.y + 30, a.x);
-                Console.Write("   ");
-                Console.SetCursorPosition(b.y + 30, b.x + 1);
-                Console.Write(" ");
-                a.y = b.y; c.y = b.y; d.y = b.y - 1;
-                a.x = b.x - 1; c.x = b.x + 1; d.x = b.x;
-                rotar = true;
+                int x = bloques[i].x - centroX;
+                int y = bloques[i].y - centroY;
+                bloques[i].x = centroX - y;
+                bloques[i].y = centroY + x;
             }
-            else
-            {
-                for (int i = 0; i < bloques.Count - 1; i++)
-                {
-                    Console.SetCursorPosition(a.y + 30, a.x + i);
-                    Console.Write(" ");
-                }
-                Console.SetCursorPosition(a.y + 28, b.x);
-                Console.Write(" ");
-                a.x = b.x; c.x = b.x; d.x = b.x + 1;
-                a.y = b.y - 1; c.y = b.y + 1; d.y = b.y;
-                rotar = false;
-            }
+            //if (rotar == false)
+            //{
+            //    Console.SetCursorPosition(a.y + 30, a.x);
+            //    Console.Write("   ");
+            //    Console.SetCursorPosition(b.y + 30, b.x + 1);
+            //    Console.Write(" ");
+            //    a.y = b.y; c.y = b.y; d.y = b.y - 1;
+            //    a.x = b.x - 1; c.x = b.x + 1; d.x = b.x;
+            //    rotar = true;
+            //}
+            //else
+            //{
+            //    for (int i = 0; i < bloques.Count - 1; i++)
+            //    {
+            //        Console.SetCursorPosition(a.y + 30, a.x + i);
+            //        Console.Write(" ");
+            //    }
+            //    Console.SetCursorPosition(a.y + 28, b.x);
+            //    Console.Write(" ");
+            //    a.x = b.x; c.x = b.x; d.x = b.x + 1;
+            //    a.y = b.y - 1; c.y = b.y + 1; d.y = b.y;
+            //    rotar = false;
+            //}
         }
     }
     public class Ese : Pieza
@@ -161,9 +191,21 @@ namespace HerenciaTetris30_5
         public override void Rotar()
         {
 
-            a = new Bloque(b.x - 1, b.y);
-            c = new Bloque(b.x + 1, b.y);
-            d = new Bloque(b.x + 2, b.y);
+            foreach (var bloque in bloques)
+            {
+                Console.SetCursorPosition(bloque.y, bloque.x);
+                Console.Write(" ");
+            }
+            int centroX = bloques[1].x;
+            int centroY = bloques[1].y;
+
+            for (int i = 0; i < bloques.Count; i++)
+            {
+                int x = bloques[i].x - centroX;
+                int y = bloques[i].y - centroY;
+                bloques[i].x = centroX - y;
+                bloques[i].y = centroY + x;
+            }
         }
     }
     public class Zeta : Pieza
@@ -181,10 +223,21 @@ namespace HerenciaTetris30_5
         }
         public override void Rotar()
         {
+            foreach (var bloque in bloques)
+            {
+                Console.SetCursorPosition(bloque.y, bloque.x);
+                Console.Write(" ");
+            }
+            int centroX = bloques[1].x;
+            int centroY = bloques[1].y;
 
-            a = new Bloque(b.x - 1, b.y);
-            c = new Bloque(b.x + 1, b.y);
-            d = new Bloque(b.x + 2, b.y);
+            for (int i = 0; i < bloques.Count; i++)
+            {
+                int x = bloques[i].x - centroX;
+                int y = bloques[i].y - centroY;
+                bloques[i].x = centroX - y;
+                bloques[i].y = centroY + x;
+            }
         }
     }
 }

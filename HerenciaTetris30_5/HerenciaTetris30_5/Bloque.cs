@@ -14,7 +14,7 @@ namespace HerenciaTetris30_5
         public Bloque(int x, int y)
         {
             this.x = x;
-            this.y = y;
+            this.y = y +60;
         }
     }
 }
