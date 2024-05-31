@@ -47,27 +47,73 @@ namespace HerenciaTetris30_5
 
         public abstract void Rotar();
         
-        public void derecha()
+        public bool colicion(List<Pieza> piezas, int tipo)
         {
+            Pieza piezaActual;
+            piezaActual = piezas[piezas.Count - 1];
+            bool colision = false;
+
             foreach (var bloque in bloques)
             {
-                if (bloque.y < 72) { 
-                    Console.SetCursorPosition(bloque.y, bloque.x);
-                Console.Write(" ");
-                bloque.y++;
+                foreach (var pieza in piezas)
+                {
+                    if (pieza != piezaActual)
+                    {
+                        foreach (var b in pieza.bloques)
+                        {
+                            if(tipo == 1) { 
+                            if (bloque.x == b.x && bloque.y + 1 == b.y)
+                            {
+                                colision = true;
+                            }
+                            }
+                            if (tipo == 2)
+                            {
+                                if (bloque.x == b.x && bloque.y - 1 == b.y)
+                                {
+                                    colision = true;
+                                }
+                            }
+                        }
+                    }
                 }
+            }
+            return colision;
+        }
+        public void derecha(List<Pieza> piezas)
+        {
+            bool colision;
+            colision = colicion(piezas, 1);
+            
+            if (bajar(piezas))
+            {
+            foreach (var bloque in bloques)
+            {
+                if (bloque.y < 72 && colision == false)
+                {
+                    Console.SetCursorPosition(bloque.y, bloque.x);
+                    Console.Write(" ");
+                    bloque.y++;
+                }
+            }
             }
 
         }
         public void izquierda(List<Pieza> piezas)
         {
-           
-            foreach (var bloque in bloques)
+            bool colision;
+            colision = colicion(piezas, 2);
+            if (bajar(piezas))
             {
-                if (bloque.y> 46) { 
-                Console.SetCursorPosition(bloque.y, bloque.x);
-                Console.Write(" ");
-                bloque.y--;}
+                foreach (var bloque in bloques)
+                {
+                    if (bloque.y > 46 && colision == false)
+                    {
+                        Console.SetCursorPosition(bloque.y, bloque.x);
+                        Console.Write(" ");
+                        bloque.y--;
+                    }
+                }
             }
         }
         public void color()
@@ -127,6 +173,33 @@ namespace HerenciaTetris30_5
                     a6 = new Zeta();
                     piezas.Add(a6);
                     break;
+            }
+        }
+        public void eliminar(List<Pieza> piezas)
+        {
+            int contador = 0;
+            
+            for (int i = 0; i < piezas.Count; i++)
+            {
+                foreach(var bloque in piezas[i].bloques)
+                {
+                    if(bloque.x == 24) contador++;
+                }
+            }
+            if (contador >= 8) {
+                for (int i = 0; i < piezas.Count; i++)
+                {
+                    //foreach (var bloque in piezas[i].bloques)
+                    for (int j = piezas[i].bloques.Count - 1; j >= 0; j--)
+                        //for (int j = 0; j < 4; j++)
+                        {
+                        if (piezas[i].bloques[j].x == 24) {
+                            Console.SetCursorPosition(piezas[i].bloques[j].y, 24);
+                            Console.Write(" ");
+                            piezas[i].bloques.Remove(piezas[i].bloques[j]);
+                        }
+                    }
+                }
             }
         }
     }

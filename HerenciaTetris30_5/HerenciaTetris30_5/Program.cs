@@ -23,6 +23,7 @@ namespace HerenciaTetris30_5
             while (true)
             {
                 piezaActual = piezas[piezas.Count - 1];
+                piezaActual.eliminar(piezas);
                 h2 = DateTime.Now;
                 transurso = h2 - h1;
                 if (transurso.Milliseconds > 100)
@@ -31,7 +32,7 @@ namespace HerenciaTetris30_5
                     {
                         var tecla = Console.ReadKey(true).Key;
                             if (tecla == ConsoleKey.RightArrow)
-                                piezaActual.derecha();
+                                piezaActual.derecha(piezas);
                             if (tecla == ConsoleKey.LeftArrow)
                                 piezaActual.izquierda(piezas);
                             if (tecla == ConsoleKey.UpArrow)
