@@ -12,9 +12,9 @@ namespace HerenciaTetris30_5
         {
             for (int i = 0; i < 25; i++)
             {
-                Console.SetCursorPosition(45, i);
+                Console.SetCursorPosition(50, i);
                 Console.WriteLine("|");
-                Console.SetCursorPosition(75, i);
+                Console.SetCursorPosition(70, i);
                 Console.WriteLine("|");
             }
             for (int i = 0; i < 30; i++)
@@ -24,7 +24,7 @@ namespace HerenciaTetris30_5
             }
             
             Linea t = new Linea();
-            t.color();
+            t.color(t.colorP);
             Console.SetCursorPosition(57 , 27);
             Console.WriteLine("TETRIS");
         }

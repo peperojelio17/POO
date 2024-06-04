@@ -23,10 +23,10 @@ namespace HerenciaTetris30_5
             while (true)
             {
                 piezaActual = piezas[piezas.Count - 1];
-                piezaActual.eliminar(piezas);
+                
                 h2 = DateTime.Now;
                 transurso = h2 - h1;
-                if (transurso.Milliseconds > 100)
+                if (transurso.Milliseconds > 200)
                 {
                     if (Console.KeyAvailable)
                     {
@@ -43,10 +43,12 @@ namespace HerenciaTetris30_5
                     //tecla = Console.ReadKey();
                     foreach (Pieza pieza in piezas)
                     {
-                        if (pieza == piezaActual)
-                        {
+
+                        //if (pieza == piezaActual)
+                        //{
                             if (pieza.bajar(piezas))
                             {
+                                piezaActual.color(pieza.colorP);
                                 foreach (Bloque bloque in pieza.bloques)
                                 {
                                     Console.SetCursorPosition(bloque.y, bloque.x);
@@ -60,16 +62,19 @@ namespace HerenciaTetris30_5
                                     Console.SetCursorPosition(bloque.y, bloque.x);
                                     Console.Write("#");
                                 }
-                            }
-                            else nuevaPieza = true;
+                            piezaActual.eliminar(piezas);
+                            if (piezaActual.eliminar(piezas) == true)
+                                nuevaPieza = true;
+                        }
+                            else if(piezaActual.bajar(piezas) == false) nuevaPieza = true;
                             h1 = h2;
                                 
-                        }
+                        //}
 
                     }
                     if (nuevaPieza)
                     {
-                        piezaActual.color();
+                        
                         piezaActual.nueva(piezas);
                         nuevaPieza = false;
                     }
