@@ -1,0 +1,7 @@
+C:\Users\Muriel\Desktop\github\POO\practica_prueba\practica_prueba\bin\Debug\practica_prueba.exe.config
+C:\Users\Muriel\Desktop\github\POO\practica_prueba\practica_prueba\bin\Debug\practica_prueba.exe
+C:\Users\Muriel\Desktop\github\POO\practica_prueba\practica_prueba\bin\Debug\practica_prueba.pdb
+C:\Users\Muriel\Desktop\github\POO\practica_prueba\practica_prueba\obj\Debug\practica_prueba.csproj.AssemblyReference.cache
+C:\Users\Muriel\Desktop\github\POO\practica_prueba\practica_prueba\obj\Debug\practica_prueba.csproj.CoreCompileInputs.cache
+C:\Users\Muriel\Desktop\github\POO\practica_prueba\practica_prueba\obj\Debug\practica_prueba.exe
+C:\Users\Muriel\Desktop\github\POO\practica_prueba\practica_prueba\obj\Debug\practica_prueba.pdb

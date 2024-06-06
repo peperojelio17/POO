@@ -23,7 +23,6 @@ namespace HerenciaTetris30_5
             while (true)
             {
                 piezaActual = piezas[piezas.Count - 1];
-                
                 h2 = DateTime.Now;
                 transurso = h2 - h1;
                 if (transurso.Milliseconds > 200)
@@ -40,25 +39,21 @@ namespace HerenciaTetris30_5
                             piezaActual.Rotar();
                             }
                     }
-                    //tecla = Console.ReadKey();
                     foreach (Pieza pieza in piezas)
                     {
 
-                        //if (pieza == piezaActual)
-                        //{
                             if (pieza.bajar(piezas))
                             {
                                 piezaActual.color(pieza.colorP);
                                 foreach (Bloque bloque in pieza.bloques)
                                 {
-                                    Console.SetCursorPosition(bloque.y, bloque.x);
+                                    Console.SetCursorPosition(bloque.y, bloque.x++);
                                     Console.Write(" ");
                                 }
-                                foreach (Bloque bloque in pieza.bloques)
-                                    bloque.x++;
+                                //foreach (Bloque bloque in pieza.bloques)
+                                //    bloque.x++;
                                 foreach (Bloque bloque in pieza.bloques)
                                 {
-                                    
                                     Console.SetCursorPosition(bloque.y, bloque.x);
                                     Console.Write("#");
                                 }
