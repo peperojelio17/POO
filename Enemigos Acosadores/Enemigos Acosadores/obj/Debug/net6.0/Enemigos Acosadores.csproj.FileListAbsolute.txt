@@ -1,0 +1,6 @@
+C:\Users\Alumno\Desktop\muriel\POO\Enemigos Acosadores\Enemigos Acosadores\obj\Debug\net6.0\Enemigos Acosadores.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\muriel\POO\Enemigos Acosadores\Enemigos Acosadores\obj\Debug\net6.0\Enemigos Acosadores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumno\Desktop\muriel\POO\Enemigos Acosadores\Enemigos Acosadores\obj\Debug\net6.0\Enemigos Acosadores.AssemblyInfoInputs.cache
+C:\Users\Alumno\Desktop\muriel\POO\Enemigos Acosadores\Enemigos Acosadores\obj\Debug\net6.0\Enemigos Acosadores.AssemblyInfo.cs
+C:\Users\Alumno\Desktop\muriel\POO\Enemigos Acosadores\Enemigos Acosadores\obj\Debug\net6.0\Enemigos Acosadores.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\muriel\POO\Enemigos Acosadores\Enemigos Acosadores\obj\Debug\net6.0\Enemigos Acosadores.sourcelink.json
