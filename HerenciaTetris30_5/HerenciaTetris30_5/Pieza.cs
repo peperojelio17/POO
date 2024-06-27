@@ -56,6 +56,10 @@ namespace HerenciaTetris30_5
 
             foreach (var bloque in bloques)
             {
+                if (bloque.y == 51 || bloque.y == 69)
+                {
+                    colision = true;
+                }
                 foreach (var pieza in piezas)
                 {
                     if (pieza != piezaActual)
@@ -186,9 +190,11 @@ namespace HerenciaTetris30_5
             for(int e = 1;  e <= limite; e++) { 
                 for (int i = 0; i < piezas.Count; i++)
                 {
+                    if (piezas[i] != piezas[piezas.Count - 1]) { 
                     foreach(var bloque in piezas[i].bloques)
                     {
                         if(bloque.x == e) contador++;
+                    }
                     }
                 }
                 //Console.SetCursorPosition(0, 0);
