@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Alumno\\Desktop\\muriel\\POO\\clase25DeAbrilCSharpN\\",
+  "WorkspaceRootPath": "C:\\Users\\Muriel\\Desktop\\github\\POO\\clase25DeAbrilCSharpN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA0D7E4A-49C5-496E-8BBA-E7AF49163229}|clase25DeAbrilCSharpN\\clase25DeAbrilCSharpN.csproj|c:\\users\\alumno\\desktop\\muriel\\poo\\clase25deabrilcsharpn\\clase25deabrilcsharpn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA0D7E4A-49C5-496E-8BBA-E7AF49163229}|clase25DeAbrilCSharpN\\clase25DeAbrilCSharpN.csproj|c:\\users\\muriel\\desktop\\github\\poo\\clase25deabrilcsharpn\\clase25deabrilcsharpn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA0D7E4A-49C5-496E-8BBA-E7AF49163229}|clase25DeAbrilCSharpN\\clase25DeAbrilCSharpN.csproj|solutionrelative:clase25deabrilcsharpn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,15 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\muriel\\POO\\clase25DeAbrilCSharpN\\clase25DeAbrilCSharpN\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Muriel\\Desktop\\github\\POO\\clase25DeAbrilCSharpN\\clase25DeAbrilCSharpN\\Program.cs",
               "RelativeDocumentMoniker": "clase25DeAbrilCSharpN\\Program.cs",
-              "ToolTip": "C:\\Users\\Alumno\\Desktop\\muriel\\POO\\clase25DeAbrilCSharpN\\clase25DeAbrilCSharpN\\Program.cs",
+              "ToolTip": "C:\\Users\\Muriel\\Desktop\\github\\POO\\clase25DeAbrilCSharpN\\clase25DeAbrilCSharpN\\Program.cs",
               "RelativeToolTip": "clase25DeAbrilCSharpN\\Program.cs",
+<<<<<<< HEAD
               "ViewState": "AQIAAFsAAAAAAAAAAAAgwDsAAAAhAAAA",
+=======
+              "ViewState": "AQIAAGcAAAAAAAAAAAArwGoAAABLAAAA",
+>>>>>>> b850630f6011f4012f39e0e91e8107c3dfb4799d
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-25T19:21:39.786Z",
               "EditorCaption": ""

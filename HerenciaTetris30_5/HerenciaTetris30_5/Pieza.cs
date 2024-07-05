@@ -13,9 +13,10 @@ namespace HerenciaTetris30_5
         public List<Bloque> bloques = new List<Bloque>();
 
         public Bloque a, b, c, d;
-
-        public bool bajar(List<Pieza> piezas)
+        public Pieza estaNo;
+        public bool bajar(List<Pieza> piezas, Pieza pieza)
         {
+            estaNo = pieza;
             Pieza piezaActual;
             piezaActual = piezas.Last();
             bool total = true;
@@ -27,25 +28,61 @@ namespace HerenciaTetris30_5
                     return total;
                 }
             }
-            foreach (Pieza c in piezas)
-            {
-                if(c != piezaActual) { 
-                foreach (var bloque in bloques)
+
+
+                foreach (Pieza c in piezas)
                 {
-                    foreach (var item in c.bloques)
+                    if (c != piezaActual && c != pieza)
                     {
-                        if (bloque.x == item.x - 1 && bloque.y == item.y)
+                        foreach (var item in c.bloques)
                         {
-                            total = false;
+                            foreach (var bloque in bloques)
+                            {
+                                if (bloque.x + 1 == item.x && bloque.y == item.y)
+                                {
+                                    total = false;
+                                }
+                            }
                         }
                     }
                 }
-                }
-            }
-            return total;
+
+                //foreach (Pieza c in piezas)
+                //{
+                //    if(c != piezaActual) { 
+                //    foreach (var bloque in bloques)
+                //    {
+                //        foreach (var item in c.bloques)
+                //        {
+                //            if (bloque.x + 1 == item.x && bloque.y == item.y)
+                //            {
+                //                total = false;
+                //            }
+                //        }
+                //    }
+                //    }
+                //}
+
+                //foreach (Pieza c in piezas)
+                //{
+                //    if(c != piezaActual) { 
+                //    foreach (var bloque in bloques)
+                //    {
+                //        foreach (var item in c.bloques)
+                //        {
+                //            if (bloque.x + 1 == item.x && bloque.y == item.y)
+                //            {
+                //                total = false;
+                //            }
+                //        }
+                //    }
+                //    }
+                //}
+                return total;
         }
 
         public abstract void Rotar();
+        public int colorP = 0;
         
         public bool colicion(List<Pieza> piezas, int tipo)
         {
@@ -55,6 +92,10 @@ namespace HerenciaTetris30_5
 
             foreach (var bloque in bloques)
             {
+                if (bloque.y == 51 || bloque.y == 69)
+                {
+                    colision = true;
+                }
                 foreach (var pieza in piezas)
                 {
                     if (pieza != piezaActual)
@@ -85,8 +126,8 @@ namespace HerenciaTetris30_5
             bool colision;
             colision = colicion(piezas, 1);
             
-            if (bajar(piezas))
-            {
+            //if (bajar(piezas, estaNo))
+            //{
             foreach (var bloque in bloques)
             {
                 if (bloque.y < 72 && colision == false)
@@ -96,15 +137,15 @@ namespace HerenciaTetris30_5
                     bloque.y++;
                 }
             }
-            }
+            //}
 
         }
         public void izquierda(List<Pieza> piezas)
         {
             bool colision;
             colision = colicion(piezas, 2);
-            if (bajar(piezas))
-            {
+            //if (bajar(piezas,estaNo))
+            //{
                 foreach (var bloque in bloques)
                 {
                     if (bloque.y > 46 && colision == false)
@@ -114,12 +155,11 @@ namespace HerenciaTetris30_5
                         bloque.y--;
                     }
                 }
-            }
+            //}
         }
-        public void color()
+        public void color(int color)
         {
-            Random r = new Random();
-            int color = r.Next(1,4);
+            
             switch (color)
             {
                 case 1:
@@ -139,6 +179,7 @@ namespace HerenciaTetris30_5
         }
         public void nueva(List<Pieza> piezas)
         {
+
             Random r = new Random();
             int num = r.Next(1, 6);
             Linea a1;
@@ -175,32 +216,44 @@ namespace HerenciaTetris30_5
                     break;
             }
         }
-        public void eliminar(List<Pieza> piezas)
+        public bool eliminar(List<Pieza> piezas)
         {
+            int limite = 24;
+            bool eliminar = false;
             int contador = 0;
-            
-            for (int i = 0; i < piezas.Count; i++)
-            {
-                foreach(var bloque in piezas[i].bloques)
-                {
-                    if(bloque.x == 24) contador++;
-                }
-            }
-            if (contador >= 8) {
+            Console.SetCursorPosition(0, 0);
+            Console.Write("  ");
+            for(int e = 1;  e <= limite; e++) { 
                 for (int i = 0; i < piezas.Count; i++)
                 {
-                    //foreach (var bloque in piezas[i].bloques)
-                    for (int j = piezas[i].bloques.Count - 1; j >= 0; j--)
-                        //for (int j = 0; j < 4; j++)
+                    if (piezas[i] != piezas[piezas.Count - 1]) { 
+                        foreach(var bloque in piezas[i].bloques)
                         {
-                        if (piezas[i].bloques[j].x == 24) {
-                            Console.SetCursorPosition(piezas[i].bloques[j].y, 24);
-                            Console.Write(" ");
-                            piezas[i].bloques.Remove(piezas[i].bloques[j]);
+                            if(bloque.x == e) contador++;
                         }
                     }
                 }
+                //Console.SetCursorPosition(0, 0);
+                //Console.Write(contador);
+                if (contador >= 15) {
+                    eliminar = true;
+                    for (int i = piezas.Count -1; i >= 0; i--)
+                    {
+                        //foreach (var bloque in piezas[i].bloques)
+                        for (int j = piezas[i].bloques.Count - 1; j >= 0; j--)
+                        {
+                            if (piezas[i].bloques[j].x == e)
+                            {
+                                Console.SetCursorPosition(piezas[i].bloques[j].y, piezas[i].bloques[j].x);
+                                Console.Write(" ");
+                                piezas[i].bloques.Remove(piezas[i].bloques[j]);
+                            }
+                        }
+                    }
+                }
+                contador = 0;
             }
+            return eliminar;
         }
     }
 }
