@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Alumno\\Desktop\\muriel\\POO\\EjerciciosObligatorios\\ejer1\\",
+  "WorkspaceRootPath": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A6CDB830-FE3D-4996-8D0E-631A10D372DA}|ejer1\\ejer1.csproj|C:\\Users\\Alumno\\Desktop\\muriel\\POO\\EjerciciosObligatorios\\ejer1\\ejer1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A6CDB830-FE3D-4996-8D0E-631A10D372DA}|ejer1\\ejer1.csproj|c:\\users\\muriel\\desktop\\github\\poo\\ejerciciosobligatorios\\ejer1\\ejer1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6CDB830-FE3D-4996-8D0E-631A10D372DA}|ejer1\\ejer1.csproj|solutionrelative:ejer1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6CDB830-FE3D-4996-8D0E-631A10D372DA}|ejer1\\ejer1.csproj|c:\\users\\alumno\\desktop\\muriel\\poo\\ejerciciosobligatorios\\ejer1\\ejer1\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A6CDB830-FE3D-4996-8D0E-631A10D372DA}|ejer1\\ejer1.csproj|C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer1\\ejer1\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6CDB830-FE3D-4996-8D0E-631A10D372DA}|ejer1\\ejer1.csproj|solutionrelative:ejer1\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Cuenta.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\muriel\\POO\\EjerciciosObligatorios\\ejer1\\ejer1\\Cuenta.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer1\\ejer1\\Cuenta.cs",
               "RelativeDocumentMoniker": "ejer1\\Cuenta.cs",
-              "ToolTip": "C:\\Users\\Alumno\\Desktop\\muriel\\POO\\EjerciciosObligatorios\\ejer1\\ejer1\\Cuenta.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer1\\ejer1\\Cuenta.cs",
               "RelativeToolTip": "ejer1\\Cuenta.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwCEAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-28T15:57:20.848Z",
               "EditorCaption": ""
@@ -37,11 +37,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\muriel\\POO\\EjerciciosObligatorios\\ejer1\\ejer1\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer1\\ejer1\\Program.cs",
               "RelativeDocumentMoniker": "ejer1\\Program.cs",
-              "ToolTip": "C:\\Users\\Alumno\\Desktop\\muriel\\POO\\EjerciciosObligatorios\\ejer1\\ejer1\\Program.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer1\\ejer1\\Program.cs",
               "RelativeToolTip": "ejer1\\Program.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wCoAAABNAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACoAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-28T15:56:11.424Z",
               "EditorCaption": ""
