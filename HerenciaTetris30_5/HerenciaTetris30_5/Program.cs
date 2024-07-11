@@ -56,11 +56,11 @@ namespace HerenciaTetris30_5
                                 piezaActual.color(pieza.colorP);
                                 foreach (Bloque bloque in pieza.bloques)
                                 {
-                                    Console.SetCursorPosition(bloque.y, bloque.x++);
+                                    Console.SetCursorPosition(bloque.y, bloque.x);
                                     Console.Write(" ");
                                 }
-                                //foreach (Bloque bloque in pieza.bloques)
-                                //    bloque.x++;
+                                foreach (Bloque bloque in pieza.bloques)
+                                bloque.x++;
                                 foreach (Bloque bloque in pieza.bloques)
                                 {
                                     Console.SetCursorPosition(bloque.y, bloque.x);

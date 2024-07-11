@@ -28,8 +28,6 @@ namespace HerenciaTetris30_5
                     return total;
                 }
             }
-
-
                 foreach (Pieza c in piezas)
                 {
                     if (c != piezaActual && c != pieza)
@@ -46,38 +44,6 @@ namespace HerenciaTetris30_5
                         }
                     }
                 }
-
-                //foreach (Pieza c in piezas)
-                //{
-                //    if(c != piezaActual) { 
-                //    foreach (var bloque in bloques)
-                //    {
-                //        foreach (var item in c.bloques)
-                //        {
-                //            if (bloque.x + 1 == item.x && bloque.y == item.y)
-                //            {
-                //                total = false;
-                //            }
-                //        }
-                //    }
-                //    }
-                //}
-
-                //foreach (Pieza c in piezas)
-                //{
-                //    if(c != piezaActual) { 
-                //    foreach (var bloque in bloques)
-                //    {
-                //        foreach (var item in c.bloques)
-                //        {
-                //            if (bloque.x + 1 == item.x && bloque.y == item.y)
-                //            {
-                //                total = false;
-                //            }
-                //        }
-                //    }
-                //    }
-                //}
                 return total;
         }
 
@@ -137,6 +103,14 @@ namespace HerenciaTetris30_5
                     bloque.y++;
                 }
             }
+            foreach (var bloque in bloques)
+            {
+                if (bloque.y < 72 && colision == false)
+                {
+                    Console.SetCursorPosition(bloque.y, bloque.x);
+                    Console.Write("#");
+                }
+            }
             //}
 
         }
@@ -153,7 +127,17 @@ namespace HerenciaTetris30_5
                         Console.SetCursorPosition(bloque.y, bloque.x);
                         Console.Write(" ");
                         bloque.y--;
-                    }
+                        Console.SetCursorPosition(bloque.y, bloque.x);
+                        Console.Write("#");
+                }
+                }
+                foreach (var bloque in bloques)
+                {
+                if (bloque.y > 46 && colision == false)
+                {
+                    Console.SetCursorPosition(bloque.y, bloque.x);
+                    Console.Write("#");
+                }
                 }
             //}
         }
@@ -235,7 +219,7 @@ namespace HerenciaTetris30_5
                 }
                 //Console.SetCursorPosition(0, 0);
                 //Console.Write(contador);
-                if (contador >= 15) {
+                if (contador >= 19) {
                     eliminar = true;
                     for (int i = piezas.Count -1; i >= 0; i--)
                     {

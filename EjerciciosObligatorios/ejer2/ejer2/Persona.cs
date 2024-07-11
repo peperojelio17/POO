@@ -12,23 +12,23 @@ namespace ejer2
         
         private string nombre = "";
         private int edad = 0;
-        private int dni = 0;
+        private string dni;
         private char sexo;
         private int peso = 0;
         private int altura = 0;
 
 
-        public Persona() { }
+        public Persona() {}
         public Persona(string _nombre, int _edad, char _sexo)
         {
             Nombre = _nombre;
             Edad = _edad;
             Sexo = comprobarSexo(_sexo);
         }        
-        public Persona(string _nombre, int _edad, int _dni, char _sexo, int _peso, int _altura) {
+        public Persona(string _nombre, int _edad, char _sexo, int _peso, int _altura) {
                 Nombre = _nombre;
                 Edad = _edad;
-                Dni = _dni;
+                dni = generaDNI();
                 Sexo = comprobarSexo(_sexo);
                 Peso = _peso;
                 Altura = _altura;
@@ -36,7 +36,6 @@ namespace ejer2
         
         public string Nombre{ get {  return nombre; } set { nombre = value; }}
         public int Edad{ get { return edad; } set { edad = value; } }
-        public int Dni{ get { return dni; } set { dni = value; } }
         public int Peso{ get { return peso; } set { peso = value; } }
         public int Altura { get { return altura; } set { altura = value; } }
         public char Sexo { get { return sexo; } set { sexo = value; } }
