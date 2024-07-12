@@ -14,18 +14,23 @@ namespace ejer2
         private int edad = 0;
         private string dni;
         private char sexo;
-        private int peso = 0;
-        private int altura = 0;
+        private double peso = 0;
+        private double altura = 0;
 
 
-        public Persona() {}
+        public Persona() {
+                dni = generaDNI();
+
+        }
         public Persona(string _nombre, int _edad, char _sexo)
         {
             Nombre = _nombre;
             Edad = _edad;
             Sexo = comprobarSexo(_sexo);
-        }        
-        public Persona(string _nombre, int _edad, char _sexo, int _peso, int _altura) {
+            dni = generaDNI();
+
+        }
+        public Persona(string _nombre, int _edad, char _sexo, double _peso, double _altura) {
                 Nombre = _nombre;
                 Edad = _edad;
                 dni = generaDNI();
@@ -36,13 +41,14 @@ namespace ejer2
         
         public string Nombre{ get {  return nombre; } set { nombre = value; }}
         public int Edad{ get { return edad; } set { edad = value; } }
-        public int Peso{ get { return peso; } set { peso = value; } }
-        public int Altura { get { return altura; } set { altura = value; } }
+        public double Peso{ get { return peso; } set { peso = value; } }
+        public double Altura { get { return altura; } set { altura = value; } }
         public char Sexo { get { return sexo; } set { sexo = value; } }
+        public string DNI { get { return dni; }}
 
         public int calcularIMC()
         {
-            int imc = peso / (altura * altura);
+            double imc = peso / (altura * altura);
             if (imc < 20) return -1;
             if (imc >= 20 && imc <= 25) return 0;
             else return 1;
