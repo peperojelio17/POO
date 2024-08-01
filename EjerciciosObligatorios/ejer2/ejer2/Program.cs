@@ -22,7 +22,7 @@ namespace ejer2
             nombre = Console.ReadLine();
             Console.Write("introdusca la edad de la persona:");
             edad = int.Parse(Console.ReadLine());
-            Console.Write("introdusca el sexo de la persona:");
+            Console.Write("introdusca el sexo de la persona (M o H):");
             sexo = char.Parse(Console.ReadLine());
             Console.Write("introdusca el peso de la persona:");
             peso = double.Parse(Console.ReadLine());
@@ -30,6 +30,7 @@ namespace ejer2
             altura = double.Parse(Console.ReadLine());
 
             p1 = new Persona(nombre,edad, sexo, peso, altura);
+
             p2 = new Persona(nombre, edad, sexo);
             p3 = new Persona();
             p3.Nombre = "Martin";
@@ -37,7 +38,9 @@ namespace ejer2
             p3.Sexo = 'M';
             p3.Peso = 69;
             p3.Altura = 1.62;
-            personas.Add(p1); personas.Add(p2); personas.Add(p3);
+            personas.Add(p1); 
+            personas.Add(p2);
+            personas.Add(p3);
 
             foreach (Persona persona in personas)
             {
@@ -51,6 +54,7 @@ namespace ejer2
                 if (persona.calcularIMC() == -1) Console.WriteLine($"{persona.Nombre} esta por debajo del peso recomendado");
                 else if (persona.calcularIMC() == 0) Console.WriteLine($"{persona.Nombre} esta en su peso ideal");
                 else if (persona.calcularIMC() == 1) Console.WriteLine($"{persona.Nombre} tiene sobrepeso");
+                else if (persona.calcularIMC() == 2) Console.WriteLine($"{persona.Nombre} no especifico su peso");
                 if (persona.esMayorDeEdad()) Console.WriteLine($"{persona.Nombre} es mayor de edad");
                 else Console.WriteLine($"{persona.Nombre} no es mayor de edad");
             }

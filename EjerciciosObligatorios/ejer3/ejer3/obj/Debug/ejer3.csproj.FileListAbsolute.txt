@@ -1,0 +1,7 @@
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer3\ejer3\bin\Debug\ejer3.exe.config
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer3\ejer3\bin\Debug\ejer3.exe
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer3\ejer3\bin\Debug\ejer3.pdb
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer3\ejer3\obj\Debug\ejer3.csproj.AssemblyReference.cache
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer3\ejer3\obj\Debug\ejer3.csproj.CoreCompileInputs.cache
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer3\ejer3\obj\Debug\ejer3.exe
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer3\ejer3\obj\Debug\ejer3.pdb

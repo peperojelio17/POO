@@ -12,3 +12,10 @@ C:\Users\Alumno\Desktop\muriel\sinIf\sinIf\obj\Debug\sinIf.csproj.AssemblyRefere
 C:\Users\Alumno\Desktop\muriel\sinIf\sinIf\obj\Debug\sinIf.csproj.CoreCompileInputs.cache
 C:\Users\Alumno\Desktop\muriel\sinIf\sinIf\obj\Debug\sinIf.exe
 C:\Users\Alumno\Desktop\muriel\sinIf\sinIf\obj\Debug\sinIf.pdb
+C:\Users\MURIEL\Desktop\gitHub\POO\sinIf\sinIf\bin\Debug\sinIf.exe.config
+C:\Users\MURIEL\Desktop\gitHub\POO\sinIf\sinIf\bin\Debug\sinIf.exe
+C:\Users\MURIEL\Desktop\gitHub\POO\sinIf\sinIf\bin\Debug\sinIf.pdb
+C:\Users\MURIEL\Desktop\gitHub\POO\sinIf\sinIf\obj\Debug\sinIf.csproj.AssemblyReference.cache
+C:\Users\MURIEL\Desktop\gitHub\POO\sinIf\sinIf\obj\Debug\sinIf.csproj.CoreCompileInputs.cache
+C:\Users\MURIEL\Desktop\gitHub\POO\sinIf\sinIf\obj\Debug\sinIf.exe
+C:\Users\MURIEL\Desktop\gitHub\POO\sinIf\sinIf\obj\Debug\sinIf.pdb

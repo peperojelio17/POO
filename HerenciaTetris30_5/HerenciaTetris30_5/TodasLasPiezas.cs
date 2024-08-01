@@ -42,6 +42,11 @@ namespace HerenciaTetris30_5
                 a.y = b.y - 1; c.y = b.y + 1; d.y = b.y + 2;
                 rotar = false;
             }
+            foreach (var bloque in bloques)
+            {
+                Console.SetCursorPosition(bloque.y, bloque.x);
+                Console.Write("#");
+            }
         }
 
     }
@@ -99,6 +104,11 @@ namespace HerenciaTetris30_5
                 bloques[i].x = centroX - y;
                 bloques[i].y = centroY + x;
             }
+            foreach (var bloque in bloques)
+            {
+                Console.SetCursorPosition(bloque.y, bloque.x);
+                Console.Write("#");
+            }
         }
     }
     public class Te : Pieza
@@ -132,6 +142,11 @@ namespace HerenciaTetris30_5
                 int y = bloques[i].y - centroY;
                 bloques[i].x = centroX - y;
                 bloques[i].y = centroY + x;
+            }
+            foreach (var bloque in bloques)
+            {
+                Console.SetCursorPosition(bloque.y, bloque.x);
+                Console.Write("#");
             }
         }
     }
@@ -168,6 +183,11 @@ namespace HerenciaTetris30_5
                 bloques[i].x = centroX - y;
                 bloques[i].y = centroY + x;
             }
+            foreach (var bloque in bloques)
+            {
+                Console.SetCursorPosition(bloque.y, bloque.x);
+                Console.Write("#");
+            }
         }
     }
     public class Zeta : Pieza
@@ -201,6 +221,11 @@ namespace HerenciaTetris30_5
                 int y = bloques[i].y - centroY;
                 bloques[i].x = centroX - y;
                 bloques[i].y = centroY + x;
+            }
+            foreach (var bloque in bloques)
+            {
+                Console.SetCursorPosition(bloque.y, bloque.x);
+                Console.Write("#");
             }
         }
     }
