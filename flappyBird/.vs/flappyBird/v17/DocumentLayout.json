@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\flappyBird\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD91AED0-204A-4837-9341-97637184D740}|flappyBird\\flappyBird.csproj|c:\\users\\muriel\\desktop\\github\\poo\\flappybird\\flappybird\\ave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD91AED0-204A-4837-9341-97637184D740}|flappyBird\\flappyBird.csproj|solutionrelative:flappybird\\ave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AD91AED0-204A-4837-9341-97637184D740}|flappyBird\\flappyBird.csproj|C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\flappyBird\\flappybird\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD91AED0-204A-4837-9341-97637184D740}|flappyBird\\flappyBird.csproj|solutionrelative:flappybird\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD91AED0-204A-4837-9341-97637184D740}|flappyBird\\flappyBird.csproj|C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\flappyBird\\flappybird\\tubo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD91AED0-204A-4837-9341-97637184D740}|flappyBird\\flappyBird.csproj|solutionrelative:flappybird\\tubo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AD91AED0-204A-4837-9341-97637184D740}|flappyBird\\flappyBird.csproj|C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\flappyBird\\flappybird\\tablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD91AED0-204A-4837-9341-97637184D740}|flappyBird\\flappyBird.csproj|solutionrelative:flappybird\\tablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD91AED0-204A-4837-9341-97637184D740}|flappyBird\\flappyBird.csproj|c:\\users\\muriel\\desktop\\github\\poo\\flappybird\\flappybird\\ave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD91AED0-204A-4837-9341-97637184D740}|flappyBird\\flappyBird.csproj|solutionrelative:flappybird\\ave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD91AED0-204A-4837-9341-97637184D740}|flappyBird\\flappyBird.csproj|C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\flappyBird\\flappybird\\tubo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD91AED0-204A-4837-9341-97637184D740}|flappyBird\\flappyBird.csproj|solutionrelative:flappybird\\tubo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,55 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Ave.cs",
-              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\flappyBird\\flappyBird\\Ave.cs",
-              "RelativeDocumentMoniker": "flappyBird\\Ave.cs",
-              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\flappyBird\\flappyBird\\Ave.cs",
-              "RelativeToolTip": "flappyBird\\Ave.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAEoAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T03:44:57.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Tubo.cs",
               "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\flappyBird\\flappyBird\\Tubo.cs",
               "RelativeDocumentMoniker": "flappyBird\\Tubo.cs",
               "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\flappyBird\\flappyBird\\Tubo.cs",
               "RelativeToolTip": "flappyBird\\Tubo.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAZAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T04:53:18.331Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "Ave.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\flappyBird\\flappyBird\\Ave.cs",
+              "RelativeDocumentMoniker": "flappyBird\\Ave.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\flappyBird\\flappyBird\\Ave.cs",
+              "RelativeToolTip": "flappyBird\\Ave.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T03:44:57.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Tablero.cs",
               "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\flappyBird\\flappyBird\\Tablero.cs",
               "RelativeDocumentMoniker": "flappyBird\\Tablero.cs",
               "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\flappyBird\\flappyBird\\Tablero.cs",
               "RelativeToolTip": "flappyBird\\Tablero.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAkwCMAAAAOAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAxwBcAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T04:05:29.4Z"
+              "WhenOpened": "2024-07-27T04:05:29.4Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\flappyBird\\flappyBird\\Program.cs",
               "RelativeDocumentMoniker": "flappyBird\\Program.cs",
               "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\flappyBird\\flappyBird\\Program.cs",
               "RelativeToolTip": "flappyBird\\Program.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAUwA8AAAAjAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwCAAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-18T03:16:34.364Z",
               "EditorCaption": ""

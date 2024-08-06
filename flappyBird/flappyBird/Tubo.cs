@@ -27,6 +27,10 @@ namespace flappyBird
             this.x = x;
             y = r.Next(5, alto - 4);
         }
+        public void restart(int x)
+        {
+            this.x = x;
+        }
         public void mover()
         {
             borrar(" ");

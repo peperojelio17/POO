@@ -10,7 +10,8 @@ namespace flappyBird
     {
         private int w;
         private int h;
-        public int puntos;
+        private int puntos;
+        public int Puntos { get { return puntos; } set { puntos = value; } }
         public int W { get { return w; } }
         public int H { get { return h; } }
         public Tablero()
@@ -36,6 +37,10 @@ namespace flappyBird
             } 
             Console.SetCursorPosition(0, 0);
             Console.WriteLine($"Puntos: {puntos}");
+            Console.SetCursorPosition((w/2) - 7, 0);
+            Console.WriteLine($"FLAPPY BIRD");
+            Console.SetCursorPosition(w - 30, 0);
+            Console.WriteLine($"Hecho por Muriel Soiffer 5°10");
         }
         public void perdiste()
         {
@@ -61,10 +66,13 @@ namespace flappyBird
                 Console.SetCursorPosition((w / 2) + 15, i);
                 Console.WriteLine("|");
             }
-            Console.SetCursorPosition((w / 2) - 3, (h / 2) - 1);
+            Console.SetCursorPosition((w / 2) - 3, (h / 2) - 2);
             Console.WriteLine("Perdiste");
-            Console.SetCursorPosition((w / 2) - 4, (h / 2) + 1);
+            Console.SetCursorPosition((w / 2) - 4, (h / 2) );
             Console.WriteLine($"Puntos: {puntos}");
+            Console.SetCursorPosition((w / 2) - 5, (h / 2) + 2);
+
+            Console.WriteLine($"Reiniciar (R)");
         }
     }
 }

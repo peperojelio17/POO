@@ -20,6 +20,11 @@ namespace flappyBird
             y = (t.H / 2) - 1;
             puntos = 0;
         }
+        public void restart()
+        {
+            y = (t.H / 2) - 1;
+            puntos = 0;
+        }
         public void saltar()
         {
             borrar(" ");
