@@ -5,3 +5,10 @@ C:\Users\MURIEL\Desktop\gitHub\POO\flappyBird\flappyBird\obj\Debug\flappyBird.cs
 C:\Users\MURIEL\Desktop\gitHub\POO\flappyBird\flappyBird\obj\Debug\flappyBird.csproj.CoreCompileInputs.cache
 C:\Users\MURIEL\Desktop\gitHub\POO\flappyBird\flappyBird\obj\Debug\flappyBird.exe
 C:\Users\MURIEL\Desktop\gitHub\POO\flappyBird\flappyBird\obj\Debug\flappyBird.pdb
+C:\Users\A-04\Desktop\Muriel\POO\flappyBird\flappyBird\bin\Debug\flappyBird.exe.config
+C:\Users\A-04\Desktop\Muriel\POO\flappyBird\flappyBird\bin\Debug\flappyBird.exe
+C:\Users\A-04\Desktop\Muriel\POO\flappyBird\flappyBird\bin\Debug\flappyBird.pdb
+C:\Users\A-04\Desktop\Muriel\POO\flappyBird\flappyBird\obj\Debug\flappyBird.csproj.AssemblyReference.cache
+C:\Users\A-04\Desktop\Muriel\POO\flappyBird\flappyBird\obj\Debug\flappyBird.csproj.CoreCompileInputs.cache
+C:\Users\A-04\Desktop\Muriel\POO\flappyBird\flappyBird\obj\Debug\flappyBird.exe
+C:\Users\A-04\Desktop\Muriel\POO\flappyBird\flappyBird\obj\Debug\flappyBird.pdb
