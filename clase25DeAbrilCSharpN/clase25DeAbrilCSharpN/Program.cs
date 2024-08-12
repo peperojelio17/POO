@@ -109,7 +109,6 @@ namespace clase25DeAbrilCSharpN
                             copo.fila++;
                             Console.SetCursorPosition(copo.col, copo.fila);
                             Console.Write("*");
-                            
                         } 
                         h1 = h2;
                         

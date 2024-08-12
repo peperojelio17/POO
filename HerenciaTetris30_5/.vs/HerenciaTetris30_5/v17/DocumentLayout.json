@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\HerenciaTetris30_5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{783BC19A-A6E4-4008-9871-49545727E048}|HerenciaTetris30_5\\HerenciaTetris30_5.csproj|C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\HerenciaTetris30_5\\herenciatetris30_5\\bloque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{783BC19A-A6E4-4008-9871-49545727E048}|HerenciaTetris30_5\\HerenciaTetris30_5.csproj|solutionrelative:herenciatetris30_5\\bloque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{783BC19A-A6E4-4008-9871-49545727E048}|HerenciaTetris30_5\\HerenciaTetris30_5.csproj|c:\\users\\muriel\\desktop\\github\\poo\\herenciatetris30_5\\herenciatetris30_5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{783BC19A-A6E4-4008-9871-49545727E048}|HerenciaTetris30_5\\HerenciaTetris30_5.csproj|solutionrelative:herenciatetris30_5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{783BC19A-A6E4-4008-9871-49545727E048}|HerenciaTetris30_5\\HerenciaTetris30_5.csproj|C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\HerenciaTetris30_5\\herenciatetris30_5\\pieza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{783BC19A-A6E4-4008-9871-49545727E048}|HerenciaTetris30_5\\HerenciaTetris30_5.csproj|solutionrelative:herenciatetris30_5\\pieza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{783BC19A-A6E4-4008-9871-49545727E048}|HerenciaTetris30_5\\HerenciaTetris30_5.csproj|C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\HerenciaTetris30_5\\herenciatetris30_5\\tablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,12 +19,8 @@
       "RelativeMoniker": "D:0:0:{783BC19A-A6E4-4008-9871-49545727E048}|HerenciaTetris30_5\\HerenciaTetris30_5.csproj|solutionrelative:herenciatetris30_5\\todaslaspiezas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{783BC19A-A6E4-4008-9871-49545727E048}|HerenciaTetris30_5\\HerenciaTetris30_5.csproj|c:\\users\\muriel\\desktop\\github\\poo\\herenciatetris30_5\\herenciatetris30_5\\pieza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{783BC19A-A6E4-4008-9871-49545727E048}|HerenciaTetris30_5\\HerenciaTetris30_5.csproj|solutionrelative:herenciatetris30_5\\pieza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{783BC19A-A6E4-4008-9871-49545727E048}|HerenciaTetris30_5\\HerenciaTetris30_5.csproj|C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\HerenciaTetris30_5\\herenciatetris30_5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{783BC19A-A6E4-4008-9871-49545727E048}|HerenciaTetris30_5\\HerenciaTetris30_5.csproj|solutionrelative:herenciatetris30_5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{783BC19A-A6E4-4008-9871-49545727E048}|HerenciaTetris30_5\\HerenciaTetris30_5.csproj|C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\HerenciaTetris30_5\\herenciatetris30_5\\bloque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{783BC19A-A6E4-4008-9871-49545727E048}|HerenciaTetris30_5\\HerenciaTetris30_5.csproj|solutionrelative:herenciatetris30_5\\bloque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +30,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Bloque.cs",
               "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\HerenciaTetris30_5\\HerenciaTetris30_5\\Bloque.cs",
               "RelativeDocumentMoniker": "HerenciaTetris30_5\\Bloque.cs",
@@ -42,59 +46,56 @@
               "RelativeToolTip": "HerenciaTetris30_5\\Bloque.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T16:07:08.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-28T16:07:08.691Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Tablero.cs",
               "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\HerenciaTetris30_5\\HerenciaTetris30_5\\Tablero.cs",
               "RelativeDocumentMoniker": "HerenciaTetris30_5\\Tablero.cs",
               "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\HerenciaTetris30_5\\HerenciaTetris30_5\\Tablero.cs",
               "RelativeToolTip": "HerenciaTetris30_5\\Tablero.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAcAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T14:24:39.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-31T14:24:39.427Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TodasLasPiezas.cs",
               "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\HerenciaTetris30_5\\HerenciaTetris30_5\\TodasLasPiezas.cs",
               "RelativeDocumentMoniker": "HerenciaTetris30_5\\TodasLasPiezas.cs",
               "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\HerenciaTetris30_5\\HerenciaTetris30_5\\TodasLasPiezas.cs",
               "RelativeToolTip": "HerenciaTetris30_5\\TodasLasPiezas.cs",
-              "ViewState": "AQIAANoAAAAAAAAAAAAAwJUAAAANAAAA",
+              "ViewState": "AQIAAM4AAAAAAAAAAAAmwNoAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T22:59:08.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T22:59:08.145Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Pieza.cs",
               "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\HerenciaTetris30_5\\HerenciaTetris30_5\\Pieza.cs",
               "RelativeDocumentMoniker": "HerenciaTetris30_5\\Pieza.cs",
               "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\HerenciaTetris30_5\\HerenciaTetris30_5\\Pieza.cs",
               "RelativeToolTip": "HerenciaTetris30_5\\Pieza.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAABEAAAAJAAAA",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAgwEcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T22:56:37.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T22:56:37.761Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\HerenciaTetris30_5\\HerenciaTetris30_5\\Program.cs",
               "RelativeDocumentMoniker": "HerenciaTetris30_5\\Program.cs",
               "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\HerenciaTetris30_5\\HerenciaTetris30_5\\Program.cs",
               "RelativeToolTip": "HerenciaTetris30_5\\Program.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAAACMAAAAVAAAA",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAAADMAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T17:28:16.958Z"
+              "WhenOpened": "2024-05-30T17:28:16.958Z",
+              "EditorCaption": ""
             }
           ]
         }

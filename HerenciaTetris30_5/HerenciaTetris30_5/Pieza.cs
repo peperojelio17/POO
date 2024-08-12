@@ -47,7 +47,30 @@ namespace HerenciaTetris30_5
                 return total;
         }
 
-        public abstract void Rotar();
+        public void Rotar()
+        {
+            
+            foreach (var bloque in bloques)
+            {
+                Console.SetCursorPosition(bloque.y, bloque.x);
+                Console.Write(" ");
+            }
+            int centroX = bloques[1].x;
+            int centroY = bloques[1].y;
+
+            for (int i = 0; i < bloques.Count; i++)
+            {
+                int x = bloques[i].x - centroX;
+                int y = bloques[i].y - centroY;
+                bloques[i].x = centroX - y;
+                bloques[i].y = centroY + x;
+            }
+            foreach (var bloque in bloques)
+            {
+                Console.SetCursorPosition(bloque.y, bloque.x);
+                Console.Write("#");
+            }
+    }
         public int colorP = 0;
         
         public bool colicion(List<Pieza> piezas, int tipo)
