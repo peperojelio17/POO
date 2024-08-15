@@ -1,0 +1,10 @@
+C:\Users\A-04\Desktop\Muriel\POO\clase15_08Forms\clase15_08Forms\bin\Debug\clase15_08Forms.exe.config
+C:\Users\A-04\Desktop\Muriel\POO\clase15_08Forms\clase15_08Forms\bin\Debug\clase15_08Forms.exe
+C:\Users\A-04\Desktop\Muriel\POO\clase15_08Forms\clase15_08Forms\bin\Debug\clase15_08Forms.pdb
+C:\Users\A-04\Desktop\Muriel\POO\clase15_08Forms\clase15_08Forms\obj\Debug\clase15_08Forms.csproj.AssemblyReference.cache
+C:\Users\A-04\Desktop\Muriel\POO\clase15_08Forms\clase15_08Forms\obj\Debug\clase15_08Forms.Form1.resources
+C:\Users\A-04\Desktop\Muriel\POO\clase15_08Forms\clase15_08Forms\obj\Debug\clase15_08Forms.Properties.Resources.resources
+C:\Users\A-04\Desktop\Muriel\POO\clase15_08Forms\clase15_08Forms\obj\Debug\clase15_08Forms.csproj.GenerateResource.cache
+C:\Users\A-04\Desktop\Muriel\POO\clase15_08Forms\clase15_08Forms\obj\Debug\clase15_08Forms.csproj.CoreCompileInputs.cache
+C:\Users\A-04\Desktop\Muriel\POO\clase15_08Forms\clase15_08Forms\obj\Debug\clase15_08Forms.exe
+C:\Users\A-04\Desktop\Muriel\POO\clase15_08Forms\clase15_08Forms\obj\Debug\clase15_08Forms.pdb

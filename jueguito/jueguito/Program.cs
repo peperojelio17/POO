@@ -30,14 +30,14 @@ namespace jueguito
                         if (Console.KeyAvailable)
                         {
                             var tecla = Console.ReadKey(true).Key;
-                            if (tecla == ConsoleKey.RightArrow) jugador.derecha();
-                            if (tecla == ConsoleKey.LeftArrow) jugador.izquierda();
-                            if (tecla == ConsoleKey.UpArrow) jugador.arriba();
-                            if (tecla == ConsoleKey.DownArrow) jugador.abajo();
-                            if (tecla == ConsoleKey.D) disparos.tiro(0);
-                            if (tecla == ConsoleKey.W) disparos.tiro(1);
-                            if (tecla == ConsoleKey.A) disparos.tiro(2);
-                            if (tecla == ConsoleKey.S) disparos.tiro(3);
+                            if (tecla == ConsoleKey.D) jugador.derecha();
+                            if (tecla == ConsoleKey.A) jugador.izquierda();
+                            if (tecla == ConsoleKey.W) jugador.arriba();
+                            if (tecla == ConsoleKey.S) jugador.abajo();
+                            if (tecla == ConsoleKey.RightArrow) disparos.tiro(0);
+                            if (tecla == ConsoleKey.UpArrow) disparos.tiro(1);
+                            if (tecla == ConsoleKey.LeftArrow) disparos.tiro(2);
+                            if (tecla == ConsoleKey.DownArrow) disparos.tiro(3);
                         }
                         jugador.perderVida(enemigos.enemigos);
                         enemigos.dibujar(jugador.X, jugador.Y, disparos.list);
