@@ -12,31 +12,49 @@ namespace jueguito
         {
             Console.CursorVisible = false;
 
+            bool restart = false;
             Jugador jugador = new Jugador();
             Disparos disparos = new Disparos();
-            Enemigo enemigo = new Enemigo();
             Enemigos enemigos = new Enemigos();
+            Tablero tablero = new Tablero();
 
-            while (true)
-            {
-                enemigos.crearEnemigo();
-                disparos.y = jugador.Y;
-                disparos.x = jugador.X;
-                if (Console.KeyAvailable)
-                {
-                    var tecla = Console.ReadKey(true).Key;
-                    if (tecla == ConsoleKey.RightArrow) jugador.derecha();
-                    if (tecla == ConsoleKey.LeftArrow) jugador.izquierda();
-                    if (tecla == ConsoleKey.UpArrow) jugador.arriba();
-                    if (tecla == ConsoleKey.DownArrow) jugador.abajo();
-                    if (tecla == ConsoleKey.D) disparos.tiro(0);
-                    if (tecla == ConsoleKey.W) disparos.tiro(1);
-                    if (tecla == ConsoleKey.A) disparos.tiro(2);
-                    if (tecla == ConsoleKey.S) disparos.tiro(3);
+            while(true) { 
+                if (restart == false)
+                {  
+                    while (jugador.Vida != 0)
+                    {
+                        tablero.dibujar(enemigos.Puntos, jugador.Vida);
+                        enemigos.crearEnemigo();
+                        disparos.y = jugador.Y;
+                        disparos.x = jugador.X;
+                        if (Console.KeyAvailable)
+                        {
+                            var tecla = Console.ReadKey(true).Key;
+                            if (tecla == ConsoleKey.RightArrow) jugador.derecha();
+                            if (tecla == ConsoleKey.LeftArrow) jugador.izquierda();
+                            if (tecla == ConsoleKey.UpArrow) jugador.arriba();
+                            if (tecla == ConsoleKey.DownArrow) jugador.abajo();
+                            if (tecla == ConsoleKey.D) disparos.tiro(0);
+                            if (tecla == ConsoleKey.W) disparos.tiro(1);
+                            if (tecla == ConsoleKey.A) disparos.tiro(2);
+                            if (tecla == ConsoleKey.S) disparos.tiro(3);
+                        }
+                        jugador.perderVida(enemigos.enemigos);
+                        enemigos.dibujar(jugador.X, jugador.Y, disparos.list);
+                        disparos.dibujar(enemigos.enemigos);
+                        jugador.dibujar();
+                    }
+                    restart = true;
+                    tablero.perdiste();
+                    var teclaR = Console.ReadKey(true).Key;
+                    if (teclaR == ConsoleKey.R)
+                    {
+                        Console.Clear();
+                        jugador.Vida = 3;
+                        restart = false;
+                    }
+
                 }
-                enemigos.dibujar(jugador.X, jugador.Y, disparos.list);
-                disparos.dibujar(enemigos.enemigos);
-                jugador.dibujar();
             }
         }
     }

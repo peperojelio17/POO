@@ -8,15 +8,18 @@ namespace jueguito
 {
     public class Jugador
     {
+        private int vida;
         private int w = Console.WindowWidth;
         private int h = Console.WindowHeight;
         private int x;
         private int y;
         public int X { get { return x; } set { x = value; } }
         public int Y { get { return y; } set { y = value; } }
+        public int Vida { get { return vida; } set { vida = value; } }
         public Jugador() {
             x = w / 2;
             y = h / 2;
+            vida = 3;
         }
         private string jugador = "Tu";
         public void dibujar()
@@ -56,6 +59,15 @@ namespace jueguito
             borrar();
             y++;
             dibujar();
+        }
+        //-------------------HUD-------------
+        public void perderVida(List<Enemigo> lista)
+        {
+            foreach (var Ene in lista)
+            {
+                if (x == (int)Math.Floor(Ene.X) + 1 && y == (int)Math.Floor(Ene.Y) + 1)
+                    vida--;
+            }
         }
     }
 }

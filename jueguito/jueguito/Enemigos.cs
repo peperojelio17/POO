@@ -11,10 +11,13 @@ namespace jueguito
     {
         public List<Enemigo> enemigos;
         private double contador;
+        private int puntos;
+        public int Puntos { get { return puntos; } }
         public Enemigos()
         {
             enemigos = new List<Enemigo>();
             contador = 0;
+            puntos = 0;
         }
         public void crearEnemigo()
         {
@@ -29,6 +32,7 @@ namespace jueguito
                 if(enemigos[i].Ene <= 0)
                 {
                     enemigos.Remove(enemigos[i]);
+                    puntos += 100;
                 }
             }
         }
@@ -45,11 +49,14 @@ namespace jueguito
     {
         private int w = Console.WindowWidth;
         private int h = Console.WindowHeight;
-        private double x; 
+        private double xAnte; 
+        private double yAnte;
+        private double x;
         private double y;
         private int xj;
         private int yj;
         private int enemigo;
+        private int contador;
         public double X { get { return x; } set { x = value; } }
         public double Y { get { return y; } set { y = value; } }
         public int Ene { get { return enemigo; } }
@@ -60,6 +67,7 @@ namespace jueguito
             x = r.Next(0,w - 5); 
             y = r.Next(0, h - 3);
             enemigo = 3;
+            contador = 0;
         }
         public void dibujar()
         {
@@ -75,6 +83,11 @@ namespace jueguito
         //-----------logica-----------------
         private void siguiendo()
         {
+            if(contador == 60) 
+            {
+                xAnte = x; yAnte = y;
+                contador = 0;
+            }
             if(enemigo > 0) 
             {
             borrar();
@@ -86,6 +99,7 @@ namespace jueguito
             }
             else if(enemigo <= 0)
                 borrar();
+            contador++;
         }
         public void seguir(int xj, int yj) 
         {
@@ -99,6 +113,11 @@ namespace jueguito
             {
                 if (bala.X == (int)Math.Floor(x) + 1 && bala.Y == (int)Math.Floor(y) + 1 )
                     enemigo--;
+            }
+            //Revisar esto despues
+            if (xj == (int)Math.Floor(x) + 1 && yj == (int)Math.Floor(y) + 1)
+            {
+                x = xAnte ; y = yAnte;
             }
         }
     }

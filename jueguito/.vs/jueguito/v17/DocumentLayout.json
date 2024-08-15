@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\jueguito\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F278349-23B5-44BE-B73D-1F1D5C70F268}|jueguito\\jueguito.csproj|C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\jueguito\\jueguito\\disparar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F278349-23B5-44BE-B73D-1F1D5C70F268}|jueguito\\jueguito.csproj|solutionrelative:jueguito\\disparar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1F278349-23B5-44BE-B73D-1F1D5C70F268}|jueguito\\jueguito.csproj|C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\jueguito\\jueguito\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F278349-23B5-44BE-B73D-1F1D5C70F268}|jueguito\\jueguito.csproj|solutionrelative:jueguito\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,8 +11,16 @@
       "RelativeMoniker": "D:0:0:{1F278349-23B5-44BE-B73D-1F1D5C70F268}|jueguito\\jueguito.csproj|solutionrelative:jueguito\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1F278349-23B5-44BE-B73D-1F1D5C70F268}|jueguito\\jueguito.csproj|C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\jueguito\\jueguito\\disparar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F278349-23B5-44BE-B73D-1F1D5C70F268}|jueguito\\jueguito.csproj|solutionrelative:jueguito\\disparar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1F278349-23B5-44BE-B73D-1F1D5C70F268}|jueguito\\jueguito.csproj|c:\\users\\muriel\\desktop\\github\\poo\\jueguito\\jueguito\\enemigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F278349-23B5-44BE-B73D-1F1D5C70F268}|jueguito\\jueguito.csproj|solutionrelative:jueguito\\enemigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F278349-23B5-44BE-B73D-1F1D5C70F268}|jueguito\\jueguito.csproj|c:\\users\\muriel\\desktop\\github\\poo\\jueguito\\jueguito\\tablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F278349-23B5-44BE-B73D-1F1D5C70F268}|jueguito\\jueguito.csproj|solutionrelative:jueguito\\tablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,13 +38,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "tablero.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\jueguito\\jueguito\\tablero.cs",
+              "RelativeDocumentMoniker": "jueguito\\tablero.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\jueguito\\jueguito\\tablero.cs",
+              "RelativeToolTip": "jueguito\\tablero.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAIwEIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T02:39:53.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "disparar.cs",
               "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\jueguito\\jueguito\\disparar.cs",
               "RelativeDocumentMoniker": "jueguito\\disparar.cs",
               "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\jueguito\\jueguito\\disparar.cs",
               "RelativeToolTip": "jueguito\\disparar.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAiwD4AAAB4AAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAUwF4AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-11T15:38:31.751Z",
               "EditorCaption": ""
@@ -53,33 +70,33 @@
               "RelativeDocumentMoniker": "jueguito\\Enemigos.cs",
               "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\jueguito\\jueguito\\Enemigos.cs",
               "RelativeToolTip": "jueguito\\Enemigos.cs",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAcwGMAAAA0AAAA",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAAAHkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-11T15:30:14.308Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Jugador.cs",
               "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\jueguito\\jueguito\\Jugador.cs",
               "RelativeDocumentMoniker": "jueguito\\Jugador.cs",
               "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\jueguito\\jueguito\\Jugador.cs",
               "RelativeToolTip": "jueguito\\Jugador.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAiwBAAAAAaAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAswEYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-10T03:06:01.476Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\jueguito\\jueguito\\Program.cs",
               "RelativeDocumentMoniker": "jueguito\\Program.cs",
               "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\jueguito\\jueguito\\Program.cs",
               "RelativeToolTip": "jueguito\\Program.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAADwvyEAAABAAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADQAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-10T00:55:37.549Z",
               "EditorCaption": ""
