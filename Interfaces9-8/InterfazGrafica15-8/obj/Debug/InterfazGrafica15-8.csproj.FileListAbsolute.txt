@@ -1,0 +1,10 @@
+C:\Users\A-03\source\repos\Interfaces9-8\InterfazGrafica15-8\bin\Debug\InterfazGrafica15-8.exe.config
+C:\Users\A-03\source\repos\Interfaces9-8\InterfazGrafica15-8\bin\Debug\InterfazGrafica15-8.exe
+C:\Users\A-03\source\repos\Interfaces9-8\InterfazGrafica15-8\bin\Debug\InterfazGrafica15-8.pdb
+C:\Users\A-03\source\repos\Interfaces9-8\InterfazGrafica15-8\obj\Debug\InterfazGrafica15-8.csproj.AssemblyReference.cache
+C:\Users\A-03\source\repos\Interfaces9-8\InterfazGrafica15-8\obj\Debug\InterfazGrafica15_8.Form1.resources
+C:\Users\A-03\source\repos\Interfaces9-8\InterfazGrafica15-8\obj\Debug\InterfazGrafica15_8.Properties.Resources.resources
+C:\Users\A-03\source\repos\Interfaces9-8\InterfazGrafica15-8\obj\Debug\InterfazGrafica15-8.csproj.GenerateResource.cache
+C:\Users\A-03\source\repos\Interfaces9-8\InterfazGrafica15-8\obj\Debug\InterfazGrafica15-8.csproj.CoreCompileInputs.cache
+C:\Users\A-03\source\repos\Interfaces9-8\InterfazGrafica15-8\obj\Debug\InterfazGrafica15-8.exe
+C:\Users\A-03\source\repos\Interfaces9-8\InterfazGrafica15-8\obj\Debug\InterfazGrafica15-8.pdb

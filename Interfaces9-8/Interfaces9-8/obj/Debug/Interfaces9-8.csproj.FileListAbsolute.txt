@@ -1,0 +1,7 @@
+C:\Users\A-03\source\repos\Interfaces9-8\Interfaces9-8\bin\Debug\Interfaces9-8.exe.config
+C:\Users\A-03\source\repos\Interfaces9-8\Interfaces9-8\bin\Debug\Interfaces9-8.exe
+C:\Users\A-03\source\repos\Interfaces9-8\Interfaces9-8\bin\Debug\Interfaces9-8.pdb
+C:\Users\A-03\source\repos\Interfaces9-8\Interfaces9-8\obj\Debug\Interfaces9-8.csproj.AssemblyReference.cache
+C:\Users\A-03\source\repos\Interfaces9-8\Interfaces9-8\obj\Debug\Interfaces9-8.csproj.CoreCompileInputs.cache
+C:\Users\A-03\source\repos\Interfaces9-8\Interfaces9-8\obj\Debug\Interfaces9-8.exe
+C:\Users\A-03\source\repos\Interfaces9-8\Interfaces9-8\obj\Debug\Interfaces9-8.pdb
