@@ -262,5 +262,22 @@ namespace HerenciaTetris30_5
             }
             return eliminar;
         }
+        public bool noPerdiste(List<Pieza> piezas)
+        {
+            bool eliminar = true;
+            Console.SetCursorPosition(0, 0);
+            Console.Write("  ");
+            for (int i = 0; i < piezas.Count; i++)
+            {
+                if (piezas[i] != piezas[piezas.Count - 1])
+                {
+                    foreach (var bloque in piezas[i].bloques)
+                    {
+                        if (bloque.x == 1) eliminar = false;
+                    }
+                }
+            }
+            return eliminar;
+        }
     }
 }

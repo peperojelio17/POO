@@ -14,23 +14,25 @@ namespace HerenciaTetris30_5
         static void Main(string[] args)
         {
             Console.CursorVisible = false;
+            bool noPerdiste = true;
             Tablero t = new Tablero();
             t.dibujar();
             Pieza proximaPieza;
             Pieza piezaActual;
-            Ese a1;
+            Ele a1;
             bool nuevaPieza = false;
-            a1 = new Ese();
+            a1 = new Ele();
             proximaPieza = new Ele();
             piezas.Add(a1);
             nuPiezas.Add(proximaPieza);
-            while (true)
+            while (noPerdiste)
             {
                 proximaPieza = nuPiezas[piezas.Count - 1];
                 piezaActual = piezas[piezas.Count - 1];
+                noPerdiste = piezaActual.noPerdiste(piezas);
                 h2 = DateTime.Now;
                 transurso = h2 - h1;
-                if (transurso.Milliseconds > 200)
+                if (transurso.Milliseconds > 50)
                 {
                     if (Console.KeyAvailable)
                     {
@@ -88,8 +90,8 @@ namespace HerenciaTetris30_5
                         nuevaPieza = false;
                     }
                 }
-
             }
+            t.perdiste();
         }
     }
 }
