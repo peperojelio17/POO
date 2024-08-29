@@ -42,9 +42,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(115, 322);
+            this.button1.Location = new System.Drawing.Point(85, 307);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(97, 100);
+            this.button1.Size = new System.Drawing.Size(76, 35);
             this.button1.TabIndex = 0;
             this.button1.Text = "hola manio";
             this.button1.UseVisualStyleBackColor = true;
@@ -52,9 +52,9 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(11, 264);
+            this.textBox1.Location = new System.Drawing.Point(11, 281);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(335, 20);
+            this.textBox1.Size = new System.Drawing.Size(243, 20);
             this.textBox1.TabIndex = 1;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
@@ -62,10 +62,10 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(45, 94);
+            this.listBox1.Location = new System.Drawing.Point(11, 12);
             this.listBox1.Name = "listBox1";
             this.listBox1.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.listBox1.Size = new System.Drawing.Size(262, 147);
+            this.listBox1.Size = new System.Drawing.Size(243, 251);
             this.listBox1.TabIndex = 2;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             this.listBox1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listBox1_MouseDoubleClick);
@@ -73,28 +73,28 @@
             // listBox2
             // 
             this.listBox2.FormattingEnabled = true;
-            this.listBox2.Location = new System.Drawing.Point(631, 103);
+            this.listBox2.Location = new System.Drawing.Point(337, 12);
             this.listBox2.Name = "listBox2";
             this.listBox2.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.listBox2.Size = new System.Drawing.Size(278, 147);
+            this.listBox2.Size = new System.Drawing.Size(242, 251);
             this.listBox2.TabIndex = 3;
             this.listBox2.SelectedIndexChanged += new System.EventHandler(this.listBox2_SelectedIndexChanged);
             this.listBox2.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listBox2_MouseDoubleClick);
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(611, 273);
+            this.textBox2.Location = new System.Drawing.Point(337, 281);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(338, 20);
+            this.textBox2.Size = new System.Drawing.Size(242, 20);
             this.textBox2.TabIndex = 4;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(722, 331);
+            this.button2.Location = new System.Drawing.Point(422, 307);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 100);
+            this.button2.Size = new System.Drawing.Size(76, 35);
             this.button2.TabIndex = 5;
             this.button2.Text = "hola manio";
             this.button2.UseVisualStyleBackColor = true;
@@ -102,9 +102,9 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(434, 35);
+            this.button3.Location = new System.Drawing.Point(260, 12);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(94, 48);
+            this.button3.Size = new System.Drawing.Size(71, 34);
             this.button3.TabIndex = 6;
             this.button3.Text = "<";
             this.button3.UseVisualStyleBackColor = true;
@@ -112,9 +112,9 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(434, 89);
+            this.button4.Location = new System.Drawing.Point(260, 52);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(94, 42);
+            this.button4.Size = new System.Drawing.Size(71, 34);
             this.button4.TabIndex = 7;
             this.button4.Text = "<<";
             this.button4.UseVisualStyleBackColor = true;
@@ -122,9 +122,9 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(434, 320);
+            this.button5.Location = new System.Drawing.Point(260, 189);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(94, 42);
+            this.button5.Size = new System.Drawing.Size(71, 34);
             this.button5.TabIndex = 9;
             this.button5.Text = ">>";
             this.button5.UseVisualStyleBackColor = true;
@@ -132,9 +132,9 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(434, 266);
+            this.button6.Location = new System.Drawing.Point(260, 229);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(94, 48);
+            this.button6.Size = new System.Drawing.Size(71, 34);
             this.button6.TabIndex = 8;
             this.button6.Text = ">";
             this.button6.UseVisualStyleBackColor = true;
@@ -144,7 +144,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(963, 629);
+            this.ClientSize = new System.Drawing.Size(592, 357);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button4);

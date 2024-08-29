@@ -1,0 +1,7 @@
+C:\Users\A-04\Desktop\Muriel\POO\Interfaces08_09\Interfaces08_09\bin\Debug\Interfaces08_09.exe.config
+C:\Users\A-04\Desktop\Muriel\POO\Interfaces08_09\Interfaces08_09\bin\Debug\Interfaces08_09.exe
+C:\Users\A-04\Desktop\Muriel\POO\Interfaces08_09\Interfaces08_09\bin\Debug\Interfaces08_09.pdb
+C:\Users\A-04\Desktop\Muriel\POO\Interfaces08_09\Interfaces08_09\obj\Debug\Interfaces08_09.csproj.AssemblyReference.cache
+C:\Users\A-04\Desktop\Muriel\POO\Interfaces08_09\Interfaces08_09\obj\Debug\Interfaces08_09.csproj.CoreCompileInputs.cache
+C:\Users\A-04\Desktop\Muriel\POO\Interfaces08_09\Interfaces08_09\obj\Debug\Interfaces08_09.exe
+C:\Users\A-04\Desktop\Muriel\POO\Interfaces08_09\Interfaces08_09\obj\Debug\Interfaces08_09.pdb

@@ -28,7 +28,9 @@ namespace InterfazGrafica15_8
 
         private void button1_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Add(textBox1.Text);   
+            listBox1.Items.Add(textBox1.Text);
+            textBox1.Text = "";
+            textBox1.Focus();
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
@@ -56,6 +58,8 @@ namespace InterfazGrafica15_8
             if (e.KeyChar == 13)
             {
                 listBox1.Items.Add(textBox1.Text);
+                textBox1.Text = "";
+                textBox1.Focus();
             }
         }
 
@@ -72,6 +76,8 @@ namespace InterfazGrafica15_8
         private void button2_Click(object sender, EventArgs e)
         {
             listBox2.Items.Add(textBox2.Text);
+            textBox2.Text = "";
+            textBox2.Focus();
         }
 
         private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
@@ -79,6 +85,8 @@ namespace InterfazGrafica15_8
             if (e.KeyChar == 13)
             {
                 listBox2.Items.Add(textBox2.Text);
+                textBox2.Text = "";
+                textBox2.Focus();
             }
         }
 
@@ -130,7 +138,7 @@ namespace InterfazGrafica15_8
             {
                 listBox2.Items.Add(item);
             }
-            for (int i = listBox1.Items.Count - 1; i >= 0 ; i--)
+            for (int i = listBox1.SelectedItems.Count - 1; i >= 0 ; i--)
             {
                 listBox1.Items.RemoveAt(i);
             }

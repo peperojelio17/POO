@@ -12,3 +12,10 @@ C:\Users\Muriel\Desktop\github\POO\HerenciaTetris30_5\HerenciaTetris30_5\obj\Deb
 C:\Users\Muriel\Desktop\github\POO\HerenciaTetris30_5\HerenciaTetris30_5\obj\Debug\HerenciaTetris30_5.csproj.CoreCompileInputs.cache
 C:\Users\Muriel\Desktop\github\POO\HerenciaTetris30_5\HerenciaTetris30_5\obj\Debug\HerenciaTetris30_5.exe
 C:\Users\Muriel\Desktop\github\POO\HerenciaTetris30_5\HerenciaTetris30_5\obj\Debug\HerenciaTetris30_5.pdb
+C:\Users\A-04\Desktop\Muriel\POO\HerenciaTetris30_5\HerenciaTetris30_5\bin\Debug\HerenciaTetris30_5.exe.config
+C:\Users\A-04\Desktop\Muriel\POO\HerenciaTetris30_5\HerenciaTetris30_5\bin\Debug\HerenciaTetris30_5.exe
+C:\Users\A-04\Desktop\Muriel\POO\HerenciaTetris30_5\HerenciaTetris30_5\bin\Debug\HerenciaTetris30_5.pdb
+C:\Users\A-04\Desktop\Muriel\POO\HerenciaTetris30_5\HerenciaTetris30_5\obj\Debug\HerenciaTetris30_5.csproj.AssemblyReference.cache
+C:\Users\A-04\Desktop\Muriel\POO\HerenciaTetris30_5\HerenciaTetris30_5\obj\Debug\HerenciaTetris30_5.csproj.CoreCompileInputs.cache
+C:\Users\A-04\Desktop\Muriel\POO\HerenciaTetris30_5\HerenciaTetris30_5\obj\Debug\HerenciaTetris30_5.exe
+C:\Users\A-04\Desktop\Muriel\POO\HerenciaTetris30_5\HerenciaTetris30_5\obj\Debug\HerenciaTetris30_5.pdb
