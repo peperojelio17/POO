@@ -12,3 +12,10 @@ C:\Users\Muriel\Desktop\github\POO\clase16DeMayo\clase16DeMayo\obj\Debug\clase16
 C:\Users\Muriel\Desktop\github\POO\clase16DeMayo\clase16DeMayo\obj\Debug\clase16DeMayo.csproj.CoreCompileInputs.cache
 C:\Users\Muriel\Desktop\github\POO\clase16DeMayo\clase16DeMayo\obj\Debug\clase16DeMayo.exe
 C:\Users\Muriel\Desktop\github\POO\clase16DeMayo\clase16DeMayo\obj\Debug\clase16DeMayo.pdb
+C:\Users\A-04\Desktop\Muriel\POO\clase16DeMayo\clase16DeMayo\bin\Debug\clase16DeMayo.exe.config
+C:\Users\A-04\Desktop\Muriel\POO\clase16DeMayo\clase16DeMayo\bin\Debug\clase16DeMayo.exe
+C:\Users\A-04\Desktop\Muriel\POO\clase16DeMayo\clase16DeMayo\bin\Debug\clase16DeMayo.pdb
+C:\Users\A-04\Desktop\Muriel\POO\clase16DeMayo\clase16DeMayo\obj\Debug\clase16DeMayo.csproj.AssemblyReference.cache
+C:\Users\A-04\Desktop\Muriel\POO\clase16DeMayo\clase16DeMayo\obj\Debug\clase16DeMayo.csproj.CoreCompileInputs.cache
+C:\Users\A-04\Desktop\Muriel\POO\clase16DeMayo\clase16DeMayo\obj\Debug\clase16DeMayo.exe
+C:\Users\A-04\Desktop\Muriel\POO\clase16DeMayo\clase16DeMayo\obj\Debug\clase16DeMayo.pdb

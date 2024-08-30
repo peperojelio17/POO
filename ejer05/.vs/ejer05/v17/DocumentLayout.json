@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Alumno\\Desktop\\muriel\\ejer05\\",
+  "WorkspaceRootPath": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\ejer05\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{188EE1DE-845D-45D7-85EF-4F69810E60E3}|ejer05\\ejer05.csproj|c:\\users\\alumno\\desktop\\muriel\\ejer05\\ejer05\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{188EE1DE-845D-45D7-85EF-4F69810E60E3}|ejer05\\ejer05.csproj|c:\\users\\a-04\\desktop\\muriel\\poo\\ejer05\\ejer05\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{188EE1DE-845D-45D7-85EF-4F69810E60E3}|ejer05\\ejer05.csproj|solutionrelative:ejer05\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\muriel\\ejer05\\ejer05\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\ejer05\\ejer05\\Program.cs",
               "RelativeDocumentMoniker": "ejer05\\Program.cs",
-              "ToolTip": "C:\\Users\\Alumno\\Desktop\\muriel\\ejer05\\ejer05\\Program.cs",
+              "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\ejer05\\ejer05\\Program.cs",
               "RelativeToolTip": "ejer05\\Program.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAhwEkAAAAfAAAA",
+              "ViewState": "AQIAACgAAAAAAAAAAAAgwEkAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-04T20:04:13.294Z",
               "EditorCaption": ""
