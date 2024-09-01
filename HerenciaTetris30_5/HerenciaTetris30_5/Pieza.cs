@@ -9,9 +9,10 @@ namespace HerenciaTetris30_5
 {
     public abstract class Pieza
     {
+        private int puntos = 0;
         int limite = 25;
         public List<Bloque> bloques = new List<Bloque>();
-
+        public int Puntos { get { return puntos; } set { puntos = value; } }
         public Bloque a, b, c, d;
         public Pieza estaNo;
         public bool bajar(List<Pieza> piezas, Pieza pieza)
@@ -225,6 +226,7 @@ namespace HerenciaTetris30_5
         }
         public bool eliminar(List<Pieza> piezas)
         {
+            
             int limite = 24;
             bool eliminar = false;
             int contador = 0;
@@ -244,6 +246,7 @@ namespace HerenciaTetris30_5
                 //Console.Write(contador);
                 if (contador >= 19) {
                     eliminar = true;
+                    puntos = 100;
                     for (int i = piezas.Count -1; i >= 0; i--)
                     {
                         //foreach (var bloque in piezas[i].bloques)
@@ -254,6 +257,7 @@ namespace HerenciaTetris30_5
                                 Console.SetCursorPosition(piezas[i].bloques[j].y, piezas[i].bloques[j].x);
                                 Console.Write(" ");
                                 piezas[i].bloques.Remove(piezas[i].bloques[j]);
+                                
                             }
                         }
                     }

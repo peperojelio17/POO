@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Muriel\\Desktop\\github\\POO\\pruebas-verificacion\\",
+  "WorkspaceRootPath": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\pruebas-verificacion\\",
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{F0A6246C-98DD-4DF6-8E4F-B827E9071C4D}|pruebas-verificacion\\pruebas-verificacion.csproj|c:\\users\\muriel\\desktop\\github\\poo\\pruebas-verificacion\\pruebas-verificacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -14,17 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Muriel\\Desktop\\github\\POO\\pruebas-verificacion\\pruebas-verificacion\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\pruebas-verificacion\\pruebas-verificacion\\Program.cs",
               "RelativeDocumentMoniker": "pruebas-verificacion\\Program.cs",
-              "ToolTip": "C:\\Users\\Muriel\\Desktop\\github\\POO\\pruebas-verificacion\\pruebas-verificacion\\Program.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\pruebas-verificacion\\pruebas-verificacion\\Program.cs",
               "RelativeToolTip": "pruebas-verificacion\\Program.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAgwCcAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T00:57:12.755Z",
               "EditorCaption": ""

@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4534F670-08C0-4879-B413-D4FF903FC5E6}|ejer4\\ejer4.csproj|C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer4\\ejer4\\electrodomestico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4534F670-08C0-4879-B413-D4FF903FC5E6}|ejer4\\ejer4.csproj|c:\\users\\muriel\\desktop\\github\\poo\\ejerciciosobligatorios\\ejer4\\ejer4\\electrodomestico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4534F670-08C0-4879-B413-D4FF903FC5E6}|ejer4\\ejer4.csproj|solutionrelative:ejer4\\electrodomestico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4534F670-08C0-4879-B413-D4FF903FC5E6}|ejer4\\ejer4.csproj|c:\\users\\muriel\\desktop\\github\\poo\\ejerciciosobligatorios\\ejer4\\ejer4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4534F670-08C0-4879-B413-D4FF903FC5E6}|ejer4\\ejer4.csproj|C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer4\\ejer4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4534F670-08C0-4879-B413-D4FF903FC5E6}|ejer4\\ejer4.csproj|solutionrelative:ejer4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -26,8 +26,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -60,7 +64,7 @@
               "RelativeDocumentMoniker": "ejer4\\Electrodomestico.cs",
               "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer4\\ejer4\\Electrodomestico.cs",
               "RelativeToolTip": "ejer4\\Electrodomestico.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwEwAAAALAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEwAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-13T15:43:02.43Z",
               "EditorCaption": ""
@@ -75,8 +79,7 @@
               "RelativeToolTip": "ejer4\\Program.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAEwCwAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T00:37:47.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-13T00:37:47.687Z"
             }
           ]
         }

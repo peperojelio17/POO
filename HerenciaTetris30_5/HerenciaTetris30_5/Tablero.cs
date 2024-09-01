@@ -27,6 +27,9 @@ namespace HerenciaTetris30_5
             t.color(t.colorP);
             Console.SetCursorPosition(57 , 27);
             Console.WriteLine("TETRIS");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.SetCursorPosition(20, 27);
+            Console.WriteLine("SCORE:");
         }
         public void perdiste()
         {

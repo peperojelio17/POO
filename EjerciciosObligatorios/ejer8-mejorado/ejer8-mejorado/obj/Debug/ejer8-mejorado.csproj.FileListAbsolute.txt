@@ -1,0 +1,7 @@
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer8-mejorado\ejer8-mejorado\bin\Debug\ejer8-mejorado.exe.config
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer8-mejorado\ejer8-mejorado\bin\Debug\ejer8-mejorado.exe
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer8-mejorado\ejer8-mejorado\bin\Debug\ejer8-mejorado.pdb
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer8-mejorado\ejer8-mejorado\obj\Debug\ejer8-mejorado.csproj.AssemblyReference.cache
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer8-mejorado\ejer8-mejorado\obj\Debug\ejer8-mejorado.csproj.CoreCompileInputs.cache
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer8-mejorado\ejer8-mejorado\obj\Debug\ejer8-mejorado.exe
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer8-mejorado\ejer8-mejorado\obj\Debug\ejer8-mejorado.pdb

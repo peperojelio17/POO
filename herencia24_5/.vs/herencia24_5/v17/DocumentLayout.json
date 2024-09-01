@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Alumno\\Desktop\\muriel\\POO\\herencia24_5\\",
+  "WorkspaceRootPath": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\herencia24_5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25ACB2C7-BDB6-47BB-88D1-458E5E1680B6}|herencia24_5\\herencia24_5.csproj|c:\\users\\alumno\\desktop\\muriel\\poo\\herencia24_5\\herencia24_5\\animales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{25ACB2C7-BDB6-47BB-88D1-458E5E1680B6}|herencia24_5\\herencia24_5.csproj|c:\\users\\muriel\\desktop\\github\\poo\\herencia24_5\\herencia24_5\\animales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25ACB2C7-BDB6-47BB-88D1-458E5E1680B6}|herencia24_5\\herencia24_5.csproj|solutionrelative:herencia24_5\\animales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25ACB2C7-BDB6-47BB-88D1-458E5E1680B6}|herencia24_5\\herencia24_5.csproj|C:\\Users\\Alumno\\Desktop\\muriel\\POO\\herencia24_5\\herencia24_5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{25ACB2C7-BDB6-47BB-88D1-458E5E1680B6}|herencia24_5\\herencia24_5.csproj|C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\herencia24_5\\herencia24_5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25ACB2C7-BDB6-47BB-88D1-458E5E1680B6}|herencia24_5\\herencia24_5.csproj|solutionrelative:herencia24_5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,17 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Animales.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\muriel\\POO\\herencia24_5\\herencia24_5\\Animales.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\herencia24_5\\herencia24_5\\Animales.cs",
               "RelativeDocumentMoniker": "herencia24_5\\Animales.cs",
-              "ToolTip": "C:\\Users\\Alumno\\Desktop\\muriel\\POO\\herencia24_5\\herencia24_5\\Animales.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\herencia24_5\\herencia24_5\\Animales.cs",
               "RelativeToolTip": "herencia24_5\\Animales.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA1wBUAAAAeAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAzwBUAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T16:50:16.221Z",
               "EditorCaption": ""
@@ -37,13 +41,14 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\muriel\\POO\\herencia24_5\\herencia24_5\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\herencia24_5\\herencia24_5\\Program.cs",
               "RelativeDocumentMoniker": "herencia24_5\\Program.cs",
-              "ToolTip": "C:\\Users\\Alumno\\Desktop\\muriel\\POO\\herencia24_5\\herencia24_5\\Program.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\herencia24_5\\herencia24_5\\Program.cs",
               "RelativeToolTip": "herencia24_5\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAnAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T16:21:57.971Z"
+              "WhenOpened": "2024-05-24T16:21:57.971Z",
+              "EditorCaption": ""
             }
           ]
         }
