@@ -5,3 +5,10 @@ C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer8\ejer8\obj\Debug\
 C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer8\ejer8\obj\Debug\ejer8.csproj.CoreCompileInputs.cache
 C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer8\ejer8\obj\Debug\ejer8.exe
 C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer8\ejer8\obj\Debug\ejer8.pdb
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer8\ejer8\bin\Debug\ejer8.exe.config
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer8\ejer8\bin\Debug\ejer8.exe
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer8\ejer8\bin\Debug\ejer8.pdb
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer8\ejer8\obj\Debug\ejer8.csproj.AssemblyReference.cache
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer8\ejer8\obj\Debug\ejer8.csproj.CoreCompileInputs.cache
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer8\ejer8\obj\Debug\ejer8.exe
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer8\ejer8\obj\Debug\ejer8.pdb

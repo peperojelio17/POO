@@ -5,3 +5,10 @@ C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer8-mejorado\ejer8-m
 C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer8-mejorado\ejer8-mejorado\obj\Debug\ejer8-mejorado.csproj.CoreCompileInputs.cache
 C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer8-mejorado\ejer8-mejorado\obj\Debug\ejer8-mejorado.exe
 C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer8-mejorado\ejer8-mejorado\obj\Debug\ejer8-mejorado.pdb
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer8-mejorado\ejer8-mejorado\bin\Debug\ejer8-mejorado.exe.config
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer8-mejorado\ejer8-mejorado\bin\Debug\ejer8-mejorado.exe
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer8-mejorado\ejer8-mejorado\bin\Debug\ejer8-mejorado.pdb
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer8-mejorado\ejer8-mejorado\obj\Debug\ejer8-mejorado.csproj.AssemblyReference.cache
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer8-mejorado\ejer8-mejorado\obj\Debug\ejer8-mejorado.csproj.CoreCompileInputs.cache
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer8-mejorado\ejer8-mejorado\obj\Debug\ejer8-mejorado.exe
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer8-mejorado\ejer8-mejorado\obj\Debug\ejer8-mejorado.pdb

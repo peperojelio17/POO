@@ -1,0 +1,12 @@
+C:\Users\A-04\source\repos\clase30_08\clase30_08\bin\Debug\clase30_08.exe.config
+C:\Users\A-04\source\repos\clase30_08\clase30_08\bin\Debug\clase30_08.exe
+C:\Users\A-04\source\repos\clase30_08\clase30_08\bin\Debug\clase30_08.pdb
+C:\Users\A-04\source\repos\clase30_08\clase30_08\obj\Debug\clase30_08.csproj.AssemblyReference.cache
+C:\Users\A-04\source\repos\clase30_08\clase30_08\obj\Debug\clase30_08.Form1.resources
+C:\Users\A-04\source\repos\clase30_08\clase30_08\obj\Debug\clase30_08.Properties.Resources.resources
+C:\Users\A-04\source\repos\clase30_08\clase30_08\obj\Debug\clase30_08.csproj.GenerateResource.cache
+C:\Users\A-04\source\repos\clase30_08\clase30_08\obj\Debug\clase30_08.csproj.CoreCompileInputs.cache
+C:\Users\A-04\source\repos\clase30_08\clase30_08\obj\Debug\clase30_08.exe
+C:\Users\A-04\source\repos\clase30_08\clase30_08\obj\Debug\clase30_08.pdb
+C:\Users\A-04\source\repos\clase30_08\clase30_08\obj\Debug\clase30_08.Form2.resources
+C:\Users\A-04\source\repos\clase30_08\clase30_08\obj\Debug\clase30_08.Form3.resources
