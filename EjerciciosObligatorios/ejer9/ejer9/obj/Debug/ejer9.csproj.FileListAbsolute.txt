@@ -1,0 +1,7 @@
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer9\ejer9\bin\Debug\ejer9.exe.config
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer9\ejer9\bin\Debug\ejer9.exe
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer9\ejer9\bin\Debug\ejer9.pdb
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer9\ejer9\obj\Debug\ejer9.csproj.AssemblyReference.cache
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer9\ejer9\obj\Debug\ejer9.csproj.CoreCompileInputs.cache
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer9\ejer9\obj\Debug\ejer9.exe
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer9\ejer9\obj\Debug\ejer9.pdb
