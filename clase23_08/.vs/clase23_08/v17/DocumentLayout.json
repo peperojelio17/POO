@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\clase23_08\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D8EF4990-6949-44A3-9AB6-1DA1453A51DD}|clase23_08\\clase23_08.csproj|C:\\Users\\A-04\\Desktop\\Muriel\\POO\\clase23_08\\clase23_08\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D8EF4990-6949-44A3-9AB6-1DA1453A51DD}|clase23_08\\clase23_08.csproj|solutionrelative:clase23_08\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D8EF4990-6949-44A3-9AB6-1DA1453A51DD}|clase23_08\\clase23_08.csproj|C:\\Users\\A-04\\Desktop\\Muriel\\POO\\clase23_08\\clase23_08\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8EF4990-6949-44A3-9AB6-1DA1453A51DD}|clase23_08\\clase23_08.csproj|solutionrelative:clase23_08\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8EF4990-6949-44A3-9AB6-1DA1453A51DD}|clase23_08\\clase23_08.csproj|C:\\Users\\A-04\\Desktop\\Muriel\\POO\\clase23_08\\clase23_08\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8EF4990-6949-44A3-9AB6-1DA1453A51DD}|clase23_08\\clase23_08.csproj|solutionrelative:clase23_08\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D8EF4990-6949-44A3-9AB6-1DA1453A51DD}|clase23_08\\clase23_08.csproj|c:\\users\\a-04\\desktop\\muriel\\poo\\clase23_08\\clase23_08\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D8EF4990-6949-44A3-9AB6-1DA1453A51DD}|clase23_08\\clase23_08.csproj|solutionrelative:clase23_08\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8EF4990-6949-44A3-9AB6-1DA1453A51DD}|clase23_08\\clase23_08.csproj|c:\\users\\a-04\\desktop\\muriel\\poo\\clase23_08\\clase23_08\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D8EF4990-6949-44A3-9AB6-1DA1453A51DD}|clase23_08\\clase23_08.csproj|C:\\Users\\A-04\\Desktop\\Muriel\\POO\\clase23_08\\clase23_08\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D8EF4990-6949-44A3-9AB6-1DA1453A51DD}|clase23_08\\clase23_08.csproj|solutionrelative:clase23_08\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8EF4990-6949-44A3-9AB6-1DA1453A51DD}|clase23_08\\clase23_08.csproj|C:\\Users\\A-04\\Desktop\\Muriel\\POO\\clase23_08\\clase23_08\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8EF4990-6949-44A3-9AB6-1DA1453A51DD}|clase23_08\\clase23_08.csproj|solutionrelative:clase23_08\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8EF4990-6949-44A3-9AB6-1DA1453A51DD}|clase23_08\\clase23_08.csproj|C:\\Users\\A-04\\Desktop\\Muriel\\POO\\clase23_08\\clase23_08\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -55,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\clase23_08\\clase23_08\\Program.cs",
               "RelativeDocumentMoniker": "clase23_08\\Program.cs",
@@ -63,12 +63,11 @@
               "RelativeToolTip": "clase23_08\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T17:44:47.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T17:44:47.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form2.cs",
               "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\clase23_08\\clase23_08\\Form2.cs",
               "RelativeDocumentMoniker": "clase23_08\\Form2.cs",
@@ -81,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form2.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\clase23_08\\clase23_08\\Form2.cs",
               "RelativeDocumentMoniker": "clase23_08\\Form2.cs",
@@ -93,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\clase23_08\\clase23_08\\Form1.cs",
               "RelativeDocumentMoniker": "clase23_08\\Form1.cs",
@@ -113,7 +112,8 @@
               "RelativeToolTip": "clase23_08\\Form1.Designer.cs",
               "ViewState": "AQIAAGMAAAAAAAAAAAAAAHQAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T16:55:09.492Z"
+              "WhenOpened": "2024-08-23T16:55:09.492Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -125,7 +125,8 @@
               "RelativeToolTip": "clase23_08\\Form1.cs",
               "ViewState": "AQIAADAAAAAAAAAAAAAiwEIAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T16:39:25.093Z"
+              "WhenOpened": "2024-08-23T16:39:25.093Z",
+              "EditorCaption": ""
             }
           ]
         }
