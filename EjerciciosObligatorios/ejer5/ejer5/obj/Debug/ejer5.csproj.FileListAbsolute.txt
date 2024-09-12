@@ -5,3 +5,10 @@ C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer5\ejer5\obj\Debug\
 C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer5\ejer5\obj\Debug\ejer5.csproj.CoreCompileInputs.cache
 C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer5\ejer5\obj\Debug\ejer5.exe
 C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer5\ejer5\obj\Debug\ejer5.pdb
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer5\ejer5\bin\Debug\ejer5.exe.config
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer5\ejer5\bin\Debug\ejer5.exe
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer5\ejer5\bin\Debug\ejer5.pdb
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer5\ejer5\obj\Debug\ejer5.csproj.AssemblyReference.cache
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer5\ejer5\obj\Debug\ejer5.csproj.CoreCompileInputs.cache
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer5\ejer5\obj\Debug\ejer5.exe
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer5\ejer5\obj\Debug\ejer5.pdb

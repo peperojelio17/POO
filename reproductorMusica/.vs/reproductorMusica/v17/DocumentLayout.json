@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\reproductorMusica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6DC005B-287F-4134-86A5-F626BD47CB1C}|reproductorMusica\\reproductorMusica.csproj|C:\\Users\\A-04\\Desktop\\Muriel\\POO\\reproductorMusica\\reproductormusica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6DC005B-287F-4134-86A5-F626BD47CB1C}|reproductorMusica\\reproductorMusica.csproj|c:\\users\\a-04\\desktop\\muriel\\poo\\reproductormusica\\reproductormusica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6DC005B-287F-4134-86A5-F626BD47CB1C}|reproductorMusica\\reproductorMusica.csproj|solutionrelative:reproductormusica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6DC005B-287F-4134-86A5-F626BD47CB1C}|reproductorMusica\\reproductorMusica.csproj|c:\\users\\a-04\\desktop\\muriel\\poo\\reproductormusica\\reproductormusica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D6DC005B-287F-4134-86A5-F626BD47CB1C}|reproductorMusica\\reproductorMusica.csproj|C:\\Users\\A-04\\Desktop\\Muriel\\POO\\reproductorMusica\\reproductormusica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D6DC005B-287F-4134-86A5-F626BD47CB1C}|reproductorMusica\\reproductorMusica.csproj|solutionrelative:reproductormusica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -39,8 +39,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-05T17:06:28.089Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -50,7 +49,7 @@
               "RelativeDocumentMoniker": "reproductorMusica\\Form1.cs",
               "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\reproductorMusica\\reproductorMusica\\Form1.cs",
               "RelativeToolTip": "reproductorMusica\\Form1.cs",
-              "ViewState": "AQIAAJEAAAAAAAAAAAAYwKAAAAAxAAAA",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAmwIMAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-05T17:08:12.443Z",
               "EditorCaption": ""
@@ -65,8 +64,7 @@
               "RelativeToolTip": "reproductorMusica\\Form1.Designer.cs",
               "ViewState": "AQIAAFQAAAAAAAAAAAAowGoAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T17:07:26.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T17:07:26.03Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\reproductorMusica\\reproductorMusica\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "reproductorMusica\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T17:04:00.568Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-09-05T17:04:00.568Z"
             }
           ]
         }

@@ -1,0 +1,7 @@
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer10\ejer10\bin\Debug\ejer10.exe.config
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer10\ejer10\bin\Debug\ejer10.exe
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer10\ejer10\bin\Debug\ejer10.pdb
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer10\ejer10\obj\Debug\ejer10.csproj.AssemblyReference.cache
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer10\ejer10\obj\Debug\ejer10.csproj.CoreCompileInputs.cache
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer10\ejer10\obj\Debug\ejer10.exe
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer10\ejer10\obj\Debug\ejer10.pdb
