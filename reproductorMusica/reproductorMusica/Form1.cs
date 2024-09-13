@@ -11,6 +11,7 @@ using System.Runtime.InteropServices;
 using static System.Runtime.CompilerServices.RuntimeHelpers;
 using System.Security.Cryptography;
 using System.IO;
+using System.Drawing.Drawing2D;
 
 namespace reproductorMusica
 {
@@ -45,78 +46,85 @@ namespace reproductorMusica
         {
             mciSendString($"open \"{filePath}\" alias myAudio", null, 0, IntPtr.Zero);
 
-            mciSendString("play myAudio", null, 0, IntPtr.Zero);
             play = true;
+            mciSendString("play myAudio", null, 0, IntPtr.Zero);
 
         }
 
         private void despausar()
         {
+            play = true;
             mciSendString("play myAudio from " + (trackBar1.Value * 1000).ToString(), null, 0, IntPtr.Zero);
 
-            play = true;
         }
 
         private void StopAudio()
         {
 
-            play = false;
             mciSendString("stop myAudio", null, 0, IntPtr.Zero);
-
             mciSendString("close myAudio", null, 0, IntPtr.Zero);
+            play = false;
         }
         private void PauseAudio() 
         {
-            play = false;
             mciSendString("pause myAudio", null, 0, IntPtr.Zero);
-        }
-
-        private void Pausar_Click(object sender, EventArgs e)
-        {
-            PauseAudio();
+            play = false;
         }
 
 
         private void Reproducir_Click(object sender, EventArgs e)
         {
-            if (nombre != "")
-            {
-                if (nombre != listBox1.SelectedItem.ToString())
+            
+                if(listBox1.SelectedItem != null) { 
+                if (nombre != "")
                 {
-                    StopAudio();
-                    trackBar1.Value = 0;
-                    foreach (var a in canciones)
+                    button2.BackgroundImage = Properties.Resources.pause_circle_regular_36;
+                    if (nombre != listBox1.SelectedItem.ToString())
                     {
-                        if (a.Value == listBox1.SelectedItem.ToString())
+                        StopAudio();
+                        trackBar1.Value = 0;
+                        foreach (var a in canciones)
                         {
-                            _audioFilePath = a.Key;
+                            if (a.Value == listBox1.SelectedItem.ToString())
+                            {
+                                _audioFilePath = a.Key;
+                            }
+                        }
+                        mciSendString("set " + _audioFilePath + " time format milliseconds", null, 0, IntPtr.Zero);
+                        PlayAudio(_audioFilePath);
+                    }
+                    else
+                    {
+                        if (play == false)
+                            despausar();
+                    else
+                    {
+                        button2.BackgroundImage = Properties.Resources.play_circle_regular_36;
+                        PauseAudio();
+                    }
+                }
+                }
+                else
+                {
+                    foreach(var d in canciones)
+                    {
+                        if(d.Value == listBox1.SelectedItem.ToString())
+                        {
+                            _audioFilePath = d.Key;
                         }
                     }
                     mciSendString("set " + _audioFilePath + " time format milliseconds", null, 0, IntPtr.Zero);
                     PlayAudio(_audioFilePath);
                 }
-                else
-                {
-                    despausar();
-                }
-            }
-            else
-            {
-                foreach(var d in canciones)
-                {
-                    if(d.Value == listBox1.SelectedItem.ToString())
-                    {
-                        _audioFilePath = d.Key;
-                    }
-                }
-                mciSendString("set " + _audioFilePath + " time format milliseconds", null, 0, IntPtr.Zero);
-                PlayAudio(_audioFilePath);
+            
+                nombre = Path.GetFileNameWithoutExtension(_audioFilePath);
+                // Obtenemos el largo del archivo, en millisegundos.
+                mciSendString("status " + _audioFilePath + " length", sbBuffer, MAX_PATH, IntPtr.Zero);
+                trackBar1.Maximum = int.Parse(sbBuffer.ToString()) / 1000;
+                int tiempo = trackBar1.Maximum / 2;
+                DuracionTotal.Text = $"{tiempo / 60}:{tiempo % 60}";
             }
             
-            nombre = Path.GetFileNameWithoutExtension(_audioFilePath);
-            // Obtenemos el largo del archivo, en millisegundos.
-            mciSendString("status " + _audioFilePath + " length", sbBuffer, MAX_PATH, IntPtr.Zero);
-            trackBar1.Maximum = int.Parse(sbBuffer.ToString()) / 1000;
 
         }
         private void Agregar_Click(object sender, EventArgs e)
@@ -141,36 +149,102 @@ namespace reproductorMusica
         {
             if (play)
                 trackBar1.Value += 1;
+
+            int tiempo = (trackBar1.Value) / 2;
+            string ceroM = (tiempo / 60 < 9) ? "0" : "";
+            string ceroS = (tiempo % 60 < 9) ? "0" : "";
+            TiempoActual.Text = $"{ceroM}{tiempo / 60}:{ceroS}{tiempo%60}";
         }
         private void Anterior_Click(object sender, EventArgs e)
         {
-            
+            if (listBox1.SelectedItem != null)
+            {
+                int indice = 0;
+                StopAudio();
+                trackBar1.Value = 0;
+                if (listBox1.SelectedIndex != 0)
+                {
+                    indice = listBox1.SelectedIndex;
+                    listBox1.SelectedItem = null;
+                    listBox1.SelectedItem = listBox1.Items[indice - 1];
+
+                }
+                else
+                {
+                    listBox1.SelectedItem = null;
+                    listBox1.SelectedItem = listBox1.Items[listBox1.Items.Count - 1];
+                }
+
+                foreach (var d in canciones)
+                {
+                    if (d.Value == listBox1.SelectedItem.ToString())
+                    {
+                        _audioFilePath = d.Key;
+                    }
+                }
+                PlayAudio(_audioFilePath);
+            }
         }
 
         private void Siguiente_Click(object sender, EventArgs e)
         {
-            int indice = 0;
-            StopAudio();
-            trackBar1.Value = 0;
-            for (int i = 0; i < listBox1.Items.Count - 1; i++) 
+            if (listBox1.SelectedItem != null)
             { 
-                if(listBox1.SelectedItem == listBox1.Items[i])
+                int indice = 0;
+                StopAudio();
+                trackBar1.Value = 0;
+                if(listBox1.SelectedIndex != listBox1.Items.Count - 1)
                 {
-                    indice = i;
-                    indice = (listBox1.Items.Count - 1 == indice) ? 0 : indice + 1;
+                    indice = listBox1.SelectedIndex;
                     listBox1.SelectedItem = null;
-                    listBox1.SelectedItem = listBox1.Items[indice];
+                    listBox1.SelectedItem = listBox1.Items[indice + 1];
+                   
                 }
-            }
-
-            foreach (var d in canciones)
-            {
-                if (d.Value == listBox1.SelectedItem.ToString())
+                else
                 {
-                    _audioFilePath = d.Key;
+                    listBox1.SelectedItem = null;
+                    listBox1.SelectedItem = listBox1.Items[0];
                 }
+            
+                foreach (var d in canciones)
+                {
+                    if (d.Value == listBox1.SelectedItem.ToString())
+                    {
+                        _audioFilePath = d.Key;
+                    }
+                }
+                PlayAudio(_audioFilePath);
             }
-            PlayAudio(_audioFilePath);
         }
+
+        private void trackBar1_ValueChanged(object sender, EventArgs e)
+        {
+            if(trackBar1.Value == trackBar1.Maximum)
+            {
+                int indice = 0;
+                StopAudio();
+                trackBar1.Value = 0;
+                if (listBox1.SelectedIndex != listBox1.Items.Count - 1)
+                {
+                    indice = listBox1.SelectedIndex;
+                    listBox1.SelectedItem = null;
+                    listBox1.SelectedItem = listBox1.Items[indice + 1];
+                }
+                else
+                {
+                    listBox1.SelectedItem = null;
+                    listBox1.SelectedItem = listBox1.Items[0];
+                }
+                foreach (var d in canciones)
+                {
+                    if (d.Value == listBox1.SelectedItem.ToString())
+                    {
+                        _audioFilePath = d.Key;
+                    }
+                }
+                PlayAudio(_audioFilePath);
+            }
+        }
+
     }
 }
