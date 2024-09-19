@@ -35,7 +35,8 @@ namespace ejer11
             if (n <= 33) resultado = "perdió";
             else if (n > 33 && n < 66) resultado = "ganó";
             else resultado = "empató";
-            apuestaPartidos.Add(partidoIndice, resultado);
+            if(apuestaPartidos.ContainsKey(partidoIndice)) apuestaPartidos[partidoIndice] = resultado;
+            else apuestaPartidos.Add(partidoIndice, resultado);
         }
     }
 }

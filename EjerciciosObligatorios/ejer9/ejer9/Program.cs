@@ -18,7 +18,7 @@ namespace ejer9
             Espectador e3 = new Espectador("Muriel", 18, 230);
             Espectador e4 = new Espectador("Anny", 18, 117);
             Espectador e5 = new Espectador("Juanny", 15, 180);
-            List<Espectador> espectadores = new List<Espectador>() { e1,e2,e3,e4, e5 };
+            List<Espectador> espectadores = new List<Espectador>() { e1,e2,e3,e4, e5, e1, e2, e3, e4, e5, e1, e2, e3, e4, e5, e1, e2, e3, e4, e5, e1, e2, e3, e4, e5 };
             cine.dibujar();
             
             cine.sentar(espectadores);
