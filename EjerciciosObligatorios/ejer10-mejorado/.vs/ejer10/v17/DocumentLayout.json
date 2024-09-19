@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer10-mejorado\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A6F391-AFDC-4AA3-88D7-197527CCA7F9}|ejer10\\ejer10.csproj|c:\\users\\muriel\\desktop\\github\\poo\\ejerciciosobligatorios\\ejer10-mejorado\\ejer10\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A6F391-AFDC-4AA3-88D7-197527CCA7F9}|ejer10\\ejer10.csproj|solutionrelative:ejer10\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A6F391-AFDC-4AA3-88D7-197527CCA7F9}|ejer10\\ejer10.csproj|C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer10-mejorado\\ejer10\\baraja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A6F391-AFDC-4AA3-88D7-197527CCA7F9}|ejer10\\ejer10.csproj|solutionrelative:ejer10\\baraja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A6F391-AFDC-4AA3-88D7-197527CCA7F9}|ejer10\\ejer10.csproj|C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer10-mejorado\\ejer10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A6F391-AFDC-4AA3-88D7-197527CCA7F9}|ejer10\\ejer10.csproj|solutionrelative:ejer10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Baraja.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer10-mejorado\\ejer10\\Baraja.cs",
+              "RelativeDocumentMoniker": "ejer10\\Baraja.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer10-mejorado\\ejer10\\Baraja.cs",
+              "RelativeToolTip": "ejer10\\Baraja.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAowGwAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T16:44:42.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer10-mejorado\\ejer10\\Menu.cs",
+              "RelativeDocumentMoniker": "ejer10\\Menu.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer10-mejorado\\ejer10\\Menu.cs",
+              "RelativeToolTip": "ejer10\\Menu.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAAAIgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T02:23:01.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer10-mejorado\\ejer10\\Program.cs",
+              "RelativeDocumentMoniker": "ejer10\\Program.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer10-mejorado\\ejer10\\Program.cs",
+              "RelativeToolTip": "ejer10\\Program.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAwC4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T16:44:14.543Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

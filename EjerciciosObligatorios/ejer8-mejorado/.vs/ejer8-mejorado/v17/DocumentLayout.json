@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer8-mejorado\\",
+  "WorkspaceRootPath": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer8-mejorado\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{40FDE548-9943-48B5-A218-4D2ABEFF7783}|ejer8-mejorado\\ejer8-mejorado.csproj|C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer8-mejorado\\ejer8-mejorado\\tabla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{40FDE548-9943-48B5-A218-4D2ABEFF7783}|ejer8-mejorado\\ejer8-mejorado.csproj|c:\\users\\muriel\\desktop\\github\\poo\\ejerciciosobligatorios\\ejer8-mejorado\\ejer8-mejorado\\tabla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40FDE548-9943-48B5-A218-4D2ABEFF7783}|ejer8-mejorado\\ejer8-mejorado.csproj|solutionrelative:ejer8-mejorado\\tabla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40FDE548-9943-48B5-A218-4D2ABEFF7783}|ejer8-mejorado\\ejer8-mejorado.csproj|c:\\users\\a-04\\desktop\\muriel\\poo\\ejerciciosobligatorios\\ejer8-mejorado\\ejer8-mejorado\\aula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{40FDE548-9943-48B5-A218-4D2ABEFF7783}|ejer8-mejorado\\ejer8-mejorado.csproj|C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer8-mejorado\\ejer8-mejorado\\aula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40FDE548-9943-48B5-A218-4D2ABEFF7783}|ejer8-mejorado\\ejer8-mejorado.csproj|solutionrelative:ejer8-mejorado\\aula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40FDE548-9943-48B5-A218-4D2ABEFF7783}|ejer8-mejorado\\ejer8-mejorado.csproj|C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer8-mejorado\\ejer8-mejorado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{40FDE548-9943-48B5-A218-4D2ABEFF7783}|ejer8-mejorado\\ejer8-mejorado.csproj|C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer8-mejorado\\ejer8-mejorado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40FDE548-9943-48B5-A218-4D2ABEFF7783}|ejer8-mejorado\\ejer8-mejorado.csproj|solutionrelative:ejer8-mejorado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,31 +22,38 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Aula.cs",
-              "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer8-mejorado\\ejer8-mejorado\\Aula.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer8-mejorado\\ejer8-mejorado\\Aula.cs",
               "RelativeDocumentMoniker": "ejer8-mejorado\\Aula.cs",
-              "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer8-mejorado\\ejer8-mejorado\\Aula.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer8-mejorado\\ejer8-mejorado\\Aula.cs",
               "RelativeToolTip": "ejer8-mejorado\\Aula.cs",
               "ViewState": "AQIAADMAAAAAAAAAAAAuwEIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-31T21:51:31.553Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Tabla.cs",
-              "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer8-mejorado\\ejer8-mejorado\\Tabla.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer8-mejorado\\ejer8-mejorado\\Tabla.cs",
               "RelativeDocumentMoniker": "ejer8-mejorado\\Tabla.cs",
-              "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer8-mejorado\\ejer8-mejorado\\Tabla.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer8-mejorado\\ejer8-mejorado\\Tabla.cs",
               "RelativeToolTip": "ejer8-mejorado\\Tabla.cs",
-              "ViewState": "AQIAAHQAAAAAAAAAAADwv7cAAAANAAAA",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAswLUAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-31T21:34:29.275Z",
               "EditorCaption": ""
@@ -55,9 +62,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer8-mejorado\\ejer8-mejorado\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer8-mejorado\\ejer8-mejorado\\Program.cs",
               "RelativeDocumentMoniker": "ejer8-mejorado\\Program.cs",
-              "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer8-mejorado\\ejer8-mejorado\\Program.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer8-mejorado\\ejer8-mejorado\\Program.cs",
               "RelativeToolTip": "ejer8-mejorado\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
