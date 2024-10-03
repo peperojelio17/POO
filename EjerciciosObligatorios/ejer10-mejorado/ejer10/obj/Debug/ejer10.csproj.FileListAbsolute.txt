@@ -26,3 +26,10 @@ C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer10-mejorado\ejer10
 C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer10-mejorado\ejer10\obj\Debug\ejer10.csproj.CoreCompileInputs.cache
 C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer10-mejorado\ejer10\obj\Debug\ejer10.exe
 C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer10-mejorado\ejer10\obj\Debug\ejer10.pdb
+C:\Users\A-17\Desktop\Muriel\POO\EjerciciosObligatorios\ejer10-mejorado\ejer10\bin\Debug\ejer10.exe.config
+C:\Users\A-17\Desktop\Muriel\POO\EjerciciosObligatorios\ejer10-mejorado\ejer10\bin\Debug\ejer10.exe
+C:\Users\A-17\Desktop\Muriel\POO\EjerciciosObligatorios\ejer10-mejorado\ejer10\bin\Debug\ejer10.pdb
+C:\Users\A-17\Desktop\Muriel\POO\EjerciciosObligatorios\ejer10-mejorado\ejer10\obj\Debug\ejer10.csproj.AssemblyReference.cache
+C:\Users\A-17\Desktop\Muriel\POO\EjerciciosObligatorios\ejer10-mejorado\ejer10\obj\Debug\ejer10.csproj.CoreCompileInputs.cache
+C:\Users\A-17\Desktop\Muriel\POO\EjerciciosObligatorios\ejer10-mejorado\ejer10\obj\Debug\ejer10.exe
+C:\Users\A-17\Desktop\Muriel\POO\EjerciciosObligatorios\ejer10-mejorado\ejer10\obj\Debug\ejer10.pdb

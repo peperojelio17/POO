@@ -66,16 +66,6 @@ namespace ejer10
         }
         public void derecha()
         {
-            foreach (var i in opcionesPosicion)
-            {
-                Console.SetCursorPosition(i.Key, 0);
-                if (i.Value == opciones[itemSelccionado])
-                {
-                    Console.BackgroundColor = ConsoleColor.Black;
-                    Console.ForegroundColor = ConsoleColor.White;
-                    Console.Write(i.Value);
-                }
-            }
             itemSelccionado++;
             if (itemSelccionado + 1 > opcionesPosicion.Count)
                 itemSelccionado = 0;

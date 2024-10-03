@@ -24,8 +24,15 @@ namespace ejer16
         public void añadirContacto(Contacto c)
         {
             if (agenda.Count < tamañoAgenda)
+            {
                 if (!existeContacto(c))
+                {
                     agenda.Add(c);
+                    Console.WriteLine("El contacto se ha guardado exitosamente");
+                }
+                else Console.WriteLine("El contacto ya existe");
+            }
+                
             else Console.WriteLine("Ya no se pueden agregar más contactos");
         }
         public bool existeContacto(Contacto c) 
@@ -55,21 +62,20 @@ namespace ejer16
                     if (i.Nombre == nombre) Console.WriteLine($"Nombre: {i.Nombre} --- Num.Telefono: {i.Telefono}"); ;
             }
         }
-        public void eliminarContacto(Contacto c)
+        public void eliminarContacto(string c)
         {
-            if(!existeContacto(c)) Console.WriteLine("El contacto que esta tratando de eliminar no existe");
-            else
-            {
+            bool contactoeliminado = false;
                 for (int e = agenda.Count - 1; e >= 0; e--)
                 {
-                    if (agenda[e].Nombre == c.Nombre)
+                    if (agenda[e].Nombre == c)
                     {
                         agenda.RemoveAt(e);
                         Console.WriteLine("Se elimino correctamente el contacto");
+                        contactoeliminado = true;
                     }
                 }
-            }
-            
+                if (!contactoeliminado) Console.WriteLine("El contacto que esta tratando de eliminar no existe");
+
         }
         public bool agendaLLena()
         {

@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer16\\",
+  "WorkspaceRootPath": "C:\\Users\\A-17\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer16\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB8E414B-4861-47F9-A9BF-7F138D9F6E04}|ejer16\\ejer16.csproj|C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer16\\ejer16\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB8E414B-4861-47F9-A9BF-7F138D9F6E04}|ejer16\\ejer16.csproj|solutionrelative:ejer16\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB8E414B-4861-47F9-A9BF-7F138D9F6E04}|ejer16\\ejer16.csproj|c:\\users\\a-17\\desktop\\muriel\\poo\\ejerciciosobligatorios\\ejer16\\ejer16\\menuagenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8E414B-4861-47F9-A9BF-7F138D9F6E04}|ejer16\\ejer16.csproj|solutionrelative:ejer16\\menuagenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB8E414B-4861-47F9-A9BF-7F138D9F6E04}|ejer16\\ejer16.csproj|c:\\users\\a-04\\desktop\\muriel\\poo\\ejerciciosobligatorios\\ejer16\\ejer16\\agendacontactos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CB8E414B-4861-47F9-A9BF-7F138D9F6E04}|ejer16\\ejer16.csproj|C:\\Users\\A-17\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer16\\ejer16\\agendacontactos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB8E414B-4861-47F9-A9BF-7F138D9F6E04}|ejer16\\ejer16.csproj|solutionrelative:ejer16\\agendacontactos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB8E414B-4861-47F9-A9BF-7F138D9F6E04}|ejer16\\ejer16.csproj|C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer16\\ejer16\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CB8E414B-4861-47F9-A9BF-7F138D9F6E04}|ejer16\\ejer16.csproj|C:\\Users\\A-17\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer16\\ejer16\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB8E414B-4861-47F9-A9BF-7F138D9F6E04}|ejer16\\ejer16.csproj|solutionrelative:ejer16\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8E414B-4861-47F9-A9BF-7F138D9F6E04}|ejer16\\ejer16.csproj|c:\\users\\a-17\\desktop\\muriel\\poo\\ejerciciosobligatorios\\ejer16\\ejer16\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8E414B-4861-47F9-A9BF-7F138D9F6E04}|ejer16\\ejer16.csproj|solutionrelative:ejer16\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +26,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuAgenda.cs",
+              "DocumentMoniker": "C:\\Users\\A-17\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer16\\ejer16\\MenuAgenda.cs",
+              "RelativeDocumentMoniker": "ejer16\\MenuAgenda.cs",
+              "ToolTip": "C:\\Users\\A-17\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer16\\ejer16\\MenuAgenda.cs",
+              "RelativeToolTip": "ejer16\\MenuAgenda.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAmwGsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T19:15:19.433Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "AgendaContactos.cs",
-              "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer16\\ejer16\\AgendaContactos.cs",
+              "DocumentMoniker": "C:\\Users\\A-17\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer16\\ejer16\\AgendaContactos.cs",
               "RelativeDocumentMoniker": "ejer16\\AgendaContactos.cs",
-              "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer16\\ejer16\\AgendaContactos.cs",
+              "ToolTip": "C:\\Users\\A-17\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer16\\ejer16\\AgendaContactos.cs",
               "RelativeToolTip": "ejer16\\AgendaContactos.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAiwEIAAAArAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAwwCgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-02T00:30:01.505Z",
               "EditorCaption": ""
@@ -41,9 +78,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Contacto.cs",
-              "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer16\\ejer16\\Contacto.cs",
+              "DocumentMoniker": "C:\\Users\\A-17\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer16\\ejer16\\Contacto.cs",
               "RelativeDocumentMoniker": "ejer16\\Contacto.cs",
-              "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer16\\ejer16\\Contacto.cs",
+              "ToolTip": "C:\\Users\\A-17\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer16\\ejer16\\Contacto.cs",
               "RelativeToolTip": "ejer16\\Contacto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -52,13 +89,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer16\\ejer16\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\A-17\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer16\\ejer16\\Program.cs",
               "RelativeDocumentMoniker": "ejer16\\Program.cs",
-              "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer16\\ejer16\\Program.cs",
+              "ToolTip": "C:\\Users\\A-17\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer16\\ejer16\\Program.cs",
               "RelativeToolTip": "ejer16\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABDAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwA4AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-02T00:22:10.85Z",
               "EditorCaption": ""
