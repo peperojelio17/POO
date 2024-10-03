@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer15\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BAE9F7F3-DFA4-47B9-843F-980FE741A478}|ejer15\\ejer15.csproj|C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer15\\ejer15\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAE9F7F3-DFA4-47B9-843F-980FE741A478}|ejer15\\ejer15.csproj|solutionrelative:ejer15\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAE9F7F3-DFA4-47B9-843F-980FE741A478}|ejer15\\ejer15.csproj|c:\\users\\muriel\\desktop\\github\\poo\\ejerciciosobligatorios\\ejer15\\ejer15\\almacen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAE9F7F3-DFA4-47B9-843F-980FE741A478}|ejer15\\ejer15.csproj|solutionrelative:ejer15\\almacen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAE9F7F3-DFA4-47B9-843F-980FE741A478}|ejer15\\ejer15.csproj|C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer15\\ejer15\\bebidas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAE9F7F3-DFA4-47B9-843F-980FE741A478}|ejer15\\ejer15.csproj|solutionrelative:ejer15\\bebidas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Almacen.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer15\\ejer15\\Almacen.cs",
+              "RelativeDocumentMoniker": "ejer15\\Almacen.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer15\\ejer15\\Almacen.cs",
+              "RelativeToolTip": "ejer15\\Almacen.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAuwCAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T22:20:40.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bebidas.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer15\\ejer15\\Bebidas.cs",
+              "RelativeDocumentMoniker": "ejer15\\Bebidas.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer15\\ejer15\\Bebidas.cs",
+              "RelativeToolTip": "ejer15\\Bebidas.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAkwC4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T11:00:39.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer15\\ejer15\\Program.cs",
+              "RelativeDocumentMoniker": "ejer15\\Program.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer15\\ejer15\\Program.cs",
+              "RelativeToolTip": "ejer15\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T10:59:20.911Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer16\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8E414B-4861-47F9-A9BF-7F138D9F6E04}|ejer16\\ejer16.csproj|c:\\users\\muriel\\desktop\\github\\poo\\ejerciciosobligatorios\\ejer16\\ejer16\\agendacontactos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8E414B-4861-47F9-A9BF-7F138D9F6E04}|ejer16\\ejer16.csproj|solutionrelative:ejer16\\agendacontactos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8E414B-4861-47F9-A9BF-7F138D9F6E04}|ejer16\\ejer16.csproj|c:\\users\\muriel\\desktop\\github\\poo\\ejerciciosobligatorios\\ejer16\\ejer16\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8E414B-4861-47F9-A9BF-7F138D9F6E04}|ejer16\\ejer16.csproj|solutionrelative:ejer16\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB8E414B-4861-47F9-A9BF-7F138D9F6E04}|ejer16\\ejer16.csproj|c:\\users\\muriel\\desktop\\github\\poo\\ejerciciosobligatorios\\ejer16\\ejer16\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB8E414B-4861-47F9-A9BF-7F138D9F6E04}|ejer16\\ejer16.csproj|solutionrelative:ejer16\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AgendaContactos.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer16\\ejer16\\AgendaContactos.cs",
+              "RelativeDocumentMoniker": "ejer16\\AgendaContactos.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer16\\ejer16\\AgendaContactos.cs",
+              "RelativeToolTip": "ejer16\\AgendaContactos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T00:30:01.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Contacto.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer16\\ejer16\\Contacto.cs",
+              "RelativeDocumentMoniker": "ejer16\\Contacto.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer16\\ejer16\\Contacto.cs",
+              "RelativeToolTip": "ejer16\\Contacto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T00:27:49.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer16\\ejer16\\Program.cs",
+              "RelativeDocumentMoniker": "ejer16\\Program.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer16\\ejer16\\Program.cs",
+              "RelativeToolTip": "ejer16\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T00:22:10.85Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

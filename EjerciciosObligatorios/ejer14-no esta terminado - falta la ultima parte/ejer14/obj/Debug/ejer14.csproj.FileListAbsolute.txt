@@ -1,0 +1,7 @@
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer14\ejer14\bin\Debug\ejer14.exe.config
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer14\ejer14\bin\Debug\ejer14.exe
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer14\ejer14\bin\Debug\ejer14.pdb
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer14\ejer14\obj\Debug\ejer14.csproj.AssemblyReference.cache
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer14\ejer14\obj\Debug\ejer14.csproj.CoreCompileInputs.cache
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer14\ejer14\obj\Debug\ejer14.exe
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer14\ejer14\obj\Debug\ejer14.pdb
