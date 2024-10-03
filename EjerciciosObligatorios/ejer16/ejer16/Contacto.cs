@@ -10,6 +10,9 @@ namespace ejer16
     {
         private string nombre;
         private int telefono;
+
+        public string Nombre { get { return nombre; } }
+        public int Telefono { get { return telefono; } }
         public Contacto(string _nombre, int _telefono) 
         { 
             nombre = _nombre;
