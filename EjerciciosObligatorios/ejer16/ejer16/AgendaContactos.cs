@@ -54,13 +54,23 @@ namespace ejer16
                 Console.WriteLine($"Nombre: {c.Nombre} --- Num.Telefono: {c.Telefono}");
             }
         }
-        public void buscarContactos(string nombre)
+        public bool buscarContactos(string nombre)
         {
+            bool contactoEncontrado = false;
             if (agenda.Any())
             {
                 foreach (Contacto i in agenda)
-                    if (i.Nombre == nombre) Console.WriteLine($"Nombre: {i.Nombre} --- Num.Telefono: {i.Telefono}"); ;
+                {
+                    if (i.Nombre == nombre)
+                    {
+                        contactoEncontrado = true;
+                        Console.WriteLine($"Nombre: {i.Nombre} --- Num.Telefono: {i.Telefono}");
+                    }
+                }
+                if(!contactoEncontrado) Console.WriteLine($"El contacto que busca no existe");
             }
+            else Console.WriteLine($"La agenda no tiene contactos");
+            return contactoEncontrado;
         }
         public void eliminarContacto(string c)
         {
@@ -79,7 +89,7 @@ namespace ejer16
         }
         public bool agendaLLena()
         {
-            if(agenda.Count >= tamañoAgenda)
+            if (agenda.Count >= tamañoAgenda)
             {
                 Console.WriteLine("La agenda esta llena");
                 return true;

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Timers;
 
 namespace ejer16
 {
@@ -15,18 +16,31 @@ namespace ejer16
         private int itemSeleccionado;
         private bool enterPresionado;
         private int itemPresionado;
+        private int tamañoAgenda;
 
-        public MenuAgenda() 
+        public MenuAgenda(int _tamañoAgenda) 
         {
             enterPresionado = false;
-            agenda = new AgendaContactos();
-            //agenda.añadirContacto(new Contacto("Manuel", 143));
-            //agenda.añadirContacto(new Contacto("Mariano", 112));
+            agenda = new AgendaContactos(_tamañoAgenda);
             itemSeleccionado = 0;
             opciones = new Dictionary<int, string>();
             pos = 0;
             items = new List<string>() {"Mostrar contactos","Añadir contacto", "Eliminar contacto", "Existe contacto", "Buscar contacto", "Agenda llena", "Huecos agenda"};
             foreach (var item in items) 
+            {
+                opciones.Add(pos, item);
+                pos += item.Length + 2;
+            }
+        }
+        public MenuAgenda()
+        {
+            enterPresionado = false;
+            agenda = new AgendaContactos();
+            itemSeleccionado = 0;
+            opciones = new Dictionary<int, string>();
+            pos = 0;
+            items = new List<string>() { "Mostrar contactos", "Añadir contacto", "Eliminar contacto", "Existe contacto", "Buscar contacto", "Agenda llena", "Huecos agenda" };
+            foreach (var item in items)
             {
                 opciones.Add(pos, item);
                 pos += item.Length + 2;
@@ -40,6 +54,7 @@ namespace ejer16
                 if(item.Value == items[itemSeleccionado]) Console.BackgroundColor = ConsoleColor.Red;
                 else Console.BackgroundColor = ConsoleColor.Black;
                 Console.Write(item.Value);
+                Console.BackgroundColor = ConsoleColor.Black;
             }
         }
         private void derecha()
@@ -99,14 +114,29 @@ namespace ejer16
                 }
                 else if(itemSeleccionado == 3)
                 {
-                    Console.WriteLine("Eliminar contacto");
+                    Console.WriteLine("Revisar si existe");
                     Console.Write("Nombre:");
                     nombre = Console.ReadLine();
-                   if(agenda.existeContacto(new Contacto(nombre, 02343)))
-                    {
-                        Console.WriteLine("El contacto ya existe");
-
-                    }
+                   if(agenda.existeContacto(new Contacto(nombre, 0)))
+                        Console.WriteLine("El contacto existe");
+                   else Console.WriteLine("El contacto no existe");
+                }
+                else if (itemSeleccionado == 4)
+                {
+                    Console.WriteLine("Buscar contacto");
+                    Console.Write("Nombre:");
+                    nombre = Console.ReadLine();
+                    agenda.buscarContactos(nombre);
+                }
+                else if (itemSeleccionado == 5)
+                {
+                    Console.WriteLine("Revisar si la agenda esta llena:");
+                    agenda.agendaLLena();
+                }
+                else if (itemSeleccionado == 6)
+                {
+                    Console.WriteLine("Revisar si la agenda tiene huecos:");
+                    agenda.huecosLibres();
                 }
 
             }
