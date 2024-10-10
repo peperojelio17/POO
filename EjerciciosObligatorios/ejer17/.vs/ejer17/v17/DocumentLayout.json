@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer17\\",
+  "WorkspaceRootPath": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer17\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B9FA3A95-F42E-4FA7-BCD6-4FE9012AC43A}|ejer17\\ejer17.csproj|c:\\users\\muriel\\desktop\\github\\poo\\ejerciciosobligatorios\\ejer17\\ejer17\\carta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9FA3A95-F42E-4FA7-BCD6-4FE9012AC43A}|ejer17\\ejer17.csproj|c:\\users\\a-04\\desktop\\muriel\\poo\\ejerciciosobligatorios\\ejer17\\ejer17\\carta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9FA3A95-F42E-4FA7-BCD6-4FE9012AC43A}|ejer17\\ejer17.csproj|solutionrelative:ejer17\\carta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9FA3A95-F42E-4FA7-BCD6-4FE9012AC43A}|ejer17\\ejer17.csproj|c:\\users\\muriel\\desktop\\github\\poo\\ejerciciosobligatorios\\ejer17\\ejer17\\baraja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9FA3A95-F42E-4FA7-BCD6-4FE9012AC43A}|ejer17\\ejer17.csproj|solutionrelative:ejer17\\baraja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9FA3A95-F42E-4FA7-BCD6-4FE9012AC43A}|ejer17\\ejer17.csproj|C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer17\\ejer17\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9FA3A95-F42E-4FA7-BCD6-4FE9012AC43A}|ejer17\\ejer17.csproj|solutionrelative:ejer17\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9FA3A95-F42E-4FA7-BCD6-4FE9012AC43A}|ejer17\\ejer17.csproj|c:\\users\\muriel\\desktop\\github\\poo\\ejerciciosobligatorios\\ejer17\\ejer17\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9FA3A95-F42E-4FA7-BCD6-4FE9012AC43A}|ejer17\\ejer17.csproj|solutionrelative:ejer17\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9FA3A95-F42E-4FA7-BCD6-4FE9012AC43A}|ejer17\\ejer17.csproj|C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer17\\ejer17\\baraja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9FA3A95-F42E-4FA7-BCD6-4FE9012AC43A}|ejer17\\ejer17.csproj|solutionrelative:ejer17\\baraja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,49 +22,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Carta.cs",
-              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer17\\ejer17\\Carta.cs",
+              "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer17\\ejer17\\Carta.cs",
               "RelativeDocumentMoniker": "ejer17\\Carta.cs",
-              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer17\\ejer17\\Carta.cs",
+              "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer17\\ejer17\\Carta.cs",
               "RelativeToolTip": "ejer17\\Carta.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwA4AAAAIAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCgAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T00:43:55.984Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Baraja.cs",
-              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer17\\ejer17\\Baraja.cs",
+              "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer17\\ejer17\\Baraja.cs",
               "RelativeDocumentMoniker": "ejer17\\Baraja.cs",
-              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer17\\ejer17\\Baraja.cs",
+              "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer17\\ejer17\\Baraja.cs",
               "RelativeToolTip": "ejer17\\Baraja.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAcwCkAAAAcAAAA",
+              "ViewState": "AQIAAGUAAAAAAAAAAAA6wG8AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T00:41:19.921Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer17\\ejer17\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer17\\ejer17\\Program.cs",
               "RelativeDocumentMoniker": "ejer17\\Program.cs",
-              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer17\\ejer17\\Program.cs",
+              "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer17\\ejer17\\Program.cs",
               "RelativeToolTip": "ejer17\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

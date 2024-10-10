@@ -8,25 +8,44 @@ namespace ejer17
 {
     public class Carta
     {
+        enum palosBarFrancesa
+        {
+            DIAMANTES,
+            PICAS,
+            CORAZONES,
+            TREBOLES
+        }
+        enum PalosBarEspañola
+        {
+            OROS,
+            COPAS,
+            ESPADAS,
+            BASTOS
+        }
+        private List<string> palos = new List<string>();
         static private Random r;
-        private char palo;
+        private string palo;
         private int numero;
 
         
 
-        public char Palo { get { return palo; } }
+        public string Palo { get { return palo; } }
         public int Numero { get { return numero; } }
-        public Carta()
+        public Carta(string tipoPalo)
         {
             r = new Random();
             palo = elegirPalo();
             numero = elegirNumero();
+            if (tipoPalo == "E")
+            {
+                //foreach (string s in PalosBarEspañola) {
+            }
         }
-        private char elegirPalo()
+        private string elegirPalo()
         {
             string palos = "EBOC";
             char p = palos[r.Next(4)];
-            return p;
+            return p.ToString();
         }
         private int elegirNumero()
         {
