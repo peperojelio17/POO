@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer17_01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B9FA3A95-F42E-4FA7-BCD6-4FE9012AC43A}|ejer17\\ejer17.csproj|C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer17_01\\ejer17\\baraja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9FA3A95-F42E-4FA7-BCD6-4FE9012AC43A}|ejer17\\ejer17.csproj|c:\\users\\muriel\\desktop\\github\\poo\\ejerciciosobligatorios\\ejer17_01\\ejer17\\baraja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9FA3A95-F42E-4FA7-BCD6-4FE9012AC43A}|ejer17\\ejer17.csproj|solutionrelative:ejer17\\baraja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{B9FA3A95-F42E-4FA7-BCD6-4FE9012AC43A}|ejer17\\ejer17.csproj|solutionrelative:ejer17\\carta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9FA3A95-F42E-4FA7-BCD6-4FE9012AC43A}|ejer17\\ejer17.csproj|c:\\users\\muriel\\desktop\\github\\poo\\ejerciciosobligatorios\\ejer17_01\\ejer17\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9FA3A95-F42E-4FA7-BCD6-4FE9012AC43A}|ejer17\\ejer17.csproj|C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer17_01\\ejer17\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9FA3A95-F42E-4FA7-BCD6-4FE9012AC43A}|ejer17\\ejer17.csproj|solutionrelative:ejer17\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,8 +42,7 @@
               "RelativeToolTip": "ejer17\\Carta.cs",
               "ViewState": "AQIAACwAAAAAAAAAAAAswDkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T00:43:55.984Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T00:43:55.984Z"
             },
             {
               "$type": "Document",
@@ -53,7 +52,7 @@
               "RelativeDocumentMoniker": "ejer17\\Baraja.cs",
               "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\EjerciciosObligatorios\\ejer17_01\\ejer17\\Baraja.cs",
               "RelativeToolTip": "ejer17\\Baraja.cs",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAIwHEAAAAqAAAA",
+              "ViewState": "AQIAAJYAAAAAAAAAAAAiwJsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T00:41:19.921Z",
               "EditorCaption": ""
@@ -68,8 +67,7 @@
               "RelativeToolTip": "ejer17\\Program.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAgwA4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T17:20:00.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T17:20:00.487Z"
             }
           ]
         }

@@ -43,6 +43,14 @@ namespace ejer17
             numero = elegirNumero();
             palo = elegirPalo();
         }
+        public Carta()
+        {
+            r = new Random();
+            foreach (PalosBarEspañola f in Enum.GetValues(typeof(PalosBarEspañola)))
+                palos.Add(f.ToString());
+            numero = elegirNumero();
+            palo = elegirPalo();
+        }
         private int elegirNumero()
         {
             int num = 0;

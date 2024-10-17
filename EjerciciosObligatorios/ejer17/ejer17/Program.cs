@@ -11,12 +11,12 @@ namespace ejer17
         static void Main(string[] args)
         {
             Carta carta = new Carta("F");
-            BarajaEspañola barajaEspañola = new BarajaEspañola(false);
-            //Console.WriteLine($"{carta.Palo} - {carta.Numero}");
-            foreach (var item in barajaEspañola.mazo) 
-            { 
-                Console.WriteLine($"{item.Numero} - {item.Palo}");
-            }
+            BarajaEspañola barajaEspañola = new BarajaEspañola(true);
+            BarajaFrancesa barajaFrancesa = new BarajaFrancesa();
+
+            Console.WriteLine(barajaFrancesa.mostrarBaraja());
+            Console.WriteLine();
+            Console.WriteLine(barajaEspañola.mostrarBaraja());
             Console.ReadKey();
         }
     }
