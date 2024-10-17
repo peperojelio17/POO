@@ -7,142 +7,82 @@ using System.Threading.Tasks;
 
 namespace ejer17
 {
+
     public abstract class Baraja
     {
-        private Random r;
         public List<Carta> mazo;
         public List<Carta> mazoDeDescarte;
         private int sCarta;
 
-        private int numCartas;
+        private int numCartasTotal;
         private int numCartasPalo;
 
-        public int NumCartas { get { return numCartas; } set { numCartas = value; } }
+        public int NumCartasTotal { get { return numCartasTotal; } set { numCartasTotal = value; } }
         public int NumCartasPalo { get { return numCartasPalo; } set { numCartasPalo = value; } }
         public Baraja()
         {
             mazo = new List<Carta>();
             mazoDeDescarte = new List<Carta>();
-            numCartas = 0;
-            numCartasPalo = 0;
-            crearCartas();
             sCarta = 0;
-            r = new Random();
         }
         public abstract void crearCartas();
-        public void barajar()
-        {
-            Carta temp = new Carta();
-            int n;
-            for (int i = mazo.Count - 1; i >= 0; i--)
-            {
-                n = r.Next(0, mazo.Count);
-                temp = mazo[i];
-                mazo[i] = mazo[n];
-                mazo[n] = temp;
-            }
-            n = 0;
-        }
-        public int cartasDisponibles()
-        {
-            return mazo.Count - 1;
-        }
-        public string siguienteCarta()
-        {
-            Carta c = new Carta();
-            string carta;
-
-            if (0 <= mazo.Count - 1)
-            {
-                c = mazo[sCarta];
-                carta = $"{c.Numero} {c.Palo}";
-                mazoDeDescarte.Add(c);
-                mazo.Remove(c);
-            }
-            else carta = "Ya no hay más cartas";
-            return carta;
-        }
-        public string darCartas(int cant)
-        {
-            string cart = "";
-            if (cant <= cartasDisponibles())
-            {
-                for (int i = 0; i < cant; i++)
-                {
-                    cart += siguienteCarta() + ", ";
-                }
-            }
-            else cart = $"No hay suficentes cartas, solo hay {cartasDisponibles()} cartas disponibles";
-            return cart;
-        }
-        public string cartasMonton()
-        {
-            string cartas = "";
-            foreach (Carta c in mazoDeDescarte)
-            {
-                cartas += $"{c.Numero} {c.Palo}, ";
-            }
-            return cartas;
-        }
-        public string mostrarBaraja()
-        {
-            string cartas = "";
-            foreach (Carta c in mazo)
-            {
-                cartas += $"{c.Numero} {c.Palo}, ";
-            }
-            return cartas;
-        }
-
     }
-
-public class BarajaEspañola : Baraja
+    public class BarajaEspañola : Baraja
     {
         private bool jugar8y9;
-        public BarajaEspañola()
+        public BarajaEspañola(bool _jugar8y9)
         {
-            jugar8y9 = false;
+            jugar8y9 = _jugar8y9;
+            NumCartasTotal = jugar8y9 ? 48 : 40;
+            NumCartasPalo = NumCartasTotal / 4;
+            crearCartas();
         }
-
         public override void crearCartas()
         {
             Carta c1;
-            int esta;
-            int cantCartas = 0;
-            while (cantCartas != 40)
+            int invalida;
+            while(mazo.Count != NumCartasTotal)
             {
-                esta = 0;
-                if (cantCartas != 0)
+                invalida = 0;
+                if (mazo.Count != 0)
                 {
-                    c1 = new Carta();
-                    foreach (Carta c in mazo) if (c1.Numero == c.Numero && c1.Palo == c.Palo) esta = 1;
-                    if (esta != 1)
+                    c1 = new Carta("E");
+                    foreach (Carta c in mazo)
                     {
-                        mazo.Add(c1);
-                        cantCartas++;
+                        if (jugar8y9)
+                        {
+                            if ((c1.Numero == c.Numero && c1.Palo == c.Palo) || c1.Numero > 12) invalida = 1;
+                        }
+                        else
+                        {
+                            if ((c1.Numero == c.Numero && c1.Palo == c.Palo) || c1.Numero == 9 || c1.Numero == 8 || c1.Numero > 12) invalida = 1;
+                        }
                     }
+                    if (invalida != 1)
+                        mazo.Add(c1);
                 }
                 else
                 {
-                    c1 = new Carta();
-                    mazo.Add(c1);
-                    cantCartas++;
+                    c1 = new Carta("E");
+                    if (jugar8y9)
+                    {
+                        if (c1.Numero <= 12)
+                            mazo.Add(c1);
+                    }
+                    else
+                    {
+                        if (c1.Numero != 9 && c1.Numero != 9 && c1.Numero <= 12)
+                            mazo.Add(c1);
+                    }
                 }
-
             }
         }
     }
     public class BarajaFrancesa : Baraja
     {
-        public BarajaFrancesa()
-        {
-            NumCartas = 52;
-            NumCartasPalo = 13;
-        }
-
         public override void crearCartas()
         {
             throw new NotImplementedException();
         }
-}
+    }
 }

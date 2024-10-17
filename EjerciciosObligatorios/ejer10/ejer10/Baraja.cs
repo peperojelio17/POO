@@ -42,6 +42,7 @@ namespace ejer10
         public List<Carta> mazo;
         public List<Carta> mazoDeDescarte;
         private int sCarta;
+
         public Baraja()
         {
             mazo = new List<Carta>();
