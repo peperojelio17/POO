@@ -48,7 +48,6 @@ namespace ejer5
         public int compareTo(int a)
         {
             return HEstimadas.CompareTo(a);
-
         }
     }
 }
