@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D601B42-DFFF-418D-A26F-8B1060C96B5D}|ejer5\\ejer5.csproj|C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer5\\ejer5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D601B42-DFFF-418D-A26F-8B1060C96B5D}|ejer5\\ejer5.csproj|C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer5\\ejer5\\videojuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D601B42-DFFF-418D-A26F-8B1060C96B5D}|ejer5\\ejer5.csproj|solutionrelative:ejer5\\videojuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D601B42-DFFF-418D-A26F-8B1060C96B5D}|ejer5\\ejer5.csproj|c:\\users\\a-04\\desktop\\muriel\\poo\\ejerciciosobligatorios\\ejer5\\ejer5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D601B42-DFFF-418D-A26F-8B1060C96B5D}|ejer5\\ejer5.csproj|solutionrelative:ejer5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D601B42-DFFF-418D-A26F-8B1060C96B5D}|ejer5\\ejer5.csproj|c:\\users\\a-04\\desktop\\muriel\\poo\\ejerciciosobligatorios\\ejer5\\ejer5\\serie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D601B42-DFFF-418D-A26F-8B1060C96B5D}|ejer5\\ejer5.csproj|C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer5\\ejer5\\serie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D601B42-DFFF-418D-A26F-8B1060C96B5D}|ejer5\\ejer5.csproj|solutionrelative:ejer5\\serie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D601B42-DFFF-418D-A26F-8B1060C96B5D}|ejer5\\ejer5.csproj|C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer5\\ejer5\\ientregable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D601B42-DFFF-418D-A26F-8B1060C96B5D}|ejer5\\ejer5.csproj|solutionrelative:ejer5\\ientregable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D601B42-DFFF-418D-A26F-8B1060C96B5D}|ejer5\\ejer5.csproj|C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer5\\ejer5\\videojuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D601B42-DFFF-418D-A26F-8B1060C96B5D}|ejer5\\ejer5.csproj|solutionrelative:ejer5\\videojuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IEntregable.cs",
               "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer5\\ejer5\\IEntregable.cs",
               "RelativeDocumentMoniker": "ejer5\\IEntregable.cs",
@@ -42,19 +42,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Videojuego.cs",
               "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer5\\ejer5\\Videojuego.cs",
               "RelativeDocumentMoniker": "ejer5\\Videojuego.cs",
               "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer5\\ejer5\\Videojuego.cs",
               "RelativeToolTip": "ejer5\\Videojuego.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAA5wDAAAAAJAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwC8AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T01:41:53.407Z"
+              "WhenOpened": "2024-07-14T01:41:53.407Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Serie.cs",
               "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer5\\ejer5\\Serie.cs",
               "RelativeDocumentMoniker": "ejer5\\Serie.cs",
@@ -62,18 +63,17 @@
               "RelativeToolTip": "ejer5\\Serie.cs",
               "ViewState": "AQIAACMAAAAAAAAAAAAAwDEAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T01:35:16.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T01:35:16.992Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer5\\ejer5\\Program.cs",
               "RelativeDocumentMoniker": "ejer5\\Program.cs",
               "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer5\\ejer5\\Program.cs",
               "RelativeToolTip": "ejer5\\Program.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwEQAAAAMAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAEQAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-14T00:41:17.045Z",
               "EditorCaption": ""

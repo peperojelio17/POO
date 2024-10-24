@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer9\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3EB1C31A-250D-4439-9459-36982488FBD5}|ejer9\\ejer9.csproj|c:\\users\\a-04\\desktop\\muriel\\poo\\ejerciciosobligatorios\\ejer9\\ejer9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EB1C31A-250D-4439-9459-36982488FBD5}|ejer9\\ejer9.csproj|solutionrelative:ejer9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EB1C31A-250D-4439-9459-36982488FBD5}|ejer9\\ejer9.csproj|C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer9\\ejer9\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EB1C31A-250D-4439-9459-36982488FBD5}|ejer9\\ejer9.csproj|solutionrelative:ejer9\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3EB1C31A-250D-4439-9459-36982488FBD5}|ejer9\\ejer9.csproj|C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer9\\ejer9\\cine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3EB1C31A-250D-4439-9459-36982488FBD5}|ejer9\\ejer9.csproj|solutionrelative:ejer9\\cine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3EB1C31A-250D-4439-9459-36982488FBD5}|ejer9\\ejer9.csproj|C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer9\\ejer9\\espectador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3EB1C31A-250D-4439-9459-36982488FBD5}|ejer9\\ejer9.csproj|solutionrelative:ejer9\\espectador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EB1C31A-250D-4439-9459-36982488FBD5}|ejer9\\ejer9.csproj|C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer9\\ejer9\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EB1C31A-250D-4439-9459-36982488FBD5}|ejer9\\ejer9.csproj|solutionrelative:ejer9\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EB1C31A-250D-4439-9459-36982488FBD5}|ejer9\\ejer9.csproj|c:\\users\\a-04\\desktop\\muriel\\poo\\ejerciciosobligatorios\\ejer9\\ejer9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EB1C31A-250D-4439-9459-36982488FBD5}|ejer9\\ejer9.csproj|solutionrelative:ejer9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,35 +26,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Cine.cs",
               "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer9\\ejer9\\Cine.cs",
               "RelativeDocumentMoniker": "ejer9\\Cine.cs",
               "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer9\\ejer9\\Cine.cs",
               "RelativeToolTip": "ejer9\\Cine.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAAADkAAAAMAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAQwD4AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T03:24:55.405Z"
+              "WhenOpened": "2024-09-04T03:24:55.405Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Espectador.cs",
               "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer9\\ejer9\\Espectador.cs",
               "RelativeDocumentMoniker": "ejer9\\Espectador.cs",
               "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer9\\ejer9\\Espectador.cs",
               "RelativeToolTip": "ejer9\\Espectador.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T03:27:07.61Z"
+              "WhenOpened": "2024-09-04T03:27:07.61Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Pelicula.cs",
               "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer9\\ejer9\\Pelicula.cs",
               "RelativeDocumentMoniker": "ejer9\\Pelicula.cs",
@@ -62,16 +64,17 @@
               "RelativeToolTip": "ejer9\\Pelicula.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T03:25:50.014Z"
+              "WhenOpened": "2024-09-04T03:25:50.014Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer9\\ejer9\\Program.cs",
               "RelativeDocumentMoniker": "ejer9\\Program.cs",
-              "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer9\\ejer9\\Program.cs*",
-              "RelativeToolTip": "ejer9\\Program.cs*",
+              "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer9\\ejer9\\Program.cs",
+              "RelativeToolTip": "ejer9\\Program.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAYwBQAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-04T03:24:19.035Z",
