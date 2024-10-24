@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\A-17\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer10-mejorado\\",
+  "WorkspaceRootPath": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer10-mejorado\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C1A6F391-AFDC-4AA3-88D7-197527CCA7F9}|ejer10\\ejer10.csproj|C:\\Users\\A-17\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer10-mejorado\\ejer10\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1A6F391-AFDC-4AA3-88D7-197527CCA7F9}|ejer10\\ejer10.csproj|C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer10-mejorado\\ejer10\\baraja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A6F391-AFDC-4AA3-88D7-197527CCA7F9}|ejer10\\ejer10.csproj|solutionrelative:ejer10\\baraja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A6F391-AFDC-4AA3-88D7-197527CCA7F9}|ejer10\\ejer10.csproj|C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer10-mejorado\\ejer10\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1A6F391-AFDC-4AA3-88D7-197527CCA7F9}|ejer10\\ejer10.csproj|solutionrelative:ejer10\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1A6F391-AFDC-4AA3-88D7-197527CCA7F9}|ejer10\\ejer10.csproj|C:\\Users\\A-17\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer10-mejorado\\ejer10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1A6F391-AFDC-4AA3-88D7-197527CCA7F9}|ejer10\\ejer10.csproj|c:\\users\\a-04\\desktop\\muriel\\poo\\ejerciciosobligatorios\\ejer10-mejorado\\ejer10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1A6F391-AFDC-4AA3-88D7-197527CCA7F9}|ejer10\\ejer10.csproj|solutionrelative:ejer10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1A6F391-AFDC-4AA3-88D7-197527CCA7F9}|ejer10\\ejer10.csproj|c:\\users\\a-17\\desktop\\muriel\\poo\\ejerciciosobligatorios\\ejer10-mejorado\\ejer10\\baraja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1A6F391-AFDC-4AA3-88D7-197527CCA7F9}|ejer10\\ejer10.csproj|solutionrelative:ejer10\\baraja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,63 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Baraja.cs",
-              "DocumentMoniker": "C:\\Users\\A-17\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer10-mejorado\\ejer10\\Baraja.cs",
+              "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer10-mejorado\\ejer10\\Baraja.cs",
               "RelativeDocumentMoniker": "ejer10\\Baraja.cs",
-              "ToolTip": "C:\\Users\\A-17\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer10-mejorado\\ejer10\\Baraja.cs",
+              "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer10-mejorado\\ejer10\\Baraja.cs",
               "RelativeToolTip": "ejer10\\Baraja.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAmwDAAAAAaAAAA",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAYwGcAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-12T16:44:42.506Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\A-17\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer10-mejorado\\ejer10\\Menu.cs",
+              "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer10-mejorado\\ejer10\\Menu.cs",
               "RelativeDocumentMoniker": "ejer10\\Menu.cs",
-              "ToolTip": "C:\\Users\\A-17\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer10-mejorado\\ejer10\\Menu.cs",
+              "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer10-mejorado\\ejer10\\Menu.cs",
               "RelativeToolTip": "ejer10\\Menu.cs",
-              "ViewState": "AQIAAHsAAAAAAAAAAAAmwFkAAAAJAAAA",
+              "ViewState": "AQIAALAAAAAAAAAAAAAuwKwAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T02:23:01.246Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\A-17\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer10-mejorado\\ejer10\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer10-mejorado\\ejer10\\Program.cs",
               "RelativeDocumentMoniker": "ejer10\\Program.cs",
-              "ToolTip": "C:\\Users\\A-17\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer10-mejorado\\ejer10\\Program.cs",
+              "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer10-mejorado\\ejer10\\Program.cs",
               "RelativeToolTip": "ejer10\\Program.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAgwC4AAAAOAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwBMAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-12T16:44:14.543Z",
               "EditorCaption": ""
