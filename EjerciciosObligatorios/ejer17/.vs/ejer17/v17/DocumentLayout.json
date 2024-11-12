@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer17 - no esta terminado\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C8B2905-D622-40BC-B63E-2576A4E645B5}|ejer17\\ejer17.csproj|C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer17 - no esta terminado\\ejer17\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C8B2905-D622-40BC-B63E-2576A4E645B5}|ejer17\\ejer17.csproj|solutionrelative:ejer17\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C8B2905-D622-40BC-B63E-2576A4E645B5}|ejer17\\ejer17.csproj|c:\\users\\a-04\\desktop\\muriel\\poo\\ejerciciosobligatorios\\ejer17 - no esta terminado\\ejer17\\baraja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C8B2905-D622-40BC-B63E-2576A4E645B5}|ejer17\\ejer17.csproj|solutionrelative:ejer17\\baraja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C8B2905-D622-40BC-B63E-2576A4E645B5}|ejer17\\ejer17.csproj|C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer17 - no esta terminado\\ejer17\\carta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C8B2905-D622-40BC-B63E-2576A4E645B5}|ejer17\\ejer17.csproj|solutionrelative:ejer17\\carta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Carta.cs",
+              "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer17 - no esta terminado\\ejer17\\Carta.cs",
+              "RelativeDocumentMoniker": "ejer17\\Carta.cs",
+              "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer17 - no esta terminado\\ejer17\\Carta.cs",
+              "RelativeToolTip": "ejer17\\Carta.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T22:16:39.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Baraja.cs",
+              "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer17 - no esta terminado\\ejer17\\Baraja.cs",
+              "RelativeDocumentMoniker": "ejer17\\Baraja.cs",
+              "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer17 - no esta terminado\\ejer17\\Baraja.cs",
+              "RelativeToolTip": "ejer17\\Baraja.cs",
+              "ViewState": "AQIAALgAAAAAAAAAAAAiwM4AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T22:15:55.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer17 - no esta terminado\\ejer17\\Program.cs",
+              "RelativeDocumentMoniker": "ejer17\\Program.cs",
+              "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\EjerciciosObligatorios\\ejer17 - no esta terminado\\ejer17\\Program.cs",
+              "RelativeToolTip": "ejer17\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T22:13:44.255Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

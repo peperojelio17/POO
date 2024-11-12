@@ -1,0 +1,14 @@
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer17\ejer17\bin\Debug\ejer17.exe.config
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer17\ejer17\bin\Debug\ejer17.exe
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer17\ejer17\bin\Debug\ejer17.pdb
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer17\ejer17\obj\Debug\ejer17.csproj.AssemblyReference.cache
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer17\ejer17\obj\Debug\ejer17.csproj.CoreCompileInputs.cache
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer17\ejer17\obj\Debug\ejer17.exe
+C:\Users\MURIEL\Desktop\gitHub\POO\EjerciciosObligatorios\ejer17\ejer17\obj\Debug\ejer17.pdb
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer17 - no esta terminado\ejer17\bin\Debug\ejer17.exe.config
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer17 - no esta terminado\ejer17\bin\Debug\ejer17.exe
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer17 - no esta terminado\ejer17\bin\Debug\ejer17.pdb
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer17 - no esta terminado\ejer17\obj\Debug\ejer17.csproj.AssemblyReference.cache
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer17 - no esta terminado\ejer17\obj\Debug\ejer17.csproj.CoreCompileInputs.cache
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer17 - no esta terminado\ejer17\obj\Debug\ejer17.exe
+C:\Users\A-04\Desktop\Muriel\POO\EjerciciosObligatorios\ejer17 - no esta terminado\ejer17\obj\Debug\ejer17.pdb

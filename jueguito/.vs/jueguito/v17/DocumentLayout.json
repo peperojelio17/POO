@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\jueguito\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{1F278349-23B5-44BE-B73D-1F1D5C70F268}|jueguito\\jueguito.csproj|c:\\users\\muriel\\desktop\\github\\poo\\jueguito\\jueguito\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{1F278349-23B5-44BE-B73D-1F1D5C70F268}|jueguito\\jueguito.csproj|C:\\Users\\A-04\\Desktop\\Muriel\\POO\\jueguito\\jueguito\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> bf6bb8ec4ddb47aab5b74e82827f7986e4e3d7fd
       "RelativeMoniker": "D:0:0:{1F278349-23B5-44BE-B73D-1F1D5C70F268}|jueguito\\jueguito.csproj|solutionrelative:jueguito\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,8 +19,17 @@
       "RelativeMoniker": "D:0:0:{1F278349-23B5-44BE-B73D-1F1D5C70F268}|jueguito\\jueguito.csproj|solutionrelative:jueguito\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{1F278349-23B5-44BE-B73D-1F1D5C70F268}|jueguito\\jueguito.csproj|C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\jueguito\\jueguito\\enemigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F278349-23B5-44BE-B73D-1F1D5C70F268}|jueguito\\jueguito.csproj|solutionrelative:jueguito\\enemigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{1F278349-23B5-44BE-B73D-1F1D5C70F268}|jueguito\\jueguito.csproj|c:\\users\\a-04\\desktop\\muriel\\poo\\jueguito\\jueguito\\enemigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F278349-23B5-44BE-B73D-1F1D5C70F268}|jueguito\\jueguito.csproj|solutionrelative:jueguito\\enemigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F278349-23B5-44BE-B73D-1F1D5C70F268}|jueguito\\jueguito.csproj|C:\\Users\\A-04\\Desktop\\Muriel\\POO\\jueguito\\jueguito\\disparar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F278349-23B5-44BE-B73D-1F1D5C70F268}|jueguito\\jueguito.csproj|solutionrelative:jueguito\\disparar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> bf6bb8ec4ddb47aab5b74e82827f7986e4e3d7fd
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F278349-23B5-44BE-B73D-1F1D5C70F268}|jueguito\\jueguito.csproj|C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\jueguito\\jueguito\\disparar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,6 +43,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 6,
           "Children": [
             {
@@ -41,6 +55,11 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+=======
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+>>>>>>> bf6bb8ec4ddb47aab5b74e82827f7986e4e3d7fd
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "tablero.cs",
@@ -66,27 +85,40 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 3,
+=======
+              "DocumentIndex": 2,
+>>>>>>> bf6bb8ec4ddb47aab5b74e82827f7986e4e3d7fd
               "Title": "Enemigos.cs",
               "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\jueguito\\jueguito\\Enemigos.cs",
               "RelativeDocumentMoniker": "jueguito\\Enemigos.cs",
               "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\jueguito\\jueguito\\Enemigos.cs",
               "RelativeToolTip": "jueguito\\Enemigos.cs",
+<<<<<<< HEAD
               "ViewState": "AQIAACwAAAAAAAAAAAAUwHUAAAA+AAAA",
+=======
+              "ViewState": "AQIAAAoAAAAAAAAAAAAcwFcAAAAgAAAA",
+>>>>>>> bf6bb8ec4ddb47aab5b74e82827f7986e4e3d7fd
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-11T15:30:14.308Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Jugador.cs",
               "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\jueguito\\jueguito\\Jugador.cs",
               "RelativeDocumentMoniker": "jueguito\\Jugador.cs",
               "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\jueguito\\jueguito\\Jugador.cs",
               "RelativeToolTip": "jueguito\\Jugador.cs",
+<<<<<<< HEAD
               "ViewState": "AQIAADgAAAAAAAAAAAA0wEYAAAAJAAAA",
+=======
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwEYAAAAJAAAA",
+>>>>>>> bf6bb8ec4ddb47aab5b74e82827f7986e4e3d7fd
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T03:06:01.476Z"
+              "WhenOpened": "2024-08-10T03:06:01.476Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -96,7 +128,11 @@
               "RelativeDocumentMoniker": "jueguito\\Program.cs",
               "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\jueguito\\jueguito\\Program.cs",
               "RelativeToolTip": "jueguito\\Program.cs",
+<<<<<<< HEAD
               "ViewState": "AQIAABIAAAAAAAAAAAAAAB0AAAAYAAAA",
+=======
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBcAAAAUAAAA",
+>>>>>>> bf6bb8ec4ddb47aab5b74e82827f7986e4e3d7fd
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-10T00:55:37.549Z",
               "EditorCaption": ""
