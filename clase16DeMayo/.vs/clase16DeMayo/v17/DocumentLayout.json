@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\clase16DeMayo\\",
+  "WorkspaceRootPath": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\clase16DeMayo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AF134B9-4982-4C6B-A4AB-7AF70DCE0CE4}|clase16DeMayo\\clase16DeMayo.csproj|c:\\users\\a-04\\desktop\\muriel\\poo\\clase16demayo\\clase16demayo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4AF134B9-4982-4C6B-A4AB-7AF70DCE0CE4}|clase16DeMayo\\clase16DeMayo.csproj|c:\\users\\muriel\\desktop\\github\\poo\\clase16demayo\\clase16demayo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AF134B9-4982-4C6B-A4AB-7AF70DCE0CE4}|clase16DeMayo\\clase16DeMayo.csproj|solutionrelative:clase16demayo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,17 +14,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\clase16DeMayo\\clase16DeMayo\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\clase16DeMayo\\clase16DeMayo\\Program.cs",
               "RelativeDocumentMoniker": "clase16DeMayo\\Program.cs",
-              "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\POO\\clase16DeMayo\\clase16DeMayo\\Program.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\POO\\clase16DeMayo\\clase16DeMayo\\Program.cs",
               "RelativeToolTip": "clase16DeMayo\\Program.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAiwEkAAAAnAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAiwDcAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T16:58:56.159Z",
               "EditorCaption": ""
