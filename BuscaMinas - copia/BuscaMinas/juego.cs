@@ -9,11 +9,7 @@ namespace BuscaMinas
 {
     internal class Juego
     {
-        bool volver;
-        bool trampa;
         Random r;
-        int w, h;
-        int x, y;
         int filas, columnas, m;
         Dictionary<Posicion, string> terreno;
         List<Posicion> minas;
@@ -24,22 +20,8 @@ namespace BuscaMinas
         ConsoleColor colorJugador;
 
         bool perdiste = false;
-
-        public int CantPosMarcadas;
-
-        public bool Volver { get { return volver; } }
-        public int Filas { get { return filas; } }
-        public int Columnas { get { return columnas; } }
-        public int Minas { get {  return m; } }
-        public Juego(int filas, int columnas,int minas, int x, int y)
+        public Juego(int filas, int columnas,int minas)
         {
-            w = Console.WindowWidth;
-            h = Console.WindowHeight;
-            volver = false;
-            trampa = false;
-            CantPosMarcadas = 0;
-            this.x = x;
-            this.y = y;
             r = new Random();
             this.filas = filas;
             this.columnas = columnas;
@@ -152,7 +134,6 @@ namespace BuscaMinas
         }
         public void dibujar()
         {
-            CantPosMarcadas = posicionesMarcadas.Count;
             bool rota = false;
             bool marcada = false;
             int espacio = 0;
@@ -170,7 +151,7 @@ namespace BuscaMinas
 
                 //--------los lugares donde puede estar las minas--------
                 if (t.Key.X == 0) espacio = 0;
-                Console.SetCursorPosition(t.Key.X + espacio + x, t.Key.Y + y);
+                Console.SetCursorPosition(t.Key.X + espacio, t.Key.Y);
                 if (marcada)
                     Console.ForegroundColor = ConsoleColor.Red;
                 if (rota) 
@@ -181,20 +162,17 @@ namespace BuscaMinas
                 else Console.Write("X");
                 espacio++;
             }
-            if (trampa)
-            {
-                foreach (var t in terreno)
-                {
-                    //--------los lugares donde puede estar las minas--------
-                    if (t.Key.X == 0) espacio = 0;
-                    Console.SetCursorPosition(t.Key.X + espacio, t.Key.Y);
-                    Console.ForegroundColor = (t.Value == "0") ? ConsoleColor.Red : ConsoleColor.White;
 
-                    Console.Write(t.Value);
-                    espacio++;
-                }
+            foreach (var t in terreno)
+            {
+                //--------los lugares donde puede estar las minas--------
+                if (t.Key.X == 0) espacio = 0;
+                Console.SetCursorPosition(t.Key.X + espacio + 25, t.Key.Y);
+                Console.ForegroundColor = (t.Value == "0") ? ConsoleColor.Red : ConsoleColor.White;
+
+                Console.Write(t.Value);
+                espacio++;
             }
-            
             //Console.SetCursorPosition(0, 7);
             //foreach (var m in posicionesMarcadas)
             //{
@@ -236,21 +214,12 @@ namespace BuscaMinas
                         case ConsoleKey.R:
                             restart();
                             break;
-                        case ConsoleKey.P:
-                            Console.Clear();
-                            trampa = !trampa;
-                            break;
-                        case ConsoleKey.V:
-                            volver = true;
-                            break;
                     }
                 }
                 else
                 {
                     if(tecla == ConsoleKey.R)
                         restart();
-                    else if (tecla == ConsoleKey.V)
-                        volver = true;
                 }
             }
         }
@@ -325,7 +294,7 @@ namespace BuscaMinas
         private void perder()
         {
             perdiste = true;
-            Console.SetCursorPosition(w / 2 - 6, 2);
+            Console.SetCursorPosition(0, 14);
             Console.WriteLine("PERDISTE");
         }
         private void restart()
@@ -352,8 +321,8 @@ namespace BuscaMinas
         private void ganaste()
         {
             perdiste = true;
-            Console.SetCursorPosition(w/ 2 - 5, 2);
-            Console.WriteLine("GANASTE");
+            Console.SetCursorPosition(0, 14);
+            Console.WriteLine("Ganaste");
         }
         private void romper(KeyValuePair<Posicion,string> t)
         {

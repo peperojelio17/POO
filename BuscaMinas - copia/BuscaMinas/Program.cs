@@ -11,7 +11,7 @@ namespace BuscaMinas
         static void Main(string[] args)
         {
             Console.CursorVisible = false;
-            Tablero t = new Tablero();
+            Tablero t = new Tablero(8, 10, 7);
             t.ejecutarJuego();
             
         }
