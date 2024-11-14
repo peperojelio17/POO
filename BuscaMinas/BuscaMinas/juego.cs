@@ -153,8 +153,8 @@ namespace BuscaMinas
         public void dibujar()
         {
             CantPosMarcadas = posicionesMarcadas.Count;
-            bool rota = false;
-            bool marcada = false;
+            bool rota;
+            bool marcada;
             int espacio = 0;
             foreach (var t in terreno)
             {
@@ -164,7 +164,7 @@ namespace BuscaMinas
                     if (t.Key.X == pos.X && t.Key.Y == pos.Y) marcada = true;
                 foreach (var pos in posicionesRotas)
                     if (t.Key.X == pos.X && t.Key.Y == pos.Y) rota = true;
-                //--------Donde esta el jugador--------
+                //--------Marco donde esta el jugador--------
                 Console.BackgroundColor = (t.Key.X == jugador.X && t.Key.Y == jugador.Y) ? colorJugador: ConsoleColor.Black;
                 Console.ForegroundColor = (t.Key.X == jugador.X && t.Key.Y == jugador.Y) ? ConsoleColor.Black : ConsoleColor.Green;
 
@@ -174,18 +174,21 @@ namespace BuscaMinas
                 if (marcada)
                     Console.ForegroundColor = ConsoleColor.Red;
                 if (rota) 
-                { 
-                    Console.ForegroundColor = ConsoleColor.White;
+                {
+                    Console.ForegroundColor = (t.Key.X == jugador.X && t.Key.Y == jugador.Y) ? ConsoleColor.Black : ConsoleColor.White;
                     Console.WriteLine(t.Value);
                 }
                 else Console.Write("X");
                 espacio++;
+                Console.BackgroundColor = ConsoleColor.Black;
+                Console.ForegroundColor = ConsoleColor.White;
             }
+            //--------La pantalla donde podes ver donde estan las bombas--------
             if (trampa)
             {
                 foreach (var t in terreno)
                 {
-                    //--------los lugares donde puede estar las minas--------
+                    
                     if (t.Key.X == 0) espacio = 0;
                     Console.SetCursorPosition(t.Key.X + espacio, t.Key.Y);
                     Console.ForegroundColor = (t.Value == "0") ? ConsoleColor.Red : ConsoleColor.White;
@@ -194,17 +197,6 @@ namespace BuscaMinas
                     espacio++;
                 }
             }
-            
-            //Console.SetCursorPosition(0, 7);
-            //foreach (var m in posicionesMarcadas)
-            //{
-            //    Console.WriteLine($"{m.X} - {m.Y}");
-            //}
-            //Console.SetCursorPosition(0, 10);
-            //foreach (var m in minas)
-            //{
-            //    Console.WriteLine($"{m.X} - {m.Y}");
-            //}
         }
         public void moverse()
         {
@@ -273,8 +265,16 @@ namespace BuscaMinas
         private void marcar()
         {
             bool yaEstaMarcado = false;
+            bool yaEstaRota = false;
             Posicion estamarcado = new Posicion(0,0);
-            foreach(var t in posicionesMarcadas)
+            foreach (var t in posicionesRotas)
+            {
+                if (t.X == jugador.X && t.Y == jugador.Y)
+                {
+                    yaEstaRota = true;
+                }
+            }
+            foreach (var t in posicionesMarcadas)
             {
                 if (t.X == jugador.X && t.Y == jugador.Y)
                 {
@@ -282,17 +282,18 @@ namespace BuscaMinas
                     estamarcado = t;
                 }
             }
-            foreach (var t in terreno)
+            if (!yaEstaRota)
             {
-                if (t.Key.X == jugador.X && t.Key.Y == jugador.Y)
+                foreach (var t in terreno)
                 {
-                    if (yaEstaMarcado)
-                        posicionesMarcadas.Remove(estamarcado);
-                    else
-                        posicionesMarcadas.Add(new Posicion(t.Key.X, t.Key.Y));
-                        
+                    if (t.Key.X == jugador.X && t.Key.Y == jugador.Y)
+                    {
+                        if (yaEstaMarcado)
+                            posicionesMarcadas.Remove(estamarcado);
+                        else
+                            posicionesMarcadas.Add(new Posicion(t.Key.X, t.Key.Y));
+                    }
                 }
-                    
             }
                 
         }
@@ -315,7 +316,7 @@ namespace BuscaMinas
                     if(!yaExiste)posicionesRotas.Add(new Posicion(t.Key.X, t.Key.Y));
                     if (t.Value == "0")
                     {
-                        colorJugador = ConsoleColor.Green;
+                        colorJugador = ConsoleColor.Red;
                         perder();
                     }
                     else colorJugador = ConsoleColor.White;
@@ -341,8 +342,8 @@ namespace BuscaMinas
             comprobar();
 
             jugador = new Posicion(0, 0);
+            colorJugador = ConsoleColor.White;
         }
-
         public void revisarSiGanaste()
         {
             int totalterreno = terreno.Count;
